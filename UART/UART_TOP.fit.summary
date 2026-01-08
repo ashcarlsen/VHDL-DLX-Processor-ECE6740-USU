@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Jan  8 09:58:31 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : UART_TOP
+Top-level Entity Name : UART_TOP
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 304 / 49,760 ( < 1 % )
+    Total combinational functions : 282 / 49,760 ( < 1 % )
+    Dedicated logic registers : 161 / 49,760 ( < 1 % )
+Total registers : 161
+Total pins : 5 / 360 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 128 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
