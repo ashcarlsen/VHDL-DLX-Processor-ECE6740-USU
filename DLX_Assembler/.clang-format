@@ -1,0 +1,59 @@
+# .clang-format
+BasedOnStyle: LLVM
+
+# Line length
+ColumnLimit: 80
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Braces
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterStruct: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterEnum: true
+  AfterControlStatement: true
+  BeforeElse: true
+  BeforeCatch: true
+  IndentBraces: false
+
+# Class layout
+AccessModifierOffset: -4
+EmptyLineBeforeAccessModifier: LogicalBlock
+
+# Function formatting
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Constructor initializer lists
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerIndentWidth: 8
+PackConstructorInitializers: Never
+
+# Parameters and arguments
+BinPackParameters: false
+BinPackArguments: false
+AlignAfterOpenBracket: Align
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpaceBeforeAssignmentOperators: true
+SpacesInAngles: false
+
+# Includes
+IncludeBlocks: Preserve
+SortIncludes: true
+
+# Pointer and reference alignment
+PointerAlignment: Left
+ReferenceAlignment: Right
+
+# Misc
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
