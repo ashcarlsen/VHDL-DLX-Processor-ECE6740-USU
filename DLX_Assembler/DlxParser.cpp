@@ -52,6 +52,11 @@ void DlxParser::parseData()
             insAddress = 0;
             continue;
         }
+        else if (tokens.front().at(0) == '.')
+        {
+            parseData = false;
+            continue;
+        }
 
         if (parseData)
         {

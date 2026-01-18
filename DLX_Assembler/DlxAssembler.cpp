@@ -23,14 +23,6 @@ int main(int argc, char** argv)
 
     CLI11_PARSE(app, argc, argv);
 
-    // TODO:
-    // Read file, populate Data map and label/address map
-    // Write Data map into the data MIF
-    // Read file starting at top label
-    // Parse each instruction into a vector of uint32_t
-    // Write Instruction MIF
-    // END :)
-
     try
     {
         DlxParser parser(inputFile, dataFile, insFile);
