@@ -12,16 +12,16 @@ f		1	0
 
 top
 ; Set R20 to 1 if R10
-	SLEI	R20, R10, 1
+	SLEI	R20, R10, 2
 	BNEZ	R20, exit
-	ADDI 	R15, R10, 0
+	SUBI 	R15, R10, 1
 	JAL		factorial
 ; factorial stores result in R3
 	SUBI	R10, R10, 1
 	J		top
 	
 exit
-	SW		f(R0), R3
+	SW		f(R0), R1
 	
 done
 	J		done
@@ -34,4 +34,5 @@ factorial
 	SUBI 	R15, R15, 1
 	J 		factorial
 finish
+  	ADDI   R1, R3, 0
 	J		R31
