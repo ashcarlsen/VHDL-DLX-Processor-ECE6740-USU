@@ -40,7 +40,7 @@ inline const std::map<std::string, uint32_t> tokenToOpCode{
     {"JALR", 0x30}};
 
 inline const std::map<std::string, InsType> tokenToInsType{
-    {"NOP", InsType::JUMP},        {"LW", InsType::MEMORY},
+    {"NOP", InsType::NOP},         {"LW", InsType::MEMORY},
     {"SW", InsType::MEMORY},       {"ADD", InsType::REGISTER},
     {"ADDI", InsType::IMMEDIATE},  {"ADDU", InsType::REGISTER},
     {"ADDUI", InsType::IMMEDIATE}, {"SUB", InsType::REGISTER},

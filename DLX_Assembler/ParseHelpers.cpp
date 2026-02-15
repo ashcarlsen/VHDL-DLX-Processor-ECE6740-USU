@@ -1,9 +1,14 @@
 #include "ParseHelpers.hpp"
 #include <algorithm>
+#include <iostream>
 #include <sstream>
 
 void ParseHelpers::cleanupToken(std::string &token)
 {
+    if (token.at(0) != ';')
+    {
+        token = token.substr(0, token.find(';'));
+    }
     token.erase(std::remove(token.begin(), token.end(), ','), token.end());
     token.erase(std::remove(token.begin(), token.end(), '\r'), token.end());
     token.erase(std::remove(token.begin(), token.end(), '\n'), token.end());

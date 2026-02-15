@@ -64,11 +64,10 @@ void DlxParser::parseData()
             std::string name = tokens.front();
             m_addressMap[name] = dataAddress;
             uint32_t size = static_cast<uint32_t>(std::stoi(tokens.at(1)));
-            std::vector<uint32_t> data;
+            std::vector<int32_t> data;
             for (uint32_t i = 0; i < size; i++)
             {
-                uint32_t val =
-                    static_cast<uint32_t>(std::stoi(tokens.at(2 + i)));
+                int32_t val = static_cast<int32_t>(std::stoi(tokens.at(2 + i)));
                 data.emplace_back(val);
             }
             // Add data to our vector
@@ -181,6 +180,9 @@ void DlxParser::parseInstructions()
             case InsType::BRANCH:
                 instruction = genBranchInstruction(tokens);
                 break;
+            case InsType::NOP:
+                instruction = 0;
+                break;
             default:
                 throw std::runtime_error(
                     "ERROR: Found invalid instruction type!");
@@ -286,6 +288,12 @@ uint32_t DlxParser::genMemoryInstruction(const std::vector<std::string> &tokens)
     uint32_t instruction{0};
     if (tokens.size() != 3)
     {
+        std::cout << "Tokens: ";
+        for (const auto &token : tokens)
+        {
+            std::cout << token << "\t";
+        }
+        std::cout << std::endl;
         throw std::runtime_error(
             "ERROR: Memory instruction received wrong number of operands");
     }
@@ -378,7 +386,7 @@ uint32_t DlxParser::genBranchInstruction(const std::vector<std::string> &tokens)
         uint32_t address = m_addressMap.at(tokens.at(2));
 
         instruction = instruction | (opCode << 26);
-        instruction = instruction | (rs1 << 21);
+        instruction = instruction | (rs1 << 16);
         instruction = instruction | address;
     }
     catch (std::exception &e)

@@ -7,6 +7,7 @@
 
 enum class InsType
 {
+    NOP,
     REGISTER,
     IMMEDIATE,
     MEMORY,

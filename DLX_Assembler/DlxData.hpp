@@ -9,7 +9,7 @@ class DlxData
 {
 public:
     DlxData(const std::string &name,
-            const std::vector<uint32_t> &data,
+            const std::vector<int32_t> &data,
             uint32_t address) :
             m_name(name),
             m_data(data),
@@ -18,7 +18,7 @@ public:
     }
 
     std::string m_name;
-    std::vector<uint32_t> m_data;
+    std::vector<int32_t> m_data;
     uint32_t m_address{0};
 };
 

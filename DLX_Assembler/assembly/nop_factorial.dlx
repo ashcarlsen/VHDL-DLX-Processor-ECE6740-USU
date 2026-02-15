@@ -4,27 +4,78 @@ f   1   0
 
 .text
     LW      R1, n(R0)
+    NOP
+    NOP
+    NOP
     ADDI    R2, R0, 1   
+    NOP
+    NOP
+    NOP
 loop
     BEQZ    R1, end     
+    NOP
+    NOP
+    NOP
     ADD     R4, R2, R0  
+    NOP
+    NOP
+    NOP
     ADD     R3, R1, R0  
+    NOP
+    NOP
+    NOP
     JAL     multiply    
+    NOP
+    NOP
+    NOP
     SUBUI   R1, R1, 1
+    NOP
+    NOP
+    NOP
     J       loop
+    NOP
+    NOP
+    NOP
 end
     SW      f(R0), R2
+    NOP
+    NOP
+    NOP
 done
-	  J		done
+	J		done
+    NOP
+    NOP
+    NOP
 
 ; multiply R2 = R3 * R4
 multiply
     ADD     R2, R0, R0
+    NOP
+    NOP
+    NOP
     BEQZ    R3, mul_done 
+    NOP
+    NOP
+    NOP
 mul_loop
     BEQZ    R4, mul_done
+    NOP
+    NOP
+    NOP
     ADD     R2, R2, R3
+    NOP
+    NOP
+    NOP
     SUBUI   R4, R4, 1
+    NOP
+    NOP
+    NOP
     J       mul_loop
+    NOP
+    NOP
+    NOP
 mul_done
     JR      R31
+    NOP
+    NOP
+    NOP
