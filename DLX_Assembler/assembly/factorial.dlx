@@ -1,5 +1,5 @@
 .data
-n   1   4
+n   1   6
 f   1   0
 
 .text
@@ -15,7 +15,7 @@ loop
 end
     SW      f(R0), R2
 done
-	  J		done
+	J		done
 
 ; multiply R2 = R3 * R4
 multiply

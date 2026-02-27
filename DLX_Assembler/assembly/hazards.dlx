@@ -1,0 +1,18 @@
+  .data
+n 1 5
+a 1 0
+
+  .text
+
+  LW R1, n(R0)
+  ADDU R2, R1, R0 ; read after load hazard. 1 stall and data forwarding
+  ADDU R3, R2, R0 ; read after write. Data forwarding should take care for RS1
+  ADDU R4, R0, R3 ; read after write. Data forwarding should take care for RS2
+  SW a(R0), R4 ; read after write with store data forwarding should take care of this
+  LW R1, n(R0) 
+  SW a(R0), R1 ; read after write with load/store
+done
+  J done ; infinite loop to end program
+  ADDUI R10, R0, 5 ; all of these are control hazards
+  ADDUI R10, R0, 5
+  ADDUI R10, R0, 5
