@@ -6,7 +6,7 @@ entity Factorial_TB is
 end entity Factorial_TB;
 
 architecture sim of Factorial_TB is
-    constant CLK_PERIOD : time := 1 ms;
+    constant CLK_PERIOD : time := 1 us;
     signal CLOCK : STD_LOGIC := '0';
     signal RST : STD_LOGIC := '1';
 begin
