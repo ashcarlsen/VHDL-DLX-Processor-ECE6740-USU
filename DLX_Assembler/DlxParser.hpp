@@ -30,6 +30,7 @@ private:
     uint32_t genMemoryInstruction(const std::vector<std::string> &tokens);
     uint32_t genJumpInstruction(const std::vector<std::string> &tokens);
     uint32_t genBranchInstruction(const std::vector<std::string> &tokens);
+    uint32_t genPrintInstruction(const std::vector<std::string> &tokens);
     std::vector<DlxInstruction> m_instructs;
     std::vector<DlxData> m_data;
     std::map<std::string, uint32_t> m_addressMap;

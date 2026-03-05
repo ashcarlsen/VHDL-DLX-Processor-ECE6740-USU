@@ -16,7 +16,8 @@ inline const std::set<std::string> instructionSet{
     {"SRA"},  {"SRAI"}, {"SLT"},   {"SLTI"},  {"SLTU"}, {"SLTUI"}, {"SGT"},
     {"SGTI"}, {"SGTU"}, {"SGTUI"}, {"SLE"},   {"SLEI"}, {"SLEU"},  {"SLEUI"},
     {"SGE"},  {"SGEI"}, {"SGEU"},  {"SGEUI"}, {"SEQ"},  {"SEQI"},  {"SNE"},
-    {"SNEI"}, {"BEQZ"}, {"BNEZ"},  {"J"},     {"JR"},   {"JAL"},   {"JALR"}};
+    {"SNEI"}, {"BEQZ"}, {"BNEZ"},  {"J"},     {"JR"},   {"JAL"},   {"JALR"},
+    {"PCH"},  {"PD"},   {"PDU"}};
 
 inline const std::set<std::string> registerSet{
     {"R0"},  {"R1"},  {"R2"},  {"R3"},  {"R4"},  {"R5"},  {"R6"},  {"R7"},
@@ -37,7 +38,7 @@ inline const std::map<std::string, uint32_t> tokenToOpCode{
     {"SGEI", 0x24}, {"SGEU", 0x25}, {"SGEUI", 0x26}, {"SEQ", 0x27},
     {"SEQI", 0x28}, {"SNE", 0x29},  {"SNEI", 0x2A},  {"BEQZ", 0x2B},
     {"BNEZ", 0x2C}, {"J", 0x2D},    {"JR", 0x2E},    {"JAL", 0x2F},
-    {"JALR", 0x30}};
+    {"JALR", 0x30}, {"PCH", 0x31},  {"PD", 0x32},    {"PDU", 0x33}};
 
 inline const std::map<std::string, InsType> tokenToInsType{
     {"NOP", InsType::NOP},         {"LW", InsType::MEMORY},
@@ -64,7 +65,8 @@ inline const std::map<std::string, InsType> tokenToInsType{
     {"SNEI", InsType::IMMEDIATE},  {"BEQZ", InsType::BRANCH},
     {"BNEZ", InsType::BRANCH},     {"J", InsType::JUMP},
     {"JR", InsType::JUMP},         {"JAL", InsType::JUMP},
-    {"JALR", InsType::JUMP}};
+    {"JALR", InsType::JUMP},       {"PCH", InsType::PRINT},
+    {"PD", InsType::PRINT},        {"PDU", InsType::PRINT}};
 
 inline const std::map<std::string, uint32_t> tokenToRegister{
     {"R0", 0x00},  {"R1", 0x01},  {"R2", 0x02},  {"R3", 0x03},  {"R4", 0x04},

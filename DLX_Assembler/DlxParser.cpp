@@ -8,6 +8,7 @@
 namespace
 {
 const std::string DATA{".data"};
+const std::string CONST{".const"};
 const std::string TEXT{".text"};
 } // namespace
 
@@ -28,6 +29,7 @@ void DlxParser::parseData()
     }
     std::string line;
     bool parseData{false};
+    bool parseConst{false};
     uint32_t insAddress{0};
     uint32_t dataAddress{0};
     while (std::getline(input >> std::ws, line))
@@ -43,18 +45,27 @@ void DlxParser::parseData()
         if (tokens.front() == DATA)
         {
             parseData = true;
+            parseConst = false;
+            continue;
+        }
+        else if (tokens.front() == CONST)
+        {
+            parseData = false;
+            parseConst = true;
             continue;
         }
         // Check if we've hit the .text field
         else if (tokens.front() == TEXT)
         {
             parseData = false;
+            parseConst = false;
             insAddress = 0;
             continue;
         }
         else if (tokens.front().at(0) == '.')
         {
             parseData = false;
+            parseConst = false;
             continue;
         }
 
@@ -69,6 +80,24 @@ void DlxParser::parseData()
             {
                 int32_t val = static_cast<int32_t>(std::stoi(tokens.at(2 + i)));
                 data.emplace_back(val);
+            }
+            // Add data to our vector
+            m_data.emplace_back(DlxData(name, data, dataAddress));
+            // Increment the next data address based on the number of bytes used
+            dataAddress += size;
+        }
+        else if (parseConst)
+        {
+            // Parse the name, size, and string from the line
+            std::string name = tokens.front();
+            m_addressMap[name] = dataAddress;
+            uint32_t size = static_cast<uint32_t>(std::stoi(tokens.at(1)));
+            std::vector<int32_t> data;
+            std::string val = tokens.at(2);
+            // For every character in our string, write to data
+            for (const char c : val)
+            {
+                data.emplace_back(c);
             }
             // Add data to our vector
             m_data.emplace_back(DlxData(name, data, dataAddress));
@@ -116,7 +145,8 @@ void DlxParser::writeDataMif()
                 << std::setfill('0') << value.m_address + i << " : "
                 << std::setw(8) << std::setfill('0') << value.m_data.at(i)
                 << ";";
-            out << "\t--" << value.m_name << "[" << i << "]" << std::endl;
+            out << "\t--" << value.m_name << "[" << std::dec << i << "]"
+                << std::endl;
         }
     }
     out << std::endl << "END;" << std::endl;
@@ -179,6 +209,9 @@ void DlxParser::parseInstructions()
                 break;
             case InsType::BRANCH:
                 instruction = genBranchInstruction(tokens);
+                break;
+            case InsType::PRINT:
+                instruction = genPrintInstruction(tokens);
                 break;
             case InsType::NOP:
                 instruction = 0;
@@ -392,6 +425,33 @@ uint32_t DlxParser::genBranchInstruction(const std::vector<std::string> &tokens)
     catch (std::exception &e)
     {
         std::cout << "ERROR: genBranchInstruction: " << e.what() << std::endl;
+    }
+
+    return instruction;
+}
+
+uint32_t DlxParser::genPrintInstruction(const std::vector<std::string> &tokens)
+{
+    uint32_t instruction{0};
+    if (tokens.size() != 2)
+    {
+        throw std::runtime_error(
+            "ERROR: Print instruction received wrong number of operands");
+    }
+
+    try
+    {
+        // Get the OpCode from the lookup table
+        uint32_t opCode = DlxLookup::tokenToOpCode.at(tokens.at(0));
+        uint32_t reg{0};
+        reg = DlxLookup::tokenToRegister.at(tokens.at(1));
+
+        instruction = instruction | (opCode << 26);
+        instruction = instruction | (reg << 16);
+    }
+    catch (std::exception &e)
+    {
+        std::cout << "ERROR: genPrintInstruction: " << e.what() << std::endl;
     }
 
     return instruction;

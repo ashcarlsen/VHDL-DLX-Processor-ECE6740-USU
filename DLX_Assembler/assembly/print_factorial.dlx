@@ -1,0 +1,51 @@
+.data
+n   1   6
+f   1   0
+
+.const
+intro  26 "Welcome to DLX Factorial!\n"
+comp   4  "! = " 
+
+.text
+    ADDUI   R10, R0, 0 ; R10 is index variable
+print
+    LW      R11, intro(R10) ; Load character from memory to R11
+    PCH     R11 ; Print character from R11
+    ADDUI   R10, R10, 1 ; Increment the counter
+    SLEUI   R12, R10, 25 ; check if there are more characters
+    BNEZ    R12, print ; branch back to the string printing
+    LW      R1, n(R0) ; load starting values
+    ADDI    R2, R0, 1   
+loop
+    BEQZ    R1, end     
+    ADD     R3, R2, R0  
+    ADD     R4, R1, R0  
+    JAL     multiply    
+    SUBUI   R1, R1, 1
+    J       loop
+end
+    SW      f(R0), R2
+    LW      R1, n(R0)
+    PDU     R1
+    ADDUI   R10, R0, 0
+output
+    LW      R11, comp(R10) 
+    PCH     R11
+    ADDUI   R10, R10, 1
+    SLEUI   R12, R10, 3
+    BNEZ    R12, output
+    PDU     R2 ; print output
+done
+	J		done
+
+; multiply R2 = R3 * R4
+multiply
+    ADD     R2, R0, R0
+    BEQZ    R3, mul_done 
+mul_loop
+    BEQZ    R4, mul_done
+    ADD     R2, R2, R3
+    SUBUI   R4, R4, 1
+    J       mul_loop
+mul_done
+    JR      R31

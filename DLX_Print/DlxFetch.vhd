@@ -1,0 +1,77 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity DlxFetch is
+	generic (
+		INS_WIDTH : POSITIVE := 32;
+		ADDR_WIDTH : POSITIVE := 10
+	);
+	port(
+		CLK : in STD_LOGIC;
+		RST : in STD_LOGIC;
+		STALL : in STD_LOGIC;
+		FLUSH : in STD_LOGIC;
+		JUMP_ADDRESS : in STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
+		JUMP_FLAG : in STD_LOGIC;
+		NEXT_ADDR : out STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
+		INSTRUCTION : out STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0)
+	);
+end entity DlxFetch;
+
+architecture behavior of DlxFetch is
+	signal pc_out : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
+	signal pc_in : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
+	signal inc_out : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
+
+	signal stall_clk : STD_LOGIC;
+begin
+
+	stall_clk <= CLK or STALL;
+
+	pc : entity work.ProgramCounter
+		generic map (
+			WIDTH => ADDR_WIDTH
+		)
+		port map (
+			CLK => stall_clk,
+			RST => RST,
+			NEXT_ADDRESS => pc_in,
+			OUT_ADDRESS => pc_out
+		);
+		
+	inc : entity work.Incrementer
+		generic map (
+			WIDTH => ADDR_WIDTH
+		)
+		port map (
+			D => pc_out,
+			Q => inc_out
+		);
+	
+	mux : entity work.TwoMux
+		generic map (
+			WIDTH => ADDR_WIDTH
+		)
+		port map (
+			DATA_ZERO => inc_out,
+			DATA_ONE => JUMP_ADDRESS,
+			SEL => JUMP_FLAG,
+			Q => pc_in
+		);
+	rom : entity work.InstructionMemory
+		port map (
+			aclr => FLUSH,
+			address => pc_out,
+			clock => stall_clk,
+			q => INSTRUCTION
+		);
+	
+
+	update : process(stall_clk)
+	begin
+		if rising_edge(stall_clk) then
+			NEXT_ADDR <= pc_in;
+		end if;
+	end process;
+end architecture behavior;

@@ -12,7 +12,8 @@ enum class InsType
     IMMEDIATE,
     MEMORY,
     JUMP,
-    BRANCH
+    BRANCH,
+    PRINT
 };
 
 class DlxInstruction

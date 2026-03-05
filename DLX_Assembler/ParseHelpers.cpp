@@ -1,5 +1,6 @@
 #include "ParseHelpers.hpp"
 #include <algorithm>
+#include <iomanip>
 #include <iostream>
 #include <sstream>
 
@@ -12,6 +13,20 @@ void ParseHelpers::cleanupToken(std::string &token)
     token.erase(std::remove(token.begin(), token.end(), ','), token.end());
     token.erase(std::remove(token.begin(), token.end(), '\r'), token.end());
     token.erase(std::remove(token.begin(), token.end(), '\n'), token.end());
+
+    size_t pos = 0;
+    // Replace all newlines with actual newline characters
+    while ((pos = token.find("\\n", pos)) != std::string::npos)
+    {
+        token.replace(pos, 2, "\n");
+        pos += 1;
+    }
+    // Replace all tabs with actual tab characters
+    while ((pos = token.find("\\t", pos)) != std::string::npos)
+    {
+        token.replace(pos, 2, "\t");
+        pos += 1;
+    }
 }
 
 std::vector<std::string> ParseHelpers::getTokens(const std::string &line)
@@ -19,7 +34,7 @@ std::vector<std::string> ParseHelpers::getTokens(const std::string &line)
     std::stringstream ss(line);
     std::string token;
     std::vector<std::string> tokens;
-    while (ss >> token)
+    while (ss >> std::quoted(token))
     {
         tokens.push_back(token);
     }
