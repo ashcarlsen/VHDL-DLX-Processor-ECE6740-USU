@@ -7,12 +7,15 @@ entity DLX is
     port(
         CLK : in STD_LOGIC;
         RST : in STD_LOGIC;
-        UART_RX : in STD_LOGIC;
-        UART_TX : out STD_LOGIC
+        RX_LINE : in STD_LOGIC;
+        TX_LINE : out STD_LOGIC
     );
 end entity DLX;
 
 architecture behavior of DLX is
+
+    signal dlx_rst : STD_LOGIC := '1';
+    
     -- signals for fetch -> decode
     signal f2d_addr : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
     signal f2d_ins : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0);
@@ -58,7 +61,22 @@ architecture behavior of DLX is
     signal print_out : STD_LOGIC_VECTOR(DATA_WIDTH+1 downto 0);
     signal print_empty : STD_LOGIC;
     signal print_full : STD_LOGIC;
+
+    -- uart fifo signals
+    signal uart_clk : STD_LOGIC;
+    signal fifo_data : STD_LOGIC_VECTOR(7 downto 0);
+    signal fifo_wr : STD_LOGIC;
+    signal fifo_rd : STD_LOGIC;
+    signal fifo_out : STD_LOGIC_VECTOR(7 downto 0);
+    signal fifo_empty : STD_LOGIC;
+    signal fifo_full : STD_LOGIC;
+    signal locked : STD_LOGIC;
+
+    signal rdclk : STD_LOGIC;
 begin
+
+    -- Reset processor if not locked
+    dlx_rst <= RST or not locked;
 
     fetch : entity work.DlxFetch
         generic map (
@@ -67,7 +85,7 @@ begin
         )
         port map (
             CLK => CLK,
-            RST => RST,
+            RST => dlx_rst,
             STALL => stall,
             FLUSH => flush,
             JUMP_ADDRESS => m2f_jump_addr,
@@ -84,7 +102,7 @@ begin
         )
         port map (
             CLK => CLK,
-            RST => RST,
+            RST => dlx_rst,
             STALL => stall,
             FLUSH => flush,
             ADDR_IN => f2d_addr,
@@ -107,7 +125,7 @@ begin
         )
         port map (
             CLK => CLK,
-            RST => RST,
+            RST => dlx_rst,
             FLUSH => flush,
             ADDR_IN => d2e_addr,
             INS_IN => d2e_ins,
@@ -137,7 +155,7 @@ begin
         )
         port map (
             CLK => CLK,
-            RST => RST,
+            RST => dlx_rst,
             ADDR_IN => e2m_addr,
             INS_IN => e2m_ins,
             JUMP_FLAG => jump_flag,
@@ -159,7 +177,7 @@ begin
             REG_ADDR_WIDTH => REG_ADDR_WIDTH    
         )
         port map (
-            RST => RST,
+            RST => dlx_rst,
             ADDR_IN => m2w_addr,
             INS_IN => m2w_ins,
             DATA_IN => mem_out,
@@ -194,7 +212,7 @@ begin
 
     printer : entity work.PrintFIFO
         port map (
-            aclr => RST,
+            aclr => dlx_rst,
             data => print_data,
             rdclk => CLK,
             rdreq => print_rd,
@@ -203,5 +221,49 @@ begin
             q => print_out,
             rdempty => print_empty,
             wrfull => print_full
+        );
+    
+    converter : entity work.PrintHandler
+        port map (
+            CLK => CLK,
+            RST => dlx_rst,
+            DATA => print_out,
+            EMPTY => print_empty,
+            RD_REQ => print_rd,
+            CHAR_OUT => fifo_data,
+            WR_EN => fifo_wr,
+            FULL => fifo_full
+        );
+
+    pll : entity work.UartPll
+        port map (
+            areset => '0',
+            inclk0 => CLK,
+            c0 => uart_clk,
+            locked => locked
+        );
+
+    fifo : entity work.UART_FIFO
+        port map (
+            aclr => dlx_rst,
+            data => fifo_data,
+            rdclk => uart_clk,
+            rdreq => fifo_rd,
+            wrclk => CLK,
+            wrreq => fifo_wr,
+            q => fifo_out,
+            rdempty => fifo_empty,
+            wrfull => fifo_full
+        );
+
+    tx : entity work.UART_TX
+        port map (
+            txclk => uart_clk,
+            rst => dlx_rst,
+            data => fifo_out,
+            empty => fifo_empty,
+            rdclk => rdclk,
+            rdreq => fifo_rd,
+            tx_line => TX_LINE
         );
 end architecture behavior;

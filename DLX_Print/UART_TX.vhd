@@ -20,7 +20,9 @@ architecture behavior of UART_TX is
 	signal tx_reg : STD_LOGIC_VECTOR(7 downto 0);
 	signal idx : INTEGER range 0 to 8 := 0;
 begin
+
 	rdclk <= txclk;
+
 	fsm : process(txclk, rst)
 	begin
 		if rst = '1' then

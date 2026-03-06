@@ -17,11 +17,12 @@ architecture behavior of DLX_TOP is
 begin
 	
 	rst <= not KEY(0);
+
     dlx : entity work.DLX
             port map (
                 CLK => MAX10_CLK1_50,
                 RST => rst,
-                UART_TX => GPIO(34),
-                UART_RX => GPIO(35)
+                RX_LINE => GPIO(35),
+                TX_LINE => GPIO(34)
             );
 end architecture behavior;
