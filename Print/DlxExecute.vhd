@@ -71,15 +71,15 @@ begin
     lower_sel <= '1' when lower_select(OP_CODE) else '0';
 
     -- Write enable is for all print commands
-    print_en <= '1' when is_print(OP_CODE) else '0';
+    print_en <= '1' when is_print(ins(INS_WIDTH-1 downto INS_WIDTH-6)) else '0';
     -- Only write when FIFO not full
     PRINT_WR <= print_en and (not PRINT_FULL);
     -- 31 to 0 is data
     PRINT_DATA(DATA_WIDTH-1 downto 0) <= alu_result; 
     -- 2nd Upper bit is for signed flag
-    PRINT_DATA(DATA_WIDTH) <= '1' when (OP_CODE = PD) else '0';
+    PRINT_DATA(DATA_WIDTH) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PD) else '0';
     -- Upper bit is for character flag
-    PRINT_DATA(DATA_WIDTH+1) <= '1' when (OP_CODE = PCH) else '0';
+    PRINT_DATA(DATA_WIDTH+1) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PCH) else '0';
 
     upper_mux : entity work.FourMux
         generic map (

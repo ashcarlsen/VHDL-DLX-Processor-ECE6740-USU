@@ -1,16 +1,7 @@
 .data
 
-.const
-intro  1 "W"
-
 .text
-    ADDUI   R10, R0, 0 ; R10 is index variable
-    ADDUI   R1, R0, 0 ; Random 300 loops
-    LW      R11, intro(R10) ; Load character from memory to R11
-print
-    PCH     R11 ; Print character from R11
-    ADDUI   R1, R1, 1 ; Increment the counter
-    SLEUI   R12, R1, 300 ; check if there are more characters
-    BNEZ    R12, print ; branch back to the string printing
+    ADDUI   R1, R0, 62
+    PDU     R1
 done
 	J		done
