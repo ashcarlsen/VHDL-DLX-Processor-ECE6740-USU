@@ -1,7 +1,7 @@
 .data
 
 .text
-    ADDUI   R1, R0, 62
+    GDU     R1
     PDU     R1
 done
 	J		done

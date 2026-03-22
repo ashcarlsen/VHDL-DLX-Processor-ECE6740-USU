@@ -21,10 +21,20 @@ void ParseHelpers::cleanupToken(std::string &token)
         token.replace(pos, 2, "\n");
         pos += 1;
     }
+
+    pos = 0;
     // Replace all tabs with actual tab characters
     while ((pos = token.find("\\t", pos)) != std::string::npos)
     {
         token.replace(pos, 2, "\t");
+        pos += 1;
+    }
+
+    pos = 0;
+    // Replace all carriage returns with actual carriage returns
+    while ((pos = token.find("\\r", pos)) != std::string::npos)
+    {
+        token.replace(pos, 2, "\r");
         pos += 1;
     }
 }

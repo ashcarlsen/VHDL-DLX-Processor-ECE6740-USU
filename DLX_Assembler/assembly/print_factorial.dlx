@@ -1,10 +1,12 @@
 .data
-n   1   6
 f   1   0
 
 .const
-intro  26 "Welcome to DLX Factorial! "
+intro  27 "Welcome to DLX Factorial!\n\r"
+ask    16 "Enter a number: "
 comp   4  "! = " 
+newline 1 "\n"
+carriage 1 "\r"
 
 .text
     ADDUI   R10, R0, 0 ; R10 is index variable
@@ -12,21 +14,28 @@ print
     LW      R11, intro(R10) 
     PCH     R11
     ADDUI   R10, R10, 1
-    SLEUI   R12, R10, 25
+    SLEUI   R12, R10, 26
     BNEZ    R12, print
-    LW      R1, n(R0)
-    ADDI    R2, R0, 1   
+    ADDUI   R10, R0, 0
+print2
+    LW      R11, ask(R10)
+    PCH     R11
+    ADDUI   R10, R10, 1
+    SLEUI   R12, R10, 15
+    BNEZ    R12, print2
+    GDU     R1
+    ADDI    R5, R1, 0
+    ADDI    R2, R0, 1
 loop
-    BEQZ    R1, end     
-    ADD     R3, R2, R0  
-    ADD     R4, R1, R0  
+    BEQZ    R1, end   
+    ADD     R3, R2, R0
+    ADD     R4, R1, R0
     JAL     multiply    
     SUBUI   R1, R1, 1
     J       loop
 end
     SW      f(R0), R2
-    LW      R1, n(R0)
-    PDU     R1
+    PDU     R5
     ADDUI   R10, R0, 0
 output
     LW      R11, comp(R10) 
@@ -35,6 +44,10 @@ output
     SLEUI   R12, R10, 3
     BNEZ    R12, output
     PDU     R2
+    LW      R11, newline(R0)
+    PCH     R11
+    LW      R11, carriage(R0)
+    PCH     R11
 done
 	  J		done
 

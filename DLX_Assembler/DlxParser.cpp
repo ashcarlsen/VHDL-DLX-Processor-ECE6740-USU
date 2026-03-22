@@ -213,6 +213,9 @@ void DlxParser::parseInstructions()
             case InsType::PRINT:
                 instruction = genPrintInstruction(tokens);
                 break;
+            case InsType::SCAN:
+                instruction = genScanInstruction(tokens);
+                break;
             case InsType::NOP:
                 instruction = 0;
                 break;
@@ -452,6 +455,35 @@ uint32_t DlxParser::genPrintInstruction(const std::vector<std::string> &tokens)
     catch (std::exception &e)
     {
         std::cout << "ERROR: genPrintInstruction: " << e.what() << std::endl;
+    }
+
+    return instruction;
+}
+
+uint32_t DlxParser::genScanInstruction(const std::vector<std::string> &tokens)
+{
+    uint32_t instruction{0};
+    if (tokens.size() != 2)
+    {
+        throw std::runtime_error(
+            "ERROR: Scan instruction recieved wrong number of operands");
+    }
+
+    try
+    {
+        // Get the OpCode from the lookup table
+        uint32_t opCode = DlxLookup::tokenToOpCode.at(tokens.at(0));
+        uint32_t reg{0};
+        reg = DlxLookup::tokenToRegister.at(tokens.at(1));
+
+        // Put Op Code in upper 6
+        instruction = instruction | (opCode << 26);
+        // Put RD in next 6 bits
+        instruction = instruction | (reg << 21);
+    }
+    catch (const std::exception &e)
+    {
+        std::cout << "ERROR: genScanInstruction: " << e.what() << std::endl;
     }
 
     return instruction;

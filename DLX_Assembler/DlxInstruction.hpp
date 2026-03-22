@@ -13,7 +13,8 @@ enum class InsType
     MEMORY,
     JUMP,
     BRANCH,
-    PRINT
+    PRINT,
+    SCAN
 };
 
 class DlxInstruction
