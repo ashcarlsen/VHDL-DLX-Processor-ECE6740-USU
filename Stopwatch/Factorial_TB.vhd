@@ -12,6 +12,12 @@ architecture sim of Factorial_TB is
     signal RST : STD_LOGIC := '1';
     signal rx_sig : STD_LOGIC := '1';
     signal tx_sig : STD_LOGIC := '1';
+    signal HEX0 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal HEX1 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal HEX2 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal HEX3 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal HEX4 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal HEX5 : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
 
     procedure send_byte (
         constant byte_data : in std_logic_vector(7 downto 0);
@@ -43,7 +49,13 @@ begin
             CLK => CLOCK,
             RST => RST,
             RX_LINE => rx_sig,
-            TX_LINE => tx_sig
+            TX_LINE => tx_sig,
+            HEX0 => HEX0,
+            HEX1 => HEX1,
+            HEX2 => HEX2,
+            HEX3 => HEX3,
+            HEX4 => HEX4,
+            HEX5 => HEX5
         );
     
     CLOCK <= not CLOCK after CLK_PERIOD / 2;

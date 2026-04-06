@@ -14,7 +14,8 @@ enum class InsType
     JUMP,
     BRANCH,
     PRINT,
-    SCAN
+    SCAN,
+    TIMER
 };
 
 class DlxInstruction

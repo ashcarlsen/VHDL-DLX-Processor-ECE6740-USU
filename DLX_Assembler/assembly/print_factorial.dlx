@@ -9,6 +9,8 @@ newline 1 "\n"
 carriage 1 "\r"
 
 .text
+    TR
+    TGO
     ADDUI   R10, R0, 0 ; R10 is index variable
 print
     LW      R11, intro(R10) 
@@ -23,7 +25,9 @@ print2
     ADDUI   R10, R10, 1
     SLEUI   R12, R10, 15
     BNEZ    R12, print2
+    TSP
     GDU     R1
+    TGO
     ADDI    R5, R1, 0
     ADDI    R2, R0, 1
 loop
@@ -48,6 +52,7 @@ output
     PCH     R11
     LW      R11, carriage(R0)
     PCH     R11
+    TSP
 done
 	  J		done
 

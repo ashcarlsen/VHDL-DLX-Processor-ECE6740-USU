@@ -216,6 +216,9 @@ void DlxParser::parseInstructions()
             case InsType::SCAN:
                 instruction = genScanInstruction(tokens);
                 break;
+            case InsType::TIMER:
+                instruction = genTimerInstruction(tokens);
+                break;
             case InsType::NOP:
                 instruction = 0;
                 break;
@@ -480,6 +483,31 @@ uint32_t DlxParser::genScanInstruction(const std::vector<std::string> &tokens)
         instruction = instruction | (opCode << 26);
         // Put RD in next 6 bits
         instruction = instruction | (reg << 21);
+    }
+    catch (const std::exception &e)
+    {
+        std::cout << "ERROR: genScanInstruction: " << e.what() << std::endl;
+    }
+
+    return instruction;
+}
+
+uint32_t DlxParser::genTimerInstruction(const std::vector<std::string> &tokens)
+{
+    uint32_t instruction{0};
+    if (tokens.size() != 1)
+    {
+        throw std::runtime_error(
+            "ERROR: Scan instruction recieved wrong number of operands");
+    }
+
+    try
+    {
+        // Get the OpCode from the lookup table
+        uint32_t opCode = DlxLookup::tokenToOpCode.at(tokens.at(0));
+
+        // Put Op Code in upper 6
+        instruction = instruction | (opCode << 26);
     }
     catch (const std::exception &e)
     {
