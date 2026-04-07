@@ -151,7 +151,7 @@ END SYN;
 -- Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: UNDERFLOW_CHECKING NUMERIC "0"
--- Retrieval info: PRIVATE: UsedW NUMERIC "0"
+-- Retrieval info: PRIVATE: UsedW NUMERIC "1"
 -- Retrieval info: PRIVATE: Width NUMERIC "34"
 -- Retrieval info: PRIVATE: dc_aclr NUMERIC "1"
 -- Retrieval info: PRIVATE: diff_widths NUMERIC "0"

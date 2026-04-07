@@ -85,7 +85,7 @@ BEGIN
 
 	lpm_mult_component : lpm_mult
 	GENERIC MAP (
-		lpm_hint => "INPUT_B_IS_CONSTANT=YES,MAXIMIZE_SPEED=9",
+		lpm_hint => "INPUT_B_IS_CONSTANT=YES,MAXIMIZE_SPEED=5",
 		lpm_pipeline => 4,
 		lpm_representation => "UNSIGNED",
 		lpm_type => "LPM_MULT",
@@ -124,9 +124,9 @@ END SYN;
 -- Retrieval info: PRIVATE: aclr NUMERIC "1"
 -- Retrieval info: PRIVATE: clken NUMERIC "0"
 -- Retrieval info: PRIVATE: new_diagram STRING "1"
--- Retrieval info: PRIVATE: optimize NUMERIC "1"
+-- Retrieval info: PRIVATE: optimize NUMERIC "0"
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
--- Retrieval info: CONSTANT: LPM_HINT STRING "INPUT_B_IS_CONSTANT=YES,MAXIMIZE_SPEED=9"
+-- Retrieval info: CONSTANT: LPM_HINT STRING "INPUT_B_IS_CONSTANT=YES,MAXIMIZE_SPEED=5"
 -- Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "4"
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_MULT"

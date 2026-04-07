@@ -89,7 +89,7 @@ BEGIN
 		lpm_drepresentation => "UNSIGNED",
 		lpm_hint => "LPM_REMAINDERPOSITIVE=TRUE",
 		lpm_nrepresentation => "UNSIGNED",
-		lpm_pipeline => 4,
+		lpm_pipeline => 8,
 		lpm_type => "LPM_DIVIDE",
 		lpm_widthd => 8,
 		lpm_widthn => 32
@@ -121,7 +121,7 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_DREPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "LPM_REMAINDERPOSITIVE=TRUE"
 -- Retrieval info: CONSTANT: LPM_NREPRESENTATION STRING "UNSIGNED"
--- Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "4"
+-- Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "8"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_DIVIDE"
 -- Retrieval info: CONSTANT: LPM_WIDTHD NUMERIC "8"
 -- Retrieval info: CONSTANT: LPM_WIDTHN NUMERIC "32"

@@ -9,12 +9,12 @@ entity DLX is
         RST : in STD_LOGIC;
         RX_LINE : in STD_LOGIC;
         TX_LINE : out STD_LOGIC;
-        HEX0 : out std_logic_vector(7 downto 0);
-        HEX1 : out std_logic_vector(7 downto 0);
-        HEX2 : out std_logic_vector(7 downto 0);
-        HEX3 : out std_logic_vector(7 downto 0);
-        HEX4 : out std_logic_vector(7 downto 0);
-        HEX5 : out std_logic_vector(7 downto 0)
+        HEX0    : out STD_LOGIC_VECTOR(7 downto 0);
+        HEX1    : out STD_LOGIC_VECTOR(7 downto 0);
+        HEX2    : out STD_LOGIC_VECTOR(7 downto 0);
+        HEX3    : out STD_LOGIC_VECTOR(7 downto 0);
+        HEX4    : out STD_LOGIC_VECTOR(7 downto 0);
+        HEX5    : out STD_LOGIC_VECTOR(7 downto 0)
     );
 end entity DLX;
 
@@ -100,14 +100,15 @@ architecture behavior of DLX is
     signal rdclk : STD_LOGIC;
     signal wrclk : STD_LOGIC;
 
-    -- stop watch signals
     signal stopwatch_en : STD_LOGIC := '0';
-    signal stopwatch_rst : STD_LOGIC := '0';
+    signal stopwatch_rst : STD_LOGIC := '1';
     signal timer_rst : STD_LOGIC := '0';
 begin
 
     -- Reset processor if not locked
     dlx_rst <= RST or not locked;
+
+    -- Reset the stop watch if we press the reset button or the TR instruction happens
     stopwatch_rst <= dlx_rst or timer_rst;
 
     fetch : entity work.DlxFetch
@@ -179,9 +180,7 @@ begin
             PRINT_FULL => print_full,
             PRINT_DATA => print_data,
             PRINT_WR => print_wr,
-            SCAN_DATA => scan_out,
-            TIMER_RST => timer_rst,
-            TIMER_EN => stopwatch_en
+            SCAN_DATA => scan_out
         );
 
     memory : entity work.DlxMemory
@@ -353,11 +352,20 @@ begin
             q => scan_out,
             rdempty => scan_empty,
             wrfull => scan_full
-        );
+        );      
 
-    timer : entity work.Stopwatch
+    time_handler : entity work.TimeHandler
+        port map (
+            CLK => CLK,
+            RST => RST,
+            EX_MEM_INS => e2m_ins,
+            TIMER_EN => stopwatch_en,
+            TIMER_RST => timer_rst
+        );
+    
+    stopwatch : entity work.Stopwatch
         generic map (
-            N => 500000 --freq/100
+            N => 500000
         )
         port map (
             CLK => CLK,

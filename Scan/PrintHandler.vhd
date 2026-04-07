@@ -20,7 +20,7 @@ end entity PrintHandler;
 
 architecture behavior of PrintHandler is
     -- state tracking signals
-    type state_type is (IDLE, REQUEST_FROM_PRINT, GET_FROM_PRINT, CHECK_TYPE, CHAR, INT, ONE, START, TWO, THREE, FOUR, ADD_STACK, ADD_SIGN, POP, LOAD, WR);
+    type state_type is (IDLE, REQUEST_FROM_PRINT, GET_FROM_PRINT, CHECK_TYPE, CHAR, INT, ONE, START, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, ADD_STACK, ADD_SIGN, POP, LOAD, WR);
     signal state : state_type := IDLE;
     signal next_state : state_type := IDLE;
 
@@ -127,6 +127,34 @@ begin
                 next_numer <= numer;
                 next_state <= FOUR;
             when FOUR =>
+                CHAR_OUT <= (others => '0');
+                WR_EN <= '0';
+                RD_REQ <= '0';
+                next_addr <= stack_addr;
+                next_numer <= numer;
+                next_state <= FIVE;
+            when FIVE =>
+                CHAR_OUT <= (others => '0');
+                WR_EN <= '0';
+                RD_REQ <= '0';
+                next_addr <= stack_addr;
+                next_numer <= numer;
+                next_state <= SIX;
+            when SIX =>
+                CHAR_OUT <= (others => '0');
+                WR_EN <= '0';
+                RD_REQ <= '0';
+                next_addr <= stack_addr;
+                next_numer <= numer;
+                next_state <= SEVEN;
+            when SEVEN =>
+                CHAR_OUT <= (others => '0');
+                WR_EN <= '0';
+                RD_REQ <= '0';
+                next_addr <= stack_addr;
+                next_numer <= numer;
+                next_state <= EIGHT;
+            when EIGHT =>
                 CHAR_OUT <= (others => '0');
                 WR_EN <= '0';
                 RD_REQ <= '0';
