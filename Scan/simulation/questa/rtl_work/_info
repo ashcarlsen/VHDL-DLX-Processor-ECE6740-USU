@@ -1,0 +1,1569 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ash/USU/Spring2026/ECE6740/Projects/Scan/simulation/questa
+T_opt
+!s110 1774214596
+V5ohO<X4]HOOAS7P6a:N^`0
+04 12 3 work factorial_tb sim 1
+=1-000ae431a4f1-69c05dc3-b0d19-288e1
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U38 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+Ealu
+Z3 w1774135281
+Z4 DPx4 work 13 dlx_constants 0 22 lI:@7MFmXbIa0MQ^bTYn^2
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 29
+R1
+Z8 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ALU.vhd
+Z9 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ALU.vhd
+l0
+L6 1
+V?2LU;0[DN<Tgzk7IlZ_GD2
+!s100 ?H2_02QYQ0RIEodKbg=Wb0
+Z10 OL;C;2024.3;79
+31
+Z11 !s110 1774214594
+!i10b 1
+Z12 !s108 1774214594.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ALU.vhd|
+Z14 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ALU.vhd|
+!i113 0
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R4
+R5
+R6
+R7
+Z17 DEx4 work 3 alu 0 22 ?2LU;0[DN<Tgzk7IlZ_GD2
+!i122 29
+l19
+L18 196
+Vn`hJQ2XT=faiB=GMeICYS3
+!s100 >cPAW^5[>2mgHQ<5gZD?]2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edatamemory
+Z18 w1774150831
+Z19 DPx9 altera_mf 20 altera_mf_components 0 22 K2nP0Jo_3Z^LgLEDTAdJT1
+R6
+R7
+!i122 18
+R1
+Z20 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DataMemory.vhd
+Z21 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DataMemory.vhd
+l0
+Z22 L43 1
+VTZeeacb@7JPQN:[HUBSKQ3
+!s100 D><b^<CZ7g[E:fji0:cb<0
+R10
+31
+Z23 !s110 1774214593
+!i10b 1
+Z24 !s108 1774214593.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DataMemory.vhd|
+Z26 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DataMemory.vhd|
+!i113 0
+R15
+R16
+Asyn
+R19
+R6
+R7
+Z27 DEx4 work 10 datamemory 0 22 TZeeacb@7JPQN:[HUBSKQ3
+!i122 18
+l59
+L55 36
+V@84Ho4>PK=4?fO`kSI:TM0
+!s100 kUSf>i2:XUEEQNB]olFzk0
+R10
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Edivider
+Z28 w1774056774
+R6
+R7
+!i122 13
+R1
+Z29 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Divider.vhd
+Z30 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Divider.vhd
+l0
+R22
+V1AB4FAVm0zPUKBbY>>aPI1
+!s100 ?[2Ya?j1Pof2[:I>c`Ef12
+R10
+31
+R23
+!i10b 1
+R24
+Z31 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Divider.vhd|
+Z32 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/Divider.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+Z33 DEx4 work 7 divider 0 22 1AB4FAVm0zPUKBbY>>aPI1
+!i122 13
+l83
+L56 53
+VC:PN2DBAG=^Y[Kicc?FQa2
+!s100 P7d>J76gP?[S[=XkMKkCU3
+R10
+31
+R23
+!i10b 1
+R24
+R31
+R32
+!i113 0
+R15
+R16
+Edlx
+Z34 w1774138842
+R4
+R5
+R6
+R7
+!i122 32
+R1
+Z35 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX.vhd
+Z36 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX.vhd
+l0
+L6 1
+VTBA70FQ5mjCOLClz]OA:F3
+!s100 Sfb`Kcb]N=IC_PTl^WfPc0
+R10
+31
+Z37 !s110 1774214595
+!i10b 1
+Z38 !s108 1774214595.000000
+Z39 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX.vhd|
+Z40 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z41 DEx4 work 8 scanfifo 0 22 >Xi50M_C8ek_=GkVhHeB53
+Z42 DEx4 work 11 scanhandler 0 22 Z_fJBhB95=UCU1Iz<d^KI2
+Z43 DEx4 work 7 uart_rx 0 22 JHKcmDTK;T3cAYC6PW[OK2
+Z44 DEx4 work 7 uart_tx 0 22 inV14mmzXlk;S:FO:dF@73
+Z45 DEx4 work 8 uartfifo 0 22 EF1AWEfA3^Q<2jQ>Rdf863
+Z46 DEx4 work 7 uartpll 0 22 @k39Pff>d?V2df:VeB:jP3
+Z47 DEx4 work 12 printhandler 0 22 62RKMSgOf4ZX>M2?0n@nH2
+Z48 DEx4 work 9 printfifo 0 22 X6IT>n:gkFjI[DMgNQ;?i2
+Z49 DEx4 work 15 flushcontroller 0 22 GfOj_L6[g>5`ihGWk^cLH3
+Z50 DEx4 work 15 stallcontroller 0 22 bkFRWKg63iHRaDFcG]7EJ0
+Z51 DEx4 work 17 forwardcontroller 0 22 <Eg:W=`77]k_=1g878bOB0
+Z52 DEx4 work 12 dlxwriteback 0 22 IBGk2e`HGV[;i=:heGzD[0
+Z53 DEx4 work 9 dlxmemory 0 22 :VgelCX=TM8X8oLKYedJP3
+Z54 DEx4 work 10 dlxexecute 0 22 cdKCW_1;ISK?IznR`hT8W0
+Z55 DEx4 work 9 dlxdecode 0 22 DIziodQGmo2Cd>?[i96>F0
+Z56 DEx4 work 8 dlxfetch 0 22 f^GLLjzK7DRNngzaK_dla1
+R4
+R5
+R6
+R7
+Z57 DEx4 work 3 dlx 0 22 TBA70FQ5mjCOLClz]OA:F3
+!i122 32
+l96
+L15 329
+VmoBF2kg2_Z0X6Wg;PUHPo0
+!s100 455MWO2LmaQI0`2c<`NcP1
+R10
+31
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R15
+R16
+Pdlx_constants
+R5
+R6
+R7
+!i122 9
+Z58 w1774147865
+R1
+Z59 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/dlx_constants.vhd
+Z60 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/dlx_constants.vhd
+l0
+L5 114
+VlI:@7MFmXbIa0MQ^bTYn^2
+!s100 K<8n^3lzTcnQ6oFf<C6Y:1
+R10
+31
+b1
+Z61 !s110 1774214592
+!i10b 1
+Z62 !s108 1774214592.000000
+Z63 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/dlx_constants.vhd|
+Z64 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/dlx_constants.vhd|
+!i113 0
+R15
+R16
+Bbody
+R4
+R5
+R6
+R7
+!i122 9
+l0
+L121 242
+V`N;:7zhNSN5j[6_FQTZ[n3
+!s100 ?hVF>nVCd1mNciKdJG:_Y3
+R10
+31
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 0
+R15
+R16
+Edlx_top
+Z65 w1774054602
+R5
+R6
+R7
+!i122 33
+R1
+Z66 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX_TOP.vhd
+Z67 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX_TOP.vhd
+l0
+L5 1
+V1G3D3GI=O5303E>V_boWk0
+!s100 <a^<2YH?^^T2Lk4K<BzP10
+R10
+31
+R37
+!i10b 1
+R38
+Z68 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX_TOP.vhd|
+Z69 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DLX_TOP.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R57
+R5
+R6
+R7
+DEx4 work 7 dlx_top 0 22 1G3D3GI=O5303E>V_boWk0
+!i122 33
+l17
+L15 14
+VOBCj<dY^j4U[LDXaY1K7l3
+!s100 92UBPnCK<a[;:`]D8RR<R2
+R10
+31
+R37
+!i10b 1
+R38
+R68
+R69
+!i113 0
+R15
+R16
+Edlxdecode
+Z70 w1774135527
+R4
+R5
+R6
+R7
+!i122 31
+R1
+Z71 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxDecode.vhd
+Z72 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxDecode.vhd
+l0
+L6 1
+VDIziodQGmo2Cd>?[i96>F0
+!s100 8^KenHmiM<HjF][1Z4ATY1
+R10
+31
+R37
+!i10b 1
+R38
+Z73 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxDecode.vhd|
+Z74 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxDecode.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z75 DEx4 work 12 signextender 0 22 ^@LGe<ejQn;]N8BV9Q]ek1
+Z76 DEx4 work 12 registerfile 0 22 [DeibBzA5E07aLje3Y4A13
+Z77 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
+R4
+R5
+R6
+R7
+R55
+!i122 31
+l49
+L39 83
+VcEF<nAF]FOTDL9mehN4R`3
+!s100 [i9ZPSa?MkP_l>Rg00K0g0
+R10
+31
+R37
+!i10b 1
+R38
+R73
+R74
+!i113 0
+R15
+R16
+Edlxexecute
+Z78 w1774142723
+R4
+R5
+R6
+R7
+!i122 30
+R1
+Z79 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxExecute.vhd
+Z80 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxExecute.vhd
+l0
+L6 1
+VcdKCW_1;ISK?IznR`hT8W0
+!s100 Z;T[N>A78A?Z5LRVAJ4i92
+R10
+31
+R37
+!i10b 1
+R12
+Z81 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxExecute.vhd|
+Z82 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxExecute.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R17
+Z83 DEx4 work 12 shouldbranch 0 22 l5UPTl<FREbh9i3bI6FcL1
+Z84 DEx4 work 7 fourmux 0 22 L>n>J4HWjh7C?GWa94AFa3
+R77
+R4
+R5
+R6
+R7
+R54
+!i122 30
+l55
+L40 139
+V5cDkaeIY`Pi5MmJ:>@>aM3
+!s100 5518:nc]ko?W]?7TC2IkN3
+R10
+31
+R37
+!i10b 1
+R12
+R81
+R82
+!i113 0
+R15
+R16
+Edlxfetch
+R65
+R5
+R6
+R7
+!i122 28
+R1
+Z85 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxFetch.vhd
+Z86 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxFetch.vhd
+l0
+L5 1
+Vf^GLLjzK7DRNngzaK_dla1
+!s100 W_zz_YaoLi_:Pdek6IQkO2
+R10
+31
+R11
+!i10b 1
+R12
+Z87 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxFetch.vhd|
+Z88 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxFetch.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R19
+Z89 DEx4 work 17 instructionmemory 0 22 JoOAI<EzVh6:Pf^GLI5TT1
+R77
+Z90 DEx4 work 11 incrementer 0 22 RkeG^>l]jD0bXb_`2Ylh_1
+Z91 DEx4 work 14 programcounter 0 22 1MaS<]LoHo@YKe;SO29YJ1
+R5
+R6
+R7
+R56
+!i122 28
+l28
+L22 56
+VK@hSL11cQL[Cm@E<gLL5k3
+!s100 LVaDgk[zO]`1PEFCFdheT1
+R10
+31
+R11
+!i10b 1
+R12
+R87
+R88
+!i113 0
+R15
+R16
+Edlxmemory
+R65
+R4
+R5
+R6
+R7
+!i122 27
+R1
+Z92 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxMemory.vhd
+Z93 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxMemory.vhd
+l0
+L6 1
+V:VgelCX=TM8X8oLKYedJP3
+!s100 o:SDgBME5C]bzALI2P>fQ0
+R10
+31
+R11
+!i10b 1
+R12
+Z94 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxMemory.vhd|
+Z95 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxMemory.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R19
+R27
+R4
+R5
+R6
+R7
+R53
+!i122 27
+l36
+L32 50
+VGd:8hbMjdOH4nXBk?6[`@0
+!s100 c_o4T_gmnYNJS;?HQ<8@z1
+R10
+31
+R11
+!i10b 1
+R12
+R94
+R95
+!i113 0
+R15
+R16
+Edlxwriteback
+R65
+R4
+R5
+R6
+R7
+!i122 26
+R1
+Z96 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxWriteBack.vhd
+Z97 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxWriteBack.vhd
+l0
+L6 1
+VIBGk2e`HGV[;i=:heGzD[0
+!s100 Xo7j::_W]_:7O:J6P4Q200
+R10
+31
+R11
+!i10b 1
+R12
+Z98 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxWriteBack.vhd|
+Z99 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/DlxWriteBack.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z100 DEx4 work 8 threemux 0 22 D7zmX:jgDYM9CL[iQk?_Q1
+R4
+R5
+R6
+R7
+R52
+!i122 26
+l31
+L27 55
+V0m@VZoCjGI;zPmfE<P0`C0
+!s100 cL2LNZS4_LB4zhU:6D?nk1
+R10
+31
+R11
+!i10b 1
+R12
+R98
+R99
+!i113 0
+R15
+R16
+Efactorial_tb
+Z101 w1774214344
+R5
+R6
+R7
+!i122 34
+R1
+Z102 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Factorial_TB.vhd
+Z103 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Factorial_TB.vhd
+l0
+L5 1
+VDPC5KO3<MgJ=fB2IoTaDc0
+!s100 2gjaJJ`6:TXcW1eZGDm4_3
+R10
+31
+R37
+!i10b 1
+R38
+Z104 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Factorial_TB.vhd|
+Z105 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/Factorial_TB.vhd|
+!i113 0
+R15
+R16
+Asim
+R4
+R57
+R5
+R6
+R7
+DEx4 work 12 factorial_tb 0 22 DPC5KO3<MgJ=fB2IoTaDc0
+!i122 34
+l39
+L8 55
+VaY:?fdIQhJ37Ul5ao^ZDn1
+!s100 bL4MoC6kekl`^SfRfBJUY3
+R10
+31
+R37
+!i10b 1
+R38
+R104
+R105
+!i113 0
+R15
+R16
+Eflushcontroller
+R65
+R4
+R5
+R6
+R7
+!i122 25
+R1
+Z106 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FlushController.vhd
+Z107 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FlushController.vhd
+l0
+L6 1
+VGfOj_L6[g>5`ihGWk^cLH3
+!s100 9=Vh?kTXWQK_c>GAcK9VP1
+R10
+31
+R11
+!i10b 1
+R12
+Z108 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FlushController.vhd|
+Z109 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/FlushController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R49
+!i122 25
+l14
+L13 4
+V@0Xa0:B[Kn=<Bb2mceY0j2
+!s100 mnIA4R<KE`^8Hi^QR`n421
+R10
+31
+R11
+!i10b 1
+R12
+R108
+R109
+!i113 0
+R15
+R16
+Eforwardcontroller
+R65
+R4
+R5
+R6
+R7
+!i122 24
+R1
+Z110 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ForwardController.vhd
+Z111 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ForwardController.vhd
+l0
+L6 1
+V<Eg:W=`77]k_=1g878bOB0
+!s100 DA@Cn2klKaDdd^_eW@F6T1
+R10
+31
+R11
+!i10b 1
+R12
+Z112 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ForwardController.vhd|
+Z113 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ForwardController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R51
+!i122 24
+l26
+L16 51
+VfENCmkmLP^SRFe1:fA:750
+!s100 e:k=`W<[MUWgJEf0D:K7o3
+R10
+31
+R11
+!i10b 1
+R12
+R112
+R113
+!i113 0
+R15
+R16
+Efourmux
+R65
+R5
+R6
+R7
+!i122 8
+R1
+Z114 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FourMux.vhd
+Z115 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FourMux.vhd
+l0
+L5 1
+VL>n>J4HWjh7C?GWa94AFa3
+!s100 ES?QHj4NJjQBlc4?Lg^A`1
+R10
+31
+R61
+!i10b 1
+R62
+Z116 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/FourMux.vhd|
+Z117 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/FourMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R84
+!i122 8
+l20
+L19 18
+VbPko;zcKoO<]^4ge;KLhg0
+!s100 E:zj4aY9LR>JCHZ>Y?><93
+R10
+31
+R61
+!i10b 1
+R62
+R116
+R117
+!i113 0
+R15
+R16
+Eincrementer
+R65
+R5
+R6
+R7
+!i122 7
+R1
+Z118 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Incrementer.vhd
+Z119 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Incrementer.vhd
+l0
+L5 1
+VRkeG^>l]jD0bXb_`2Ylh_1
+!s100 9UecifA]X_Y7>SJ0JW1o_2
+R10
+31
+R61
+!i10b 1
+R62
+Z120 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Incrementer.vhd|
+Z121 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/Incrementer.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R90
+!i122 7
+l16
+L15 4
+V?H5Hj:lF1A@Kb5YmkS0c61
+!s100 K^P4>ENeH;OjckWMk^03L3
+R10
+31
+R61
+!i10b 1
+R62
+R120
+R121
+!i113 0
+R15
+R16
+Einstructionmemory
+Z122 w1774150796
+R19
+R6
+R7
+!i122 17
+R1
+Z123 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/InstructionMemory.vhd
+Z124 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/InstructionMemory.vhd
+l0
+R22
+VJoOAI<EzVh6:Pf^GLI5TT1
+!s100 ^doA6Z=7^NMVoPfkeLdkZ0
+R10
+31
+R23
+!i10b 1
+R24
+Z125 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/InstructionMemory.vhd|
+Z126 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/InstructionMemory.vhd|
+!i113 0
+R15
+R16
+Asyn
+R19
+R6
+R7
+R89
+!i122 17
+l58
+L54 33
+Vcjo;G<W[jKcUaUK[Bm=6;1
+!s100 9nYENTgfj15PYl^dLH8f?3
+R10
+31
+R23
+!i10b 1
+R24
+R125
+R126
+!i113 0
+R15
+R16
+Emultiplier
+Z127 w1774141530
+R6
+R7
+!i122 16
+R1
+Z128 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Multiplier.vhd
+Z129 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Multiplier.vhd
+l0
+R22
+VOGGmUUz8LZ`z2EcFz>9K62
+!s100 ;A6d=A>;nz3gY2k^06=iY2
+R10
+31
+R23
+!i10b 1
+R24
+Z130 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Multiplier.vhd|
+Z131 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/Multiplier.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+Z132 DEx4 work 10 multiplier 0 22 OGGmUUz8LZ`z2EcFz>9K62
+!i122 16
+l81
+L54 53
+VA6AhAZ_NcF?<NG36h^Q@b3
+!s100 EHm7AioZ@G3:BLVgLf>a_1
+R10
+31
+R23
+!i10b 1
+R24
+R130
+R131
+!i113 0
+R15
+R16
+Eprintfifo
+Z133 w1774056489
+R6
+R7
+!i122 10
+R1
+Z134 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintFIFO.vhd
+Z135 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintFIFO.vhd
+l0
+R22
+VX6IT>n:gkFjI[DMgNQ;?i2
+!s100 ogR244c:7N3_eeUgWR<BF0
+R10
+31
+R61
+!i10b 1
+R62
+Z136 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintFIFO.vhd|
+Z137 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintFIFO.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R48
+!i122 10
+l96
+Z138 L59 73
+VCzcA2fF^=I@j7<cF>bR@X0
+!s100 ]EVDjzTO;]ZKVASVL3B8i0
+R10
+31
+R61
+!i10b 1
+R62
+R136
+R137
+!i113 0
+R15
+R16
+Eprinthandler
+R65
+R4
+R5
+R6
+R7
+!i122 23
+R1
+Z139 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintHandler.vhd
+Z140 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintHandler.vhd
+l0
+L6 1
+V62RKMSgOf4ZX>M2?0n@nH2
+!s100 @IXoVQSN<a?iKaFJ<m?SV1
+R10
+31
+R11
+!i10b 1
+R12
+Z141 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintHandler.vhd|
+Z142 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/PrintHandler.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R19
+Z143 DEx4 work 5 stack 0 22 ?io_mI4RJf]Q:JZVKz1BQ2
+R33
+R4
+R5
+R6
+R7
+R47
+!i122 23
+l39
+L21 209
+V`^f;fD2LKJo>AKiVBJAa=3
+!s100 ]6N:m:fGP8PeUE5hAzWQF0
+R10
+31
+R11
+!i10b 1
+R12
+R141
+R142
+!i113 0
+R15
+R16
+Eprogramcounter
+R65
+R5
+R6
+R7
+!i122 6
+R1
+Z144 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ProgramCounter.vhd
+Z145 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ProgramCounter.vhd
+l0
+L5 1
+V1MaS<]LoHo@YKe;SO29YJ1
+!s100 eIDZijl@Tbd:hDThfdWd<2
+R10
+31
+R61
+!i10b 1
+R62
+Z146 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ProgramCounter.vhd|
+Z147 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ProgramCounter.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+R91
+!i122 6
+l19
+L17 12
+V6Ed?>`oceLf?n<G1fNN:b0
+!s100 ikZM4KX3;XS?bkEHU8=RR3
+R10
+31
+R61
+!i10b 1
+R62
+R146
+R147
+!i113 0
+R15
+R16
+Eregisterfile
+R65
+R5
+R6
+R7
+!i122 5
+R1
+Z148 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/RegisterFile.vhd
+Z149 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/RegisterFile.vhd
+l0
+L5 1
+V[DeibBzA5E07aLje3Y4A13
+!s100 o8@C3fi4]K>f=ZMUhkPl01
+R10
+31
+R61
+!i10b 1
+R62
+Z150 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/RegisterFile.vhd|
+Z151 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/RegisterFile.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+R76
+!i122 5
+l26
+L23 29
+VE9B4kEB]8gHo?k2@z^?`71
+!s100 h1S:Ybg9ZmR[2V<DbA9Wa2
+R10
+31
+R61
+!i10b 1
+R62
+R150
+R151
+!i113 0
+R15
+R16
+Escanfifo
+Z152 w1774058075
+R6
+R7
+!i122 15
+R1
+Z153 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanFIFO.vhd
+Z154 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanFIFO.vhd
+l0
+R22
+V>Xi50M_C8ek_=GkVhHeB53
+!s100 i;BdOK5==160[470[Jj7Z2
+R10
+31
+R23
+!i10b 1
+R24
+Z155 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanFIFO.vhd|
+Z156 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanFIFO.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R41
+!i122 15
+l96
+R138
+VFGF9cLmM^@:O;GI6M9KDn0
+!s100 Dk[K5QWDbaEEAJ[lA:TR[2
+R10
+31
+R23
+!i10b 1
+R24
+R155
+R156
+!i113 0
+R15
+R16
+Escanhandler
+Z157 w1774145175
+R4
+R5
+R6
+R7
+!i122 19
+R1
+Z158 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanHandler.vhd
+Z159 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanHandler.vhd
+l0
+L6 1
+VZ_fJBhB95=UCU1Iz<d^KI2
+!s100 [z1RnED0@kU[@KTWoDHbC1
+R10
+31
+R23
+!i10b 1
+R24
+Z160 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanHandler.vhd|
+Z161 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ScanHandler.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R132
+R4
+R5
+R6
+R7
+R42
+!i122 19
+l39
+L21 158
+V4;]8IK8]BQ@P;8kbjW@kE2
+!s100 TNZOS8;K@eAYQi;aD=dX?2
+R10
+31
+R23
+!i10b 1
+R24
+R160
+R161
+!i113 0
+R15
+R16
+Eshouldbranch
+R65
+R4
+R5
+R6
+R7
+!i122 22
+R1
+Z162 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ShouldBranch.vhd
+Z163 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ShouldBranch.vhd
+l0
+L6 1
+Vl5UPTl<FREbh9i3bI6FcL1
+!s100 ai`eK1Jgd=NzJCgGAcaB00
+R10
+31
+R11
+!i10b 1
+R12
+Z164 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ShouldBranch.vhd|
+Z165 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ShouldBranch.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R83
+!i122 22
+l18
+L17 27
+VPGkW0?3oD6=`NoJJ1bYH43
+!s100 zcf>kejM2PiZd0d<3A[Lh1
+R10
+31
+R11
+!i10b 1
+R12
+R164
+R165
+!i113 0
+R15
+R16
+Esignextender
+R65
+R4
+R5
+R6
+R7
+!i122 21
+R1
+Z166 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/SignExtender.vhd
+Z167 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/SignExtender.vhd
+l0
+L6 1
+V^@LGe<ejQn;]N8BV9Q]ek1
+!s100 ^nf_Ii0=0GARCL56;YX[H3
+R10
+31
+R11
+!i10b 1
+R24
+Z168 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/SignExtender.vhd|
+Z169 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/SignExtender.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R75
+!i122 21
+l19
+L18 16
+Vd3MDg@N2;^kZ>2zoaIO<03
+!s100 JfDeZB3oPS9gz5X35PkQ71
+R10
+31
+R11
+!i10b 1
+R24
+R168
+R169
+!i113 0
+R15
+R16
+Estack
+Z170 w1774056840
+R19
+R6
+R7
+!i122 14
+R1
+Z171 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Stack.vhd
+Z172 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Stack.vhd
+l0
+R22
+V?io_mI4RJf]Q:JZVKz1BQ2
+!s100 Z99MJWEM;KS<[FG]6k44i3
+R10
+31
+R23
+!i10b 1
+R24
+Z173 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/Stack.vhd|
+Z174 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/Stack.vhd|
+!i113 0
+R15
+R16
+Asyn
+R19
+R6
+R7
+R143
+!i122 14
+l60
+L56 36
+VGjcGbQKf0FAUQ;1>_4:4e2
+!s100 _WmRNOk3Vfda3A9F^23kR0
+R10
+31
+R23
+!i10b 1
+R24
+R173
+R174
+!i113 0
+R15
+R16
+Estallcontroller
+Z175 w1774149469
+R4
+R5
+R6
+R7
+!i122 20
+R1
+Z176 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/StallController.vhd
+Z177 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/StallController.vhd
+l0
+L6 1
+VbkFRWKg63iHRaDFcG]7EJ0
+!s100 BD]hA_>h<h_MVnVGB;Q452
+R10
+31
+R23
+!i10b 1
+R24
+Z178 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/StallController.vhd|
+Z179 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/StallController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R50
+!i122 20
+l26
+L16 41
+VkCBlE;6I]K`HCXYbjM:7J0
+!s100 :;J`eo`LJ0fM6nM]6E4M=0
+R10
+31
+R23
+!i10b 1
+R24
+R178
+R179
+!i113 0
+R15
+R16
+Ethreemux
+R65
+R5
+R6
+R7
+!i122 4
+R1
+Z180 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ThreeMux.vhd
+Z181 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ThreeMux.vhd
+l0
+L5 1
+VD7zmX:jgDYM9CL[iQk?_Q1
+!s100 hQ;amKXG_VZcAe6N`hk1Q1
+R10
+31
+R61
+!i10b 1
+R62
+Z182 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/ThreeMux.vhd|
+Z183 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/ThreeMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R100
+!i122 4
+l19
+L18 18
+VJhLDDnHKGJJfVb^[i<GbP0
+!s100 l7Ba[n:ch]JfeK9ZENQgQ1
+R10
+31
+R61
+!i10b 1
+R62
+R182
+R183
+!i113 0
+R15
+R16
+Etwomux
+R65
+R5
+R6
+R7
+!i122 3
+R1
+Z184 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/TwoMux.vhd
+Z185 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/TwoMux.vhd
+l0
+L5 1
+V7SOaNY74aY>=YL3c=5dUa3
+!s100 Y]MiWnhDdSD8ZR@jccUfT2
+R10
+31
+Z186 !s110 1774214591
+!i10b 1
+Z187 !s108 1774214591.000000
+Z188 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/TwoMux.vhd|
+Z189 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/TwoMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R77
+!i122 3
+l18
+L17 4
+VEaXe<AZ2FGPNzV`l8J?C21
+!s100 kCkMMcDceCJA<jh^HmmUm0
+R10
+31
+R186
+!i10b 1
+R187
+R188
+R189
+!i113 0
+R15
+R16
+Euart_rx
+Z190 w1774057083
+R5
+R6
+R7
+!i122 2
+R1
+Z191 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_RX.vhd
+Z192 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_RX.vhd
+l0
+L5 1
+VJHKcmDTK;T3cAYC6PW[OK2
+!s100 g4C>YE[klLfzW9KLj??;K3
+R10
+31
+R186
+!i10b 1
+R187
+Z193 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_RX.vhd|
+Z194 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_RX.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R43
+!i122 2
+l24
+L17 74
+VOmj;5fM_WP8i=LI37a?Tl2
+!s100 JWafl@K;lRAjU1alM[@k`0
+R10
+31
+R186
+!i10b 1
+R187
+R193
+R194
+!i113 0
+R15
+R16
+Euart_tx
+R65
+R5
+R6
+R7
+!i122 1
+R1
+Z195 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_TX.vhd
+Z196 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_TX.vhd
+l0
+L5 1
+VinV14mmzXlk;S:FO:dF@73
+!s100 IVoRczGL@]DR;6IO:i@MV3
+R10
+31
+R186
+!i10b 1
+R187
+Z197 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_TX.vhd|
+Z198 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/UART_TX.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R44
+!i122 1
+l22
+L17 61
+VmTA71L>>T:R`DnWFZTcY31
+!s100 iZihBN]U:F048B<ZYEi852
+R10
+31
+R186
+!i10b 1
+R187
+R197
+R198
+!i113 0
+R15
+R16
+Euartfifo
+Z199 w1774056529
+R6
+R7
+!i122 11
+R1
+Z200 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartFIFO.vhd
+Z201 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartFIFO.vhd
+l0
+R22
+VEF1AWEfA3^Q<2jQ>Rdf863
+!s100 IaE=e@j:G?D7aN1A7G0`J2
+R10
+31
+R61
+!i10b 1
+R62
+Z202 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartFIFO.vhd|
+Z203 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartFIFO.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R45
+!i122 11
+l96
+R138
+VXLWZR1aQaJacWX:5oYY=70
+!s100 Kj[<S9HbYFUBgzdjZ?[JB1
+R10
+31
+R61
+!i10b 1
+R62
+R202
+R203
+!i113 0
+R15
+R16
+Euartpll
+Z204 w1774056692
+R6
+R7
+!i122 12
+R1
+Z205 8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartPll.vhd
+Z206 F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartPll.vhd
+l0
+R22
+V@k39Pff>d?V2df:VeB:jP3
+!s100 kQnO6mGMoi?Qda6oU=F@k2
+R10
+31
+R23
+!i10b 1
+R62
+Z207 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartPll.vhd|
+Z208 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/UartPll.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R46
+!i122 12
+l138
+L55 166
+V_WZ`VND[f>S6ed^OAK[`k2
+!s100 aY3d1mNj@11^bE_O<VQoh2
+R10
+31
+R23
+!i10b 1
+R62
+R207
+R208
+!i113 0
+R15
+R16
+vUartPll_altpll
+2/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db/UartPll_altpll.v
+R186
+!i10b 1
+!s100 HUoLFhCVkz7QgSQ?0<kL33
+IcT0<m36d>LkmPhHEBdIB_2
+R1
+w1774058511
+8/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db/UartPll_altpll.v
+F/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db/UartPll_altpll.v
+!i122 0
+L0 31 83
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.3;79
+r1
+!s85 0
+31
+R187
+!s107 /home/ash/USU/Spring2026/ECE6740/Projects/Scan/db/UartPll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db|/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db/UartPll_altpll.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Scan/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@uart@pll_altpll

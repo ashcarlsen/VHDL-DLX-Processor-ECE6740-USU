@@ -1,0 +1,399 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ash/USU/Spring2026/ECE6740/Projects/Testing/simulation/questa
+T_opt
+Z2 !s110 1767994672
+VLPXdc4ibY;HK3ee360^833
+04 11 3 work uart_top_tb sim 1
+=1-000ae431a4f1-69617530-7c8e8-237f7
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U7 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+Eascii_converter
+Z4 w1767993992
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R1
+Z8 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd
+Z9 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd
+l0
+L5 1
+V8`e;5[YC8R<kamgQdeeB:1
+!s100 e^hSkGRXU8AoGDnQUb@>L3
+Z10 OL;C;2024.3;79
+31
+R2
+!i10b 1
+Z11 !s108 1767994672.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd|
+Z13 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavior
+Z16 DEx4 work 4 fifo 0 22 Kb=k]Aa44kd6;J6h5DM>W0
+R5
+R6
+R7
+Z17 DEx4 work 15 ascii_converter 0 22 8`e;5[YC8R<kamgQdeeB:1
+!i122 5
+l21
+L19 27
+V98[KTgb<7V>79KE2<DF:Z2
+!s100 M=CoGF;W1U_fC[dTG5_bR3
+R10
+31
+R2
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Efifo
+Z18 w1767994335
+R6
+R7
+!i122 4
+R1
+Z19 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd
+Z20 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd
+l0
+Z21 L43 1
+VKb=k]Aa44kd6;J6h5DM>W0
+!s100 KZ`@;bbeh4of>?kEO40kQ3
+R10
+31
+R2
+!i10b 1
+R11
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd|
+Z23 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd|
+!i113 0
+R14
+R15
+Asyn
+R6
+R7
+R16
+!i122 4
+l96
+L59 73
+Vhh:lNR3FN<Y8Z@6Ga^Ac83
+!s100 TKNNUL@RCQmSTJ?2R9amj3
+R10
+31
+R2
+!i10b 1
+R11
+R22
+R23
+!i113 0
+R14
+R15
+Epll
+Z24 w1767994289
+R6
+R7
+!i122 3
+R1
+Z25 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd
+Z26 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd
+l0
+R21
+V7WoG`eSOm@RP;fAM73Ef@0
+!s100 f`S:2E8_EOD65dh`hEUJN2
+R10
+31
+R2
+!i10b 1
+R11
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd|
+Z28 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd|
+!i113 0
+R14
+R15
+Asyn
+R6
+R7
+Z29 DEx4 work 3 pll 0 22 7WoG`eSOm@RP;fAM73Ef@0
+!i122 3
+l138
+L55 166
+V4CNTd2RFQ[?CadJ2_f0YY3
+!s100 AfWfl7W_KW:lz:KXU[kY>1
+R10
+31
+R2
+!i10b 1
+R11
+R27
+R28
+!i113 0
+R14
+R15
+vpll_altpll
+2/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v
+Z30 !s110 1767994671
+!i10b 1
+!s100 E^1V:5oeQLYn3klLnASiM3
+IQ1bl==b[PdaZfIfWH4AE92
+R1
+w1767994366
+8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v
+F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v
+!i122 0
+L0 31 83
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.3;79
+r1
+!s85 0
+31
+Z31 !s108 1767994671.000000
+!s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Euart
+R4
+R5
+R6
+R7
+!i122 6
+R1
+Z32 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd
+Z33 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd
+l0
+L5 1
+V6nLdO2OEcc4C7jNL`WRZR1
+!s100 AS7e<fL?38c?8W6[PKdz51
+R10
+31
+R2
+!i10b 1
+R11
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd|
+Z35 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd|
+!i113 0
+R14
+R15
+Abehavior
+Z36 DEx4 work 7 uart_tx 0 22 inV14mmzXlk;S:FO:dF@73
+Z37 DEx4 work 7 uart_rx 0 22 JHKcmDTK;T3cAYC6PW[OK2
+R17
+R29
+R5
+R6
+R7
+Z38 DEx4 work 4 uart 0 22 6nLdO2OEcc4C7jNL`WRZR1
+!i122 6
+l27
+L14 61
+VY1G6[DJn3kc63G96G8iJ^1
+!s100 @7U?dl1N<PH?zS@a4YEEo1
+R10
+31
+R2
+!i10b 1
+R11
+R34
+R35
+!i113 0
+R14
+R15
+Euart_rx
+R4
+R5
+R6
+R7
+!i122 2
+R1
+Z39 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd
+Z40 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd
+l0
+L5 1
+VJHKcmDTK;T3cAYC6PW[OK2
+!s100 g4C>YE[klLfzW9KLj??;K3
+R10
+31
+R2
+!i10b 1
+R31
+Z41 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd|
+Z42 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+R7
+R37
+!i122 2
+l24
+L17 75
+VSTb[RAl>g1HAmG8bG2Eam3
+!s100 5Fg2`D59mg7n5hhzoPOLW1
+R10
+31
+R2
+!i10b 1
+R31
+R41
+R42
+!i113 0
+R14
+R15
+Euart_top
+Z43 w1767994499
+R5
+R6
+R7
+!i122 7
+R1
+Z44 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd
+Z45 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd
+l0
+L5 1
+VWFK>R_VeZQ24;Z;;O<e0C2
+!s100 c^[0XS[FDVD?M6WmVm59_3
+R10
+31
+R2
+!i10b 1
+R11
+Z46 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd|
+Z47 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R38
+R5
+R6
+R7
+DEx4 work 8 uart_top 0 22 WFK>R_VeZQ24;Z;;O<e0C2
+!i122 7
+l17
+L15 13
+VJ@e[2hoc@_OgF5QjlVe5V0
+!s100 YA6RE5C96bXjEQl>^:9fG3
+R10
+31
+R2
+!i10b 1
+R11
+R46
+R47
+!i113 0
+R14
+R15
+Euart_top_tb
+R4
+R5
+R6
+R7
+!i122 8
+R1
+Z48 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd
+Z49 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd
+l0
+L5 1
+VX[_8<cj<m?GEJ6gL:zng13
+!s100 OG@<]bz90MLe@0oBh1YlL3
+R10
+31
+R2
+!i10b 1
+R11
+Z50 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd|
+Z51 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd|
+!i113 0
+R14
+R15
+Asim
+R38
+R5
+R6
+R7
+DEx4 work 11 uart_top_tb 0 22 X[_8<cj<m?GEJ6gL:zng13
+!i122 8
+l40
+L8 63
+VCl4=Hk9H@e_nh@H2ThlzF0
+!s100 nBiI3NzXkT`X;Ujj6iD@31
+R10
+31
+R2
+!i10b 1
+R11
+R50
+R51
+!i113 0
+R14
+R15
+Euart_tx
+R4
+R5
+R6
+R7
+!i122 1
+R1
+Z52 8/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd
+Z53 F/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd
+l0
+L5 1
+VinV14mmzXlk;S:FO:dF@73
+!s100 IVoRczGL@]DR;6IO:i@MV3
+R10
+31
+R30
+!i10b 1
+R31
+Z54 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd|
+Z55 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+R7
+R36
+!i122 1
+l22
+L17 59
+VO8eYUY8_To5P7dgLkF=892
+!s100 Aze=kE:0hRld0bgo=g<4Y0
+R10
+31
+R30
+!i10b 1
+R31
+R54
+R55
+!i113 0
+R14
+R15

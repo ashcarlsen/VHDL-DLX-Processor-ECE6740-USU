@@ -1,0 +1,568 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do DLX_TOP_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying /home/ash/intelFPGA_Lite/questa_fse/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db" /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v 
+# -- Compiling module UartPll_altpll
+# 
+# Top level modules:
+# 	UartPll_altpll
+# End time: 17:48:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:12 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART_TX
+# -- Compiling architecture behavior of UART_TX
+# End time: 17:48:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:12 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TwoMux
+# -- Compiling architecture behavior of TwoMux
+# End time: 17:48:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:12 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ThreeMux
+# -- Compiling architecture behavior of ThreeMux
+# End time: 17:48:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:12 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegisterFile
+# -- Compiling architecture rtl of RegisterFile
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture rtl of ProgramCounter
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Incrementer
+# -- Compiling architecture behavior of Incrementer
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FourMux
+# -- Compiling architecture behavior of FourMux
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package dlx_constants
+# -- Compiling package body dlx_constants
+# -- Loading package dlx_constants
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PrintFIFO
+# -- Compiling architecture SYN of printfifo
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity UART_FIFO
+# -- Compiling architecture SYN of uart_fifo
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity UartPll
+# -- Compiling architecture SYN of uartpll
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity InstructionMemory
+# -- Compiling architecture SYN of instructionmemory
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity DataMemory
+# -- Compiling architecture SYN of datamemory
+# End time: 17:48:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:13 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity PrintHandler
+# -- Compiling architecture behavior of PrintHandler
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity StallController
+# -- Compiling architecture behavior of StallController
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity SignExtender
+# -- Compiling architecture behavior of SignExtender
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity ShouldBranch
+# -- Compiling architecture behavior of ShouldBranch
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity ForwardController
+# -- Compiling architecture behavior of ForwardController
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity FlushController
+# -- Compiling architecture behavior of FlushController
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxWriteBack
+# -- Compiling architecture behavior of DlxWriteBack
+# -- Loading entity ThreeMux
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxMemory
+# -- Compiling architecture behavior of DlxMemory
+# -- Loading package altera_mf_components
+# -- Loading entity DataMemory
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DlxFetch
+# -- Compiling architecture behavior of DlxFetch
+# -- Loading entity ProgramCounter
+# -- Loading entity Incrementer
+# -- Loading entity TwoMux
+# -- Loading package altera_mf_components
+# -- Loading entity InstructionMemory
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:14 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity ALU
+# -- Compiling architecture behavior of ALU
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(65): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(71): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(77): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(83): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(89): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(95): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(101): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(107): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(113): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(119): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(125): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(131): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(137): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(143): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(149): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(155): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(161): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(167): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(173): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd(179): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 17:48:14 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:15 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxExecute
+# -- Compiling architecture behavior of DlxExecute
+# -- Loading entity TwoMux
+# -- Loading entity FourMux
+# -- Loading entity ShouldBranch
+# -- Loading entity ALU
+# End time: 17:48:15 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:15 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxDecode
+# -- Compiling architecture behavior of DlxDecode
+# -- Loading entity TwoMux
+# -- Loading entity RegisterFile
+# -- Loading entity SignExtender
+# End time: 17:48:15 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:15 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DLX
+# -- Compiling architecture behavior of DLX
+# -- Loading entity DlxFetch
+# -- Loading entity DlxDecode
+# -- Loading entity DlxExecute
+# -- Loading entity DlxMemory
+# -- Loading entity DlxWriteBack
+# -- Loading entity ForwardController
+# -- Loading entity StallController
+# -- Loading entity FlushController
+# -- Loading entity PrintFIFO
+# -- Loading entity PrintHandler
+# -- Loading entity UartPll
+# -- Loading entity UART_FIFO
+# -- Loading entity UART_TX
+# End time: 17:48:15 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:15 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DLX_TOP
+# -- Compiling architecture behavior of DLX_TOP
+# -- Loading package dlx_constants
+# -- Loading entity DLX
+# End time: 17:48:15 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 17:48:15 on Mar 06,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Factorial_TB
+# -- Compiling architecture sim of Factorial_TB
+# -- Loading package dlx_constants
+# -- Loading entity DLX
+# End time: 17:48:15 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Factorial_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Factorial_TB 
+# Start time: 17:48:15 on Mar 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "UART_TX(behavior)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "PrintHandler(behavior)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dlx_constants(body)
+# Loading work.factorial_tb(sim)#1
+# Loading work.dlx(behavior)#1
+# Loading altera_mf.altera_mf_components
+# Loading work.dlxfetch(behavior)#1
+# Loading work.programcounter(rtl)#1
+# Loading work.incrementer(behavior)#1
+# Loading work.twomux(behavior)#1
+# Loading work.instructionmemory(syn)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+# Loading work.dlxdecode(behavior)#1
+# Loading work.twomux(behavior)#2
+# Loading work.registerfile(rtl)#1
+# Loading work.signextender(behavior)#1
+# Loading work.dlxexecute(behavior)#1
+# Loading work.fourmux(behavior)#1
+# Loading work.shouldbranch(behavior)#1
+# Loading work.alu(behavior)#1
+# Loading work.dlxmemory(behavior)#1
+# Loading work.datamemory(syn)#1
+# Loading altera_mf.altsyncram(translated)#2
+# Loading work.dlxwriteback(behavior)#1
+# Loading work.threemux(behavior)#1
+# Loading work.forwardcontroller(behavior)#1
+# Loading work.stallcontroller(behavior)#1
+# Loading work.flushcontroller(behavior)#1
+# Loading work.printfifo(syn)#1
+# Loading altera_mf.altera_mf_hint_evaluation(body)
+# Loading altera_mf.dcfifo(behavior)#1
+# Loading altera_mf.dcfifo_mixed_widths(behavior)#1
+# Loading altera_mf.dcfifo_async(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#2
+# Loading altera_mf.dcfifo_dffpipe(behavior)#3
+# Loading altera_mf.dcfifo_fefifo(behavior)#1
+# Loading altera_mf.dcfifo_fefifo(behavior)#2
+# Loading altera_mf.dcfifo_sync(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#4
+# Loading altera_mf.dcfifo_low_latency(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#5
+# Loading altera_mf.dcfifo_dffpipe(behavior)#6
+# Loading work.printhandler(behavior)#1
+# Loading work.uartpll(syn)#1
+# Loading altera_mf.mf_pllpack(body)
+# Loading altera_mf.altpll(behavior)#1
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)#1
+# Loading altera_mf.mf_cda_mn_cntr(behave)#1
+# Loading altera_mf.mf_cda_mn_cntr(behave)#2
+# Loading altera_mf.mf_cda_scale_cntr(behave)#1
+# Loading work.uart_fifo(syn)#1
+# Loading altera_mf.dcfifo(behavior)#2
+# Loading altera_mf.dcfifo_mixed_widths(behavior)#2
+# Loading altera_mf.dcfifo_async(behavior)#2
+# Loading altera_mf.dcfifo_sync(behavior)#2
+# Loading altera_mf.dcfifo_low_latency(behavior)#2
+# Loading work.uart_tx(behavior)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 ms
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Note: MAX 10 PLL locked to incoming clock
+#    Time: 90 ns  Iteration: 3  Instance: /factorial_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# 
+# stdin: <EOF>
+# End time: 17:49:47 on Mar 06,2026, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 25

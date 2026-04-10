@@ -1,0 +1,352 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/simulation/questa
+T_opt
+!s110 1769374080
+VazUib?d4kAk7WEQ2[eB001
+04 11 3 work example1_tb sim 1
+=1-000ae431a4f1-69768180-b79e1-24a4
+R1
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U6 
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.3;79
+R2
+T_opt1
+!s110 1769807964
+V^b>K0HD^X^5ERD3k[VOY21
+04 12 3 work factorial_tb sim 1
+=1-000ae431a4f1-697d205c-31c2-e5e
+R1
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+Edlxfetch
+Z10 w1769623311
+Z11 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R2
+Z14 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/DlxFetch.vhd
+Z15 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/DlxFetch.vhd
+l0
+L5 1
+VWiPcOS4P>FFnG0Uc2m27i1
+!s100 3hc2`N9;F@Z<^;GF]iN2A2
+Z16 OL;C;2024.3;79
+31
+Z17 !s110 1769807963
+!i10b 1
+Z18 !s108 1769807963.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/DlxFetch.vhd|
+Z20 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/DlxFetch.vhd|
+!i113 0
+Z21 o-93 -work work
+Z22 tExplicit 1 CvgOpt 0
+Abehavior
+Z23 DPx9 altera_mf 20 altera_mf_components 0 22 K2nP0Jo_3Z^LgLEDTAdJT1
+Z24 DEx4 work 12 factorialrom 0 22 ^`<4cVUbCYMFV?YQ7U?h52
+Z25 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
+Z26 DEx4 work 11 incrementer 0 22 RkeG^>l]jD0bXb_`2Ylh_1
+Z27 DEx4 work 14 programcounter 0 22 1MaS<]LoHo@YKe;SO29YJ1
+R11
+R12
+R13
+Z28 DEx4 work 8 dlxfetch 0 22 WiPcOS4P>FFnG0Uc2m27i1
+!i122 4
+l24
+L20 50
+VghmNh5TC;OizgKanX>>l:0
+!s100 NF]7neYTl_VX;JR:k``PA3
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Efactorial_tb
+Z29 w1769625820
+R11
+R12
+R13
+!i122 5
+R2
+Z30 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Factorial_TB.vhd
+Z31 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Factorial_TB.vhd
+l0
+L5 1
+VDPC5KO3<MgJ=fB2IoTaDc0
+!s100 2gjaJJ`6:TXcW1eZGDm4_3
+R16
+31
+R17
+!i10b 1
+R18
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Factorial_TB.vhd|
+Z33 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Factorial_TB.vhd|
+!i113 0
+R21
+R22
+Asim
+R28
+R11
+R12
+R13
+DEx4 work 12 factorial_tb 0 22 DPC5KO3<MgJ=fB2IoTaDc0
+!i122 5
+l43
+L8 68
+V85z0RI@I?jH:I>WLcAoBP0
+!s100 ;E^jzY^l<A]OLg6;lMZ7B3
+R16
+31
+R17
+!i10b 1
+R18
+R32
+R33
+!i113 0
+R21
+R22
+Efactorialrom
+Z34 w1769623300
+R23
+R12
+R13
+!i122 3
+R2
+Z35 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/FactorialROM.vhd
+Z36 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/FactorialROM.vhd
+l0
+L43 1
+V^`<4cVUbCYMFV?YQ7U?h52
+!s100 ?3z7;<>DZ54^bOHkg]7lT0
+R16
+31
+R17
+!i10b 1
+R18
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/FactorialROM.vhd|
+Z38 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/FactorialROM.vhd|
+!i113 0
+R21
+R22
+Asyn
+R23
+R12
+R13
+R24
+!i122 3
+l57
+L53 33
+V2z`fn_Xj3aHi:J>9FZ3`_2
+!s100 oI]K@9gMe@UDbJLVbHmUh0
+R16
+31
+R17
+!i10b 1
+R18
+R37
+R38
+!i113 0
+R21
+R22
+Eincrementer
+Z39 w1769286416
+R11
+R12
+R13
+!i122 2
+R2
+Z40 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Incrementer.vhd
+Z41 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Incrementer.vhd
+l0
+L5 1
+VRkeG^>l]jD0bXb_`2Ylh_1
+!s100 9UecifA]X_Y7>SJ0JW1o_2
+R16
+31
+R17
+!i10b 1
+R18
+Z42 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Incrementer.vhd|
+Z43 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/Incrementer.vhd|
+!i113 0
+R21
+R22
+Abehavior
+R11
+R12
+R13
+R26
+!i122 2
+l16
+L15 4
+V?H5Hj:lF1A@Kb5YmkS0c61
+!s100 K^P4>ENeH;OjckWMk^03L3
+R16
+31
+R17
+!i10b 1
+R18
+R42
+R43
+!i113 0
+R21
+R22
+Eprogramcounter
+Z44 w1769616050
+R11
+R12
+R13
+!i122 1
+R2
+Z45 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/ProgramCounter.vhd
+Z46 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/ProgramCounter.vhd
+l0
+L5 1
+V1MaS<]LoHo@YKe;SO29YJ1
+!s100 eIDZijl@Tbd:hDThfdWd<2
+R16
+31
+R17
+!i10b 1
+R18
+Z47 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/ProgramCounter.vhd|
+Z48 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/ProgramCounter.vhd|
+!i113 0
+R21
+R22
+Artl
+R11
+R12
+R13
+R27
+!i122 1
+l19
+L17 12
+V6Ed?>`oceLf?n<G1fNN:b0
+!s100 ikZM4KX3;XS?bkEHU8=RR3
+R16
+31
+R17
+!i10b 1
+R18
+R47
+R48
+!i113 0
+R21
+R22
+Etwomux
+Z49 w1769286152
+R11
+R12
+R13
+!i122 0
+R2
+Z50 8/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/TwoMux.vhd
+Z51 F/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/TwoMux.vhd
+l0
+L5 1
+V7SOaNY74aY>=YL3c=5dUa3
+!s100 Y]MiWnhDdSD8ZR@jccUfT2
+R16
+31
+R17
+!i10b 1
+R18
+Z52 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Fetch/TwoMux.vhd|
+Z53 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Fetch/TwoMux.vhd|
+!i113 0
+R21
+R22
+Abehavior
+R11
+R12
+R13
+R25
+!i122 0
+l18
+L17 4
+VEaXe<AZ2FGPNzV`l8J?C21
+!s100 kCkMMcDceCJA<jh^HmmUm0
+R16
+31
+R17
+!i10b 1
+R18
+R52
+R53
+!i113 0
+R21
+R22

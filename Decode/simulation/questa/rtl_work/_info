@@ -1,0 +1,517 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ash/USU/Spring2026/ECE6740/Projects/Decode/simulation/questa
+T_opt
+Z2 !s110 1770162376
+VmF3a]ilbP:A7b1<z0b<TG1
+04 12 3 work factorial_tb sim 1
+=1-000ae431a4f1-698288c8-33c1d-5d6e
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U10 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+Edlx
+Z3 w1770150757
+Z4 DPx4 work 13 dlx_constants 0 22 oHYlT[Vg::080@5fYIdOF1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+R1
+Z8 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DLX.vhd
+Z9 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DLX.vhd
+l0
+L6 1
+VoLT?gU@dDA6Ia4JkhhDjS3
+!s100 Nzd9[j^2Z;jjb;D45=XXL0
+Z10 OL;C;2024.3;79
+31
+R2
+!i10b 1
+Z11 !s108 1770162376.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DLX.vhd|
+Z13 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/DLX.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavior
+Z16 DEx4 work 9 dlxdecode 0 22 TXLz>d]YTR@m`i`OiWoZ73
+Z17 DEx4 work 8 dlxfetch 0 22 WiPcOS4P>FFnG0Uc2m27i1
+R4
+R5
+R6
+R7
+Z18 DEx4 work 3 dlx 0 22 oLT?gU@dDA6Ia4JkhhDjS3
+!i122 9
+l26
+L23 39
+VX<GUG1J8cF3H>[khYCoId2
+!s100 i4bTz7C[kbPXK9NzmCYKl3
+R10
+31
+R2
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Pdlx_constants
+R5
+R6
+R7
+!i122 4
+Z19 w1770150880
+R1
+Z20 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/dlx_constants.vhd
+Z21 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/dlx_constants.vhd
+l0
+L5 70
+VoHYlT[Vg::080@5fYIdOF1
+!s100 ?`SW^An0_o1aJEQS]OM:l0
+R10
+31
+b1
+Z22 !s110 1770162375
+!i10b 1
+Z23 !s108 1770162375.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/dlx_constants.vhd|
+Z25 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/dlx_constants.vhd|
+!i113 0
+R14
+R15
+Bbody
+R4
+R5
+R6
+R7
+!i122 4
+l0
+L77 20
+VT7IehLWj^H]W2bTD>1MHf3
+!s100 c;UQoT>C9VZ<DJXAYAU>:0
+R10
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R14
+R15
+Edlxdecode
+Z26 w1770151626
+R5
+R6
+R7
+!i122 8
+R1
+Z27 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxDecode.vhd
+Z28 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxDecode.vhd
+l0
+L5 1
+VTXLz>d]YTR@m`i`OiWoZ73
+!s100 h_Y5dN[[WXGVi>eF>^Ni`0
+R10
+31
+R2
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxDecode.vhd|
+Z30 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxDecode.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R4
+Z31 DEx4 work 12 signextender 0 22 ^@LGe<ejQn;]N8BV9Q]ek1
+Z32 DEx4 work 12 registerfile 0 22 [DeibBzA5E07aLje3Y4A13
+R5
+R6
+R7
+R16
+!i122 8
+l34
+L32 43
+V?O?^zA>XJORgc5z2O]lXl0
+!s100 Qg10[2E7`?Id?GbJjH;KH2
+R10
+31
+R2
+!i10b 1
+R23
+R29
+R30
+!i113 0
+R14
+R15
+Edlxfetch
+Z33 w1770150030
+R5
+R6
+R7
+!i122 7
+R1
+Z34 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxFetch.vhd
+Z35 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxFetch.vhd
+l0
+L5 1
+VWiPcOS4P>FFnG0Uc2m27i1
+!s100 3hc2`N9;F@Z<^;GF]iN2A2
+R10
+31
+R22
+!i10b 1
+R23
+Z36 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxFetch.vhd|
+Z37 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/DlxFetch.vhd|
+!i113 0
+R14
+R15
+Abehavior
+Z38 DPx9 altera_mf 20 altera_mf_components 0 22 K2nP0Jo_3Z^LgLEDTAdJT1
+Z39 DEx4 work 12 factorialrom 0 22 ^`<4cVUbCYMFV?YQ7U?h52
+Z40 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
+Z41 DEx4 work 11 incrementer 0 22 RkeG^>l]jD0bXb_`2Ylh_1
+Z42 DEx4 work 14 programcounter 0 22 1MaS<]LoHo@YKe;SO29YJ1
+R5
+R6
+R7
+R17
+!i122 7
+l24
+L20 50
+VghmNh5TC;OizgKanX>>l:0
+!s100 NF]7neYTl_VX;JR:k``PA3
+R10
+31
+R22
+!i10b 1
+R23
+R36
+R37
+!i113 0
+R14
+R15
+Efactorial_tb
+Z43 w1770162154
+R5
+R6
+R7
+!i122 10
+R1
+Z44 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Factorial_TB.vhd
+Z45 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Factorial_TB.vhd
+l0
+L5 1
+VDPC5KO3<MgJ=fB2IoTaDc0
+!s100 2gjaJJ`6:TXcW1eZGDm4_3
+R10
+31
+R2
+!i10b 1
+R11
+Z46 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Factorial_TB.vhd|
+Z47 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/Factorial_TB.vhd|
+!i113 0
+R14
+R15
+Asim
+R4
+R18
+R5
+R6
+R7
+DEx4 work 12 factorial_tb 0 22 DPC5KO3<MgJ=fB2IoTaDc0
+!i122 10
+l22
+L8 184
+V`=i7AeXNiKUo@XVi0CS9Z1
+!s100 K:l5F4cLm4QY=6B?EaTId0
+R10
+31
+R2
+!i10b 1
+R11
+R46
+R47
+!i113 0
+R14
+R15
+Efactorialrom
+Z48 w1770161127
+R38
+R6
+R7
+!i122 5
+R1
+Z49 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/FactorialROM.vhd
+Z50 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/FactorialROM.vhd
+l0
+L43 1
+V^`<4cVUbCYMFV?YQ7U?h52
+!s100 ?3z7;<>DZ54^bOHkg]7lT0
+R10
+31
+R22
+!i10b 1
+R23
+Z51 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/FactorialROM.vhd|
+Z52 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/FactorialROM.vhd|
+!i113 0
+R14
+R15
+Asyn
+R38
+R6
+R7
+R39
+!i122 5
+l57
+L53 33
+VBbfo=U1NH6n0e_BJToU1R0
+!s100 Oc32QMQS<iXA@[L9g[5n40
+R10
+31
+R22
+!i10b 1
+R23
+R51
+R52
+!i113 0
+R14
+R15
+Eincrementer
+Z53 w1770075521
+R5
+R6
+R7
+!i122 3
+R1
+Z54 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Incrementer.vhd
+Z55 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Incrementer.vhd
+l0
+L5 1
+VRkeG^>l]jD0bXb_`2Ylh_1
+!s100 9UecifA]X_Y7>SJ0JW1o_2
+R10
+31
+R22
+!i10b 1
+R23
+Z56 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/Incrementer.vhd|
+Z57 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/Incrementer.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+R7
+R41
+!i122 3
+l16
+L15 4
+V?H5Hj:lF1A@Kb5YmkS0c61
+!s100 K^P4>ENeH;OjckWMk^03L3
+R10
+31
+R22
+!i10b 1
+R23
+R56
+R57
+!i113 0
+R14
+R15
+Eprogramcounter
+R53
+R5
+R6
+R7
+!i122 2
+R1
+Z58 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/ProgramCounter.vhd
+Z59 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/ProgramCounter.vhd
+l0
+L5 1
+V1MaS<]LoHo@YKe;SO29YJ1
+!s100 eIDZijl@Tbd:hDThfdWd<2
+R10
+31
+R22
+!i10b 1
+R23
+Z60 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/ProgramCounter.vhd|
+Z61 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/ProgramCounter.vhd|
+!i113 0
+R14
+R15
+Artl
+R5
+R6
+R7
+R42
+!i122 2
+l19
+L17 12
+V6Ed?>`oceLf?n<G1fNN:b0
+!s100 ikZM4KX3;XS?bkEHU8=RR3
+R10
+31
+R22
+!i10b 1
+R23
+R60
+R61
+!i113 0
+R14
+R15
+Eregisterfile
+Z62 w1770162334
+R5
+R6
+R7
+!i122 1
+R1
+Z63 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/RegisterFile.vhd
+Z64 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/RegisterFile.vhd
+l0
+L5 1
+V[DeibBzA5E07aLje3Y4A13
+!s100 o8@C3fi4]K>f=ZMUhkPl01
+R10
+31
+R22
+!i10b 1
+R23
+Z65 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/RegisterFile.vhd|
+Z66 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/RegisterFile.vhd|
+!i113 0
+R14
+R15
+Artl
+R5
+R6
+R7
+R32
+!i122 1
+l26
+L23 29
+VE9B4kEB]8gHo?k2@z^?`71
+!s100 h1S:Ybg9ZmR[2V<DbA9Wa2
+R10
+31
+R22
+!i10b 1
+R23
+R65
+R66
+!i113 0
+R14
+R15
+Esignextender
+Z67 w1770150930
+R4
+R5
+R6
+R7
+!i122 6
+R1
+Z68 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/SignExtender.vhd
+Z69 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/SignExtender.vhd
+l0
+L6 1
+V^@LGe<ejQn;]N8BV9Q]ek1
+!s100 ^nf_Ii0=0GARCL56;YX[H3
+R10
+31
+R22
+!i10b 1
+R23
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/SignExtender.vhd|
+Z71 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/SignExtender.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R4
+R5
+R6
+R7
+R31
+!i122 6
+l19
+L18 16
+Vd3MDg@N2;^kZ>2zoaIO<03
+!s100 JfDeZB3oPS9gz5X35PkQ71
+R10
+31
+R22
+!i10b 1
+R23
+R70
+R71
+!i113 0
+R14
+R15
+Etwomux
+R53
+R5
+R6
+R7
+!i122 0
+R1
+Z72 8/home/ash/USU/Spring2026/ECE6740/Projects/Decode/TwoMux.vhd
+Z73 F/home/ash/USU/Spring2026/ECE6740/Projects/Decode/TwoMux.vhd
+l0
+L5 1
+V7SOaNY74aY>=YL3c=5dUa3
+!s100 Y]MiWnhDdSD8ZR@jccUfT2
+R10
+31
+R22
+!i10b 1
+R23
+Z74 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/Decode/TwoMux.vhd|
+Z75 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/Decode/TwoMux.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+R7
+R40
+!i122 0
+l18
+L17 4
+VEaXe<AZ2FGPNzV`l8J?C21
+!s100 kCkMMcDceCJA<jh^HmmUm0
+R10
+31
+R22
+!i10b 1
+R23
+R74
+R75
+!i113 0
+R14
+R15

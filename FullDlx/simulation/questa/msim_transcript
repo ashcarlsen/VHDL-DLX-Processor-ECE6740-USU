@@ -1,0 +1,357 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do DLX_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying /home/ash/intelFPGA_Lite/questa_fse/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ThreeMux.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ThreeMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ThreeMux
+# -- Compiling architecture behavior of ThreeMux
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/TwoMux.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/TwoMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TwoMux
+# -- Compiling architecture behavior of TwoMux
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/RegisterFile.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/RegisterFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegisterFile
+# -- Compiling architecture rtl of RegisterFile
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ProgramCounter.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ProgramCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture rtl of ProgramCounter
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Incrementer.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Incrementer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Incrementer
+# -- Compiling architecture behavior of Incrementer
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/dlx_constants.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/dlx_constants.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package dlx_constants
+# -- Compiling package body dlx_constants
+# -- Loading package dlx_constants
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/FactorialROM.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/FactorialROM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity FactorialROM
+# -- Compiling architecture SYN of factorialrom
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DataMemory.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DataMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity DataMemory
+# -- Compiling architecture SYN of datamemory
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxMemory.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxMemory
+# -- Compiling architecture behavior of DlxMemory
+# -- Loading package altera_mf_components
+# -- Loading entity DataMemory
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxWriteBack.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxWriteBack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxWriteBack
+# -- Compiling architecture behavior of DlxWriteBack
+# -- Loading entity ThreeMux
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/SignExtender.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/SignExtender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity SignExtender
+# -- Compiling architecture behavior of SignExtender
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ShouldBranch.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ShouldBranch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity ShouldBranch
+# -- Compiling architecture behavior of ShouldBranch
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxFetch.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxFetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DlxFetch
+# -- Compiling architecture behavior of DlxFetch
+# -- Loading entity ProgramCounter
+# -- Loading entity Incrementer
+# -- Loading entity TwoMux
+# -- Loading package altera_mf_components
+# -- Loading entity FactorialROM
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity ALU
+# -- Compiling architecture behavior of ALU
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(65): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(71): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(77): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(83): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(89): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(95): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(101): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(107): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(113): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(119): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(125): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(131): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(137): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(143): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(149): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(155): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(161): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(167): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(173): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd(179): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxExecute.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxExecute.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxExecute
+# -- Compiling architecture behavior of DlxExecute
+# -- Loading entity TwoMux
+# -- Loading entity ShouldBranch
+# -- Loading entity ALU
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxDecode.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:15 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxDecode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DlxDecode
+# -- Compiling architecture behavior of DlxDecode
+# -- Loading entity RegisterFile
+# -- Loading entity SignExtender
+# End time: 20:42:15 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DLX.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:16 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DLX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package dlx_constants
+# -- Compiling entity DLX
+# -- Compiling architecture behavior of DLX
+# -- Loading entity DlxFetch
+# -- Loading entity DlxDecode
+# -- Loading entity DlxExecute
+# -- Loading entity DlxMemory
+# -- Loading entity DlxWriteBack
+# End time: 20:42:16 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Factorial_TB.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 20:42:16 on Feb 17,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Factorial_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Factorial_TB
+# -- Compiling architecture sim of Factorial_TB
+# -- Loading package dlx_constants
+# -- Loading entity DLX
+# End time: 20:42:16 on Feb 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Factorial_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Factorial_TB 
+# Start time: 20:42:16 on Feb 17,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dlx_constants(body)
+# Loading work.factorial_tb(sim)#1
+# Loading work.dlx(behavior)#1
+# Loading altera_mf.altera_mf_components
+# Loading work.dlxfetch(behavior)#1
+# Loading work.programcounter(rtl)#1
+# Loading work.incrementer(behavior)#1
+# Loading work.twomux(behavior)#1
+# Loading work.factorialrom(syn)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+# Loading work.dlxdecode(behavior)#1
+# Loading work.registerfile(rtl)#1
+# Loading work.signextender(behavior)#1
+# Loading work.dlxexecute(behavior)#1
+# Loading work.twomux(behavior)#2
+# Loading work.shouldbranch(behavior)#1
+# Loading work.alu(behavior)#1
+# Loading work.dlxmemory(behavior)#1
+# Loading work.datamemory(syn)#1
+# Loading altera_mf.altsyncram(translated)#2
+# Loading work.dlxwriteback(behavior)#1
+# Loading work.threemux(behavior)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 30 ms
+add wave -position insertpoint sim:/factorial_tb/UUT/fetch/*
+add wave -position insertpoint sim:/factorial_tb/UUT/decode/*
+add wave -position insertpoint sim:/factorial_tb/UUT/execute/*
+add wave -position insertpoint sim:/factorial_tb/UUT/memory/*
+add wave -position insertpoint sim:/factorial_tb/UUT/wb/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:45:42 on Feb 23,2026, Elapsed time: 136:03:26
+# Errors: 0, Warnings: 1

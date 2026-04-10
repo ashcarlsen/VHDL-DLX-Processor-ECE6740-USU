@@ -1,0 +1,217 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do UART_TOP_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying /home/ash/intelFPGA_Lite/questa_fse/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:51 on Jan 09,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/Testing/db" /home/ash/USU/Spring2026/ECE6740/Projects/Testing/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 14:37:51 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:51 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART_TX
+# -- Compiling architecture behavior of UART_TX
+# End time: 14:37:51 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:51 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_RX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART_RX
+# -- Compiling architecture behavior of UART_RX
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/pll.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pll
+# -- Compiling architecture SYN of pll
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fifo
+# -- Compiling architecture SYN of fifo
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/ASCII_CONVERTER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ASCII_CONVERTER
+# -- Compiling architecture behavior of ASCII_CONVERTER
+# -- Loading entity fifo
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART
+# -- Compiling architecture behavior of UART
+# -- Loading entity pll
+# -- Loading entity ASCII_CONVERTER
+# -- Loading entity UART_RX
+# -- Loading entity UART_TX
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART_TOP
+# -- Compiling architecture behavior of UART_TOP
+# -- Loading entity UART
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:37:52 on Jan 09,2026
+# vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/Testing/UART_TOP_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART_TOP_TB
+# -- Compiling architecture sim of UART_TOP_TB
+# -- Loading entity UART
+# End time: 14:37:52 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  UART_TOP_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" UART_TOP_TB 
+# Start time: 14:37:52 on Jan 09,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "UART_RX(behavior)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "UART_TX(behavior)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_top_tb(sim)#1
+# Loading work.uart(behavior)#1
+# Loading work.pll(syn)#1
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)#1
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)#1
+# Loading altera_mf.mf_cda_mn_cntr(behave)#1
+# Loading altera_mf.mf_cda_mn_cntr(behave)#2
+# Loading altera_mf.mf_cda_scale_cntr(behave)#1
+# Loading work.ascii_converter(behavior)#1
+# Loading work.fifo(syn)#1
+# Loading altera_mf.altera_mf_hint_evaluation(body)
+# Loading altera_mf.dcfifo(behavior)#1
+# Loading altera_mf.dcfifo_mixed_widths(behavior)#1
+# Loading altera_mf.dcfifo_async(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#2
+# Loading altera_mf.dcfifo_dffpipe(behavior)#3
+# Loading altera_mf.dcfifo_fefifo(behavior)#1
+# Loading altera_mf.dcfifo_fefifo(behavior)#2
+# Loading altera_mf.dcfifo_sync(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#4
+# Loading altera_mf.dcfifo_low_latency(behavior)#1
+# Loading altera_mf.dcfifo_dffpipe(behavior)#5
+# Loading altera_mf.dcfifo_dffpipe(behavior)#6
+# Loading work.uart_rx(behavior)#1
+# Loading work.uart_tx(behavior)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 ms
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_top_tb/UUT/converter/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Note: MAX 10 PLL was reset
+#    Time: 0 ps  Iteration: 3  Instance: /uart_top_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# ** Note: MAX 10 PLL locked to incoming clock
+#    Time: 260490 ns  Iteration: 3  Instance: /uart_top_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# End time: 14:39:02 on Jan 09,2026, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 13

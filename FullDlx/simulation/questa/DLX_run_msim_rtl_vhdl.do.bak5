@@ -1,0 +1,33 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ThreeMux.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/TwoMux.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/RegisterFile.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ProgramCounter.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Incrementer.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/dlx_constants.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/FactorialROM.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DataMemory.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxMemory.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxWriteBack.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/SignExtender.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ShouldBranch.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxFetch.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/ALU.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxExecute.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DlxDecode.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/DLX.vhd}
+
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FullDlx/Factorial_TB.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Factorial_TB
+
+add wave *
+view structure
+view signals
+run 30 ms

@@ -1,0 +1,26 @@
+
+State Machine - |DLX_TOP|DLX:dlx|UART_TX:tx|state
+Name state.send state.hold state.accept state.idle 
+state.idle 0 0 0 0 
+state.accept 0 0 1 1 
+state.hold 0 1 0 1 
+state.send 1 0 0 1 
+
+State Machine - |DLX_TOP|DLX:dlx|PrintHandler:converter|state
+Name state.WR state.LOAD state.POP state.ADD_SIGN state.ADD_STACK state.FOUR state.THREE state.TWO state.START state.ONE state.INT state.CHAR state.CHECK_TYPE state.GET_FROM_PRINT state.REQUEST_FROM_PRINT state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.REQUEST_FROM_PRINT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_FROM_PRINT 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.CHECK_TYPE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.CHAR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.INT 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.ONE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.START 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.TWO 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.THREE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.FOUR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.ADD_STACK 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.ADD_SIGN 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.POP 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.LOAD 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.WR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

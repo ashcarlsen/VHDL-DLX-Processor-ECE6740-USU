@@ -1,0 +1,1308 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/simulation/questa
+T_opt
+!s110 1772844496
+VI5AkM7Wna>DYKUNE]_bao2
+04 12 3 work factorial_tb sim 1
+=1-000ae431a4f1-69ab75cf-e9359-53277
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U30 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+Ealu
+Z3 w1772740363
+Z4 DPx4 work 13 dlx_constants 0 22 8boPHFR5E^RMl@<d4b`Pc1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 23
+R1
+Z8 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd
+Z9 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd
+l0
+L6 1
+V?2LU;0[DN<Tgzk7IlZ_GD2
+!s100 ?H2_02QYQ0RIEodKbg=Wb0
+Z10 OL;C;2024.3;79
+31
+Z11 !s110 1772844494
+!i10b 1
+Z12 !s108 1772844494.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd|
+Z14 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd|
+!i113 0
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R4
+R5
+R6
+R7
+Z17 DEx4 work 3 alu 0 22 ?2LU;0[DN<Tgzk7IlZ_GD2
+!i122 23
+l19
+L18 192
+Vfc6JnAbKheMoGdA`=@R:G3
+!s100 RC05Lm9PZd]D9^I?mSQQn2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edatamemory
+Z18 w1772844243
+Z19 DPx9 altera_mf 20 altera_mf_components 0 22 K2nP0Jo_3Z^LgLEDTAdJT1
+R6
+R7
+!i122 13
+R1
+Z20 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd
+Z21 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd
+l0
+Z22 L43 1
+VTZeeacb@7JPQN:[HUBSKQ3
+!s100 D><b^<CZ7g[E:fji0:cb<0
+R10
+31
+Z23 !s110 1772844493
+!i10b 1
+Z24 !s108 1772844493.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd|
+Z26 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd|
+!i113 0
+R15
+R16
+Asyn
+R19
+R6
+R7
+Z27 DEx4 work 10 datamemory 0 22 TZeeacb@7JPQN:[HUBSKQ3
+!i122 13
+l59
+L55 36
+VdaEn7^N^2^?71QUdbzH1Q2
+!s100 dB08;7`kc<Pi[8ajLRLCA3
+R10
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Edlx
+Z28 w1772775696
+R4
+R5
+R6
+R7
+!i122 26
+R1
+Z29 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd
+Z30 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd
+l0
+L6 1
+VTBA70FQ5mjCOLClz]OA:F3
+!s100 Sfb`Kcb]N=IC_PTl^WfPc0
+R10
+31
+Z31 !s110 1772844495
+!i10b 1
+Z32 !s108 1772844495.000000
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd|
+Z34 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z35 DEx4 work 7 uart_tx 0 22 inV14mmzXlk;S:FO:dF@73
+Z36 DEx4 work 9 uart_fifo 0 22 4m`eQTKVMW9>ILV``l5^K3
+Z37 DEx4 work 7 uartpll 0 22 Wg^9;M1OQ89;F;12e9DKb0
+Z38 DEx4 work 12 printhandler 0 22 62RKMSgOf4ZX>M2?0n@nH2
+Z39 DEx4 work 9 printfifo 0 22 X6IT>n:gkFjI[DMgNQ;?i2
+Z40 DEx4 work 15 flushcontroller 0 22 GfOj_L6[g>5`ihGWk^cLH3
+Z41 DEx4 work 15 stallcontroller 0 22 <G_S9MBlRVOh11;TZc[9W0
+Z42 DEx4 work 17 forwardcontroller 0 22 <Eg:W=`77]k_=1g878bOB0
+Z43 DEx4 work 12 dlxwriteback 0 22 IBGk2e`HGV[;i=:heGzD[0
+Z44 DEx4 work 9 dlxmemory 0 22 :VgelCX=TM8X8oLKYedJP3
+Z45 DEx4 work 10 dlxexecute 0 22 HAL:CS_J:efZR:14Eff3g1
+Z46 DEx4 work 9 dlxdecode 0 22 M2S4fab@:i@<Kn]`>Y[0j0
+Z47 DEx4 work 8 dlxfetch 0 22 f^GLLjzK7DRNngzaK_dla1
+R4
+R5
+R6
+R7
+Z48 DEx4 work 3 dlx 0 22 TBA70FQ5mjCOLClz]OA:F3
+!i122 26
+l76
+L15 255
+ViR59=2P_nO2]CC<[GCVQa1
+!s100 c`i`ME@k0AZIH>ER1VDK63
+R10
+31
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R15
+R16
+Pdlx_constants
+R5
+R6
+R7
+!i122 8
+Z49 w1772747901
+R1
+Z50 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd
+Z51 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd
+l0
+L5 107
+V8boPHFR5E^RMl@<d4b`Pc1
+!s100 65Me[F?o?0URVRj1KU6SX1
+R10
+31
+b1
+R23
+!i10b 1
+R24
+Z52 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd|
+Z53 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd|
+!i113 0
+R15
+R16
+Bbody
+R4
+R5
+R6
+R7
+!i122 8
+l0
+L114 228
+VJVzcEoS0m5MIfgJUnBT_@0
+!s100 IUQofQ>7DHSeWda67aE420
+R10
+31
+R23
+!i10b 1
+R24
+R52
+R53
+!i113 0
+R15
+R16
+Edlx_top
+Z54 w1772774266
+R5
+R6
+R7
+!i122 27
+R1
+Z55 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd
+Z56 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd
+l0
+L5 1
+V1G3D3GI=O5303E>V_boWk0
+!s100 <a^<2YH?^^T2Lk4K<BzP10
+R10
+31
+R31
+!i10b 1
+R32
+Z57 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd|
+Z58 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R48
+R5
+R6
+R7
+DEx4 work 7 dlx_top 0 22 1G3D3GI=O5303E>V_boWk0
+!i122 27
+l17
+L15 14
+VOBCj<dY^j4U[LDXaY1K7l3
+!s100 92UBPnCK<a[;:`]D8RR<R2
+R10
+31
+R31
+!i10b 1
+R32
+R57
+R58
+!i113 0
+R15
+R16
+Edlxdecode
+Z59 w1772735337
+R4
+R5
+R6
+R7
+!i122 25
+R1
+Z60 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd
+Z61 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd
+l0
+L6 1
+VM2S4fab@:i@<Kn]`>Y[0j0
+!s100 Q8zQN2Y8jUIhIZPd6i_X<3
+R10
+31
+R31
+!i10b 1
+R32
+Z62 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd|
+Z63 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z64 DEx4 work 12 signextender 0 22 ^@LGe<ejQn;]N8BV9Q]ek1
+Z65 DEx4 work 12 registerfile 0 22 [DeibBzA5E07aLje3Y4A13
+Z66 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
+R4
+R5
+R6
+R7
+R46
+!i122 25
+l46
+L36 74
+V59^^bL_l8`:DZmaNdK;8Q0
+!s100 M4R<;PY>N;0zoA0Nl0CDK2
+R10
+31
+R31
+!i10b 1
+R32
+R62
+R63
+!i113 0
+R15
+R16
+Edlxexecute
+Z67 w1772834787
+R4
+R5
+R6
+R7
+!i122 24
+R1
+Z68 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd
+Z69 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd
+l0
+L6 1
+VHAL:CS_J:efZR:14Eff3g1
+!s100 Ai;z8M<SziBf@7QD>8[`[3
+R10
+31
+R31
+!i10b 1
+R32
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd|
+Z71 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R17
+Z72 DEx4 work 12 shouldbranch 0 22 l5UPTl<FREbh9i3bI6FcL1
+Z73 DEx4 work 7 fourmux 0 22 L>n>J4HWjh7C?GWa94AFa3
+R66
+R4
+R5
+R6
+R7
+R45
+!i122 24
+l51
+L38 122
+V0nAS:@QZ4:N57E]=VBI9f2
+!s100 NM67`8nR0HjFif1k=0CQS1
+R10
+31
+R31
+!i10b 1
+R32
+R70
+R71
+!i113 0
+R15
+R16
+Edlxfetch
+R59
+R5
+R6
+R7
+!i122 22
+R1
+Z74 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd
+Z75 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd
+l0
+L5 1
+Vf^GLLjzK7DRNngzaK_dla1
+!s100 W_zz_YaoLi_:Pdek6IQkO2
+R10
+31
+R11
+!i10b 1
+R12
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd|
+Z77 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R19
+Z78 DEx4 work 17 instructionmemory 0 22 JoOAI<EzVh6:Pf^GLI5TT1
+R66
+Z79 DEx4 work 11 incrementer 0 22 RkeG^>l]jD0bXb_`2Ylh_1
+Z80 DEx4 work 14 programcounter 0 22 1MaS<]LoHo@YKe;SO29YJ1
+R5
+R6
+R7
+R47
+!i122 22
+l28
+L22 56
+VK@hSL11cQL[Cm@E<gLL5k3
+!s100 LVaDgk[zO]`1PEFCFdheT1
+R10
+31
+R11
+!i10b 1
+R12
+R76
+R77
+!i113 0
+R15
+R16
+Edlxmemory
+R59
+R4
+R5
+R6
+R7
+!i122 21
+R1
+Z81 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd
+Z82 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd
+l0
+L6 1
+V:VgelCX=TM8X8oLKYedJP3
+!s100 o:SDgBME5C]bzALI2P>fQ0
+R10
+31
+R11
+!i10b 1
+R12
+Z83 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd|
+Z84 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R19
+R27
+R4
+R5
+R6
+R7
+R44
+!i122 21
+l36
+L32 50
+VGd:8hbMjdOH4nXBk?6[`@0
+!s100 c_o4T_gmnYNJS;?HQ<8@z1
+R10
+31
+R11
+!i10b 1
+R12
+R83
+R84
+!i113 0
+R15
+R16
+Edlxwriteback
+R59
+R4
+R5
+R6
+R7
+!i122 20
+R1
+Z85 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd
+Z86 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd
+l0
+L6 1
+VIBGk2e`HGV[;i=:heGzD[0
+!s100 Xo7j::_W]_:7O:J6P4Q200
+R10
+31
+R11
+!i10b 1
+R12
+Z87 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd|
+Z88 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd|
+!i113 0
+R15
+R16
+Abehavior
+Z89 DEx4 work 8 threemux 0 22 D7zmX:jgDYM9CL[iQk?_Q1
+R4
+R5
+R6
+R7
+R43
+!i122 20
+l31
+L27 55
+V0m@VZoCjGI;zPmfE<P0`C0
+!s100 cL2LNZS4_LB4zhU:6D?nk1
+R10
+31
+R11
+!i10b 1
+R12
+R87
+R88
+!i113 0
+R15
+R16
+Efactorial_tb
+Z90 w1772770589
+R5
+R6
+R7
+!i122 28
+R1
+Z91 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd
+Z92 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd
+l0
+L5 1
+VDPC5KO3<MgJ=fB2IoTaDc0
+!s100 2gjaJJ`6:TXcW1eZGDm4_3
+R10
+31
+R31
+!i10b 1
+R32
+Z93 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd|
+Z94 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd|
+!i113 0
+R15
+R16
+Asim
+R4
+R48
+R5
+R6
+R7
+DEx4 work 12 factorial_tb 0 22 DPC5KO3<MgJ=fB2IoTaDc0
+!i122 28
+l14
+L8 26
+V@BHzgVNn>EA>lFX>SEEXS2
+!s100 K;a;TlOWR]YQzQo@b`0>z0
+R10
+31
+R31
+!i10b 1
+R32
+R93
+R94
+!i113 0
+R15
+R16
+Eflushcontroller
+R59
+R4
+R5
+R6
+R7
+!i122 19
+R1
+Z95 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd
+Z96 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd
+l0
+L6 1
+VGfOj_L6[g>5`ihGWk^cLH3
+!s100 9=Vh?kTXWQK_c>GAcK9VP1
+R10
+31
+R11
+!i10b 1
+R12
+Z97 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd|
+Z98 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R40
+!i122 19
+l14
+L13 4
+V@0Xa0:B[Kn=<Bb2mceY0j2
+!s100 mnIA4R<KE`^8Hi^QR`n421
+R10
+31
+R11
+!i10b 1
+R12
+R97
+R98
+!i113 0
+R15
+R16
+Eforwardcontroller
+Z99 w1772750383
+R4
+R5
+R6
+R7
+!i122 18
+R1
+Z100 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd
+Z101 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd
+l0
+L6 1
+V<Eg:W=`77]k_=1g878bOB0
+!s100 DA@Cn2klKaDdd^_eW@F6T1
+R10
+31
+R11
+!i10b 1
+R12
+Z102 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd|
+Z103 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R42
+!i122 18
+l26
+L16 51
+VfENCmkmLP^SRFe1:fA:750
+!s100 e:k=`W<[MUWgJEf0D:K7o3
+R10
+31
+R11
+!i10b 1
+R12
+R102
+R103
+!i113 0
+R15
+R16
+Efourmux
+R59
+R5
+R6
+R7
+!i122 7
+R1
+Z104 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd
+Z105 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd
+l0
+L5 1
+VL>n>J4HWjh7C?GWa94AFa3
+!s100 ES?QHj4NJjQBlc4?Lg^A`1
+R10
+31
+R23
+!i10b 1
+R24
+Z106 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd|
+Z107 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R73
+!i122 7
+l20
+L19 18
+VbPko;zcKoO<]^4ge;KLhg0
+!s100 E:zj4aY9LR>JCHZ>Y?><93
+R10
+31
+R23
+!i10b 1
+R24
+R106
+R107
+!i113 0
+R15
+R16
+Eincrementer
+R59
+R5
+R6
+R7
+!i122 6
+R1
+Z108 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd
+Z109 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd
+l0
+L5 1
+VRkeG^>l]jD0bXb_`2Ylh_1
+!s100 9UecifA]X_Y7>SJ0JW1o_2
+R10
+31
+R23
+!i10b 1
+R24
+Z110 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd|
+Z111 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R79
+!i122 6
+l16
+L15 4
+V?H5Hj:lF1A@Kb5YmkS0c61
+!s100 K^P4>ENeH;OjckWMk^03L3
+R10
+31
+R23
+!i10b 1
+R24
+R110
+R111
+!i113 0
+R15
+R16
+Einstructionmemory
+Z112 w1772844187
+R19
+R6
+R7
+!i122 12
+R1
+Z113 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd
+Z114 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd
+l0
+R22
+VJoOAI<EzVh6:Pf^GLI5TT1
+!s100 ^doA6Z=7^NMVoPfkeLdkZ0
+R10
+31
+R23
+!i10b 1
+R24
+Z115 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd|
+Z116 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd|
+!i113 0
+R15
+R16
+Asyn
+R19
+R6
+R7
+R78
+!i122 12
+l58
+L54 33
+Vcjo;G<W[jKcUaUK[Bm=6;1
+!s100 9nYENTgfj15PYl^dLH8f?3
+R10
+31
+R23
+!i10b 1
+R24
+R115
+R116
+!i113 0
+R15
+R16
+Eprintfifo
+Z117 w1772764584
+R6
+R7
+!i122 9
+R1
+Z118 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd
+Z119 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd
+l0
+R22
+VX6IT>n:gkFjI[DMgNQ;?i2
+!s100 ogR244c:7N3_eeUgWR<BF0
+R10
+31
+R23
+!i10b 1
+R24
+Z120 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd|
+Z121 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R39
+!i122 9
+l96
+Z122 L59 73
+VCzcA2fF^=I@j7<cF>bR@X0
+!s100 ]EVDjzTO;]ZKVASVL3B8i0
+R10
+31
+R23
+!i10b 1
+R24
+R120
+R121
+!i113 0
+R15
+R16
+Eprinthandler
+Z123 w1772832754
+R4
+R5
+R6
+R7
+!i122 14
+R1
+Z124 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd
+Z125 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd
+l0
+L6 1
+V62RKMSgOf4ZX>M2?0n@nH2
+!s100 @IXoVQSN<a?iKaFJ<m?SV1
+R10
+31
+R11
+!i10b 1
+R24
+Z126 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd|
+Z127 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R38
+!i122 14
+l25
+L21 69
+V=41AiL@hdll90Y>=MP9=^0
+!s100 nlg9?7HGo<RPV1i^hNizb3
+R10
+31
+R11
+!i10b 1
+R24
+R126
+R127
+!i113 0
+R15
+R16
+Eprogramcounter
+R59
+R5
+R6
+R7
+!i122 5
+R1
+Z128 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd
+Z129 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd
+l0
+L5 1
+V1MaS<]LoHo@YKe;SO29YJ1
+!s100 eIDZijl@Tbd:hDThfdWd<2
+R10
+31
+R23
+!i10b 1
+R24
+Z130 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd|
+Z131 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+R80
+!i122 5
+l19
+L17 12
+V6Ed?>`oceLf?n<G1fNN:b0
+!s100 ikZM4KX3;XS?bkEHU8=RR3
+R10
+31
+R23
+!i10b 1
+R24
+R130
+R131
+!i113 0
+R15
+R16
+Eregisterfile
+R59
+R5
+R6
+R7
+!i122 4
+R1
+Z132 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd
+Z133 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd
+l0
+L5 1
+V[DeibBzA5E07aLje3Y4A13
+!s100 o8@C3fi4]K>f=ZMUhkPl01
+R10
+31
+R23
+!i10b 1
+Z134 !s108 1772844492.000000
+Z135 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd|
+Z136 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+R65
+!i122 4
+l26
+L23 29
+VE9B4kEB]8gHo?k2@z^?`71
+!s100 h1S:Ybg9ZmR[2V<DbA9Wa2
+R10
+31
+R23
+!i10b 1
+R134
+R135
+R136
+!i113 0
+R15
+R16
+Eshouldbranch
+R59
+R4
+R5
+R6
+R7
+!i122 17
+R1
+Z137 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd
+Z138 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd
+l0
+L6 1
+Vl5UPTl<FREbh9i3bI6FcL1
+!s100 ai`eK1Jgd=NzJCgGAcaB00
+R10
+31
+R11
+!i10b 1
+R12
+Z139 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd|
+Z140 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R72
+!i122 17
+l18
+L17 27
+VPGkW0?3oD6=`NoJJ1bYH43
+!s100 zcf>kejM2PiZd0d<3A[Lh1
+R10
+31
+R11
+!i10b 1
+R12
+R139
+R140
+!i113 0
+R15
+R16
+Esignextender
+R59
+R4
+R5
+R6
+R7
+!i122 16
+R1
+Z141 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd
+Z142 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd
+l0
+L6 1
+V^@LGe<ejQn;]N8BV9Q]ek1
+!s100 ^nf_Ii0=0GARCL56;YX[H3
+R10
+31
+R11
+!i10b 1
+R12
+Z143 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd|
+Z144 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R64
+!i122 16
+l19
+L18 16
+Vd3MDg@N2;^kZ>2zoaIO<03
+!s100 JfDeZB3oPS9gz5X35PkQ71
+R10
+31
+R11
+!i10b 1
+R12
+R143
+R144
+!i113 0
+R15
+R16
+Estallcontroller
+Z145 w1772750344
+R4
+R5
+R6
+R7
+!i122 15
+R1
+Z146 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd
+Z147 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd
+l0
+L6 1
+V<G_S9MBlRVOh11;TZc[9W0
+!s100 I<3?XKi]8_1VW6e2o>c3P0
+R10
+31
+R11
+!i10b 1
+R12
+Z148 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd|
+Z149 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+R7
+R41
+!i122 15
+l23
+L15 33
+Vh3C>PU89P<HcG3[B:<WRi1
+!s100 8@IL]I8=c4La:B9AcFMDb2
+R10
+31
+R11
+!i10b 1
+R12
+R148
+R149
+!i113 0
+R15
+R16
+Ethreemux
+R59
+R5
+R6
+R7
+!i122 3
+R1
+Z150 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd
+Z151 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd
+l0
+L5 1
+VD7zmX:jgDYM9CL[iQk?_Q1
+!s100 hQ;amKXG_VZcAe6N`hk1Q1
+R10
+31
+Z152 !s110 1772844492
+!i10b 1
+R134
+Z153 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd|
+Z154 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R89
+!i122 3
+l19
+L18 18
+VJhLDDnHKGJJfVb^[i<GbP0
+!s100 l7Ba[n:ch]JfeK9ZENQgQ1
+R10
+31
+R152
+!i10b 1
+R134
+R153
+R154
+!i113 0
+R15
+R16
+Etwomux
+R59
+R5
+R6
+R7
+!i122 2
+R1
+Z155 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd
+Z156 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd
+l0
+L5 1
+V7SOaNY74aY>=YL3c=5dUa3
+!s100 Y]MiWnhDdSD8ZR@jccUfT2
+R10
+31
+R152
+!i10b 1
+R134
+Z157 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd|
+Z158 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R66
+!i122 2
+l18
+L17 4
+VEaXe<AZ2FGPNzV`l8J?C21
+!s100 kCkMMcDceCJA<jh^HmmUm0
+R10
+31
+R152
+!i10b 1
+R134
+R157
+R158
+!i113 0
+R15
+R16
+Euart_fifo
+Z159 w1772764443
+R6
+R7
+!i122 10
+R1
+Z160 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd
+Z161 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd
+l0
+R22
+V4m`eQTKVMW9>ILV``l5^K3
+!s100 lBV2>l4XTilA4eOSm1Wiz1
+R10
+31
+R23
+!i10b 1
+R24
+Z162 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd|
+Z163 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R36
+!i122 10
+l96
+R122
+VizOD?U>X8jmlIUPT>zM4A3
+!s100 Q@dHldigC>P[DUWcK6P_d0
+R10
+31
+R23
+!i10b 1
+R24
+R162
+R163
+!i113 0
+R15
+R16
+Euart_tx
+Z164 w1772775677
+R5
+R6
+R7
+!i122 1
+R1
+Z165 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd
+Z166 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd
+l0
+L5 1
+VinV14mmzXlk;S:FO:dF@73
+!s100 IVoRczGL@]DR;6IO:i@MV3
+R10
+31
+R152
+!i10b 1
+R134
+Z167 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd|
+Z168 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+R7
+R35
+!i122 1
+l22
+L17 61
+VmTA71L>>T:R`DnWFZTcY31
+!s100 iZihBN]U:F048B<ZYEi852
+R10
+31
+R152
+!i10b 1
+R134
+R167
+R168
+!i113 0
+R15
+R16
+Euartpll
+Z169 w1772776552
+R6
+R7
+!i122 11
+R1
+Z170 8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd
+Z171 F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd
+l0
+R22
+VWg^9;M1OQ89;F;12e9DKb0
+!s100 G_OGQPf0EnM_[PS_GcPH80
+R10
+31
+R23
+!i10b 1
+R24
+Z172 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd|
+Z173 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd|
+!i113 0
+R15
+R16
+Asyn
+R6
+R7
+R37
+!i122 11
+l132
+L54 155
+VoeQ@@e;f^h1Ao[JSeN=T12
+!s100 _?R`K[V[Sd9je?e=@mT`70
+R10
+31
+R23
+!i10b 1
+R24
+R172
+R173
+!i113 0
+R15
+R16
+vUartPll_altpll
+2/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v
+R152
+!i10b 1
+!s100 NSfUc5KcX17;>Y^P@@4J]0
+I@aXfhzX3fQ[L8hoY@^GzN0
+R1
+w1772776573
+8/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v
+F/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v
+!i122 0
+L0 31 79
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.3;79
+r1
+!s85 0
+31
+R134
+!s107 /home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db|/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@uart@pll_altpll

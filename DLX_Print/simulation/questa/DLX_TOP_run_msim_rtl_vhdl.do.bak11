@@ -1,0 +1,44 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/db/UartPll_altpll.v}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_TX.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/TwoMux.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ThreeMux.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/RegisterFile.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ProgramCounter.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Incrementer.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FourMux.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/dlx_constants.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintFIFO.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UART_FIFO.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/UartPll.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/InstructionMemory.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DataMemory.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/PrintHandler.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/StallController.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/SignExtender.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ShouldBranch.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ForwardController.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/FlushController.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxWriteBack.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxMemory.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxFetch.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/ALU.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxExecute.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DlxDecode.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX.vhd}
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/DLX_TOP.vhd}
+
+vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Print/Factorial_TB.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Factorial_TB
+
+add wave *
+view structure
+view signals
+run 1 ms

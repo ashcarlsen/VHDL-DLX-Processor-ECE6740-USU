@@ -1,0 +1,14 @@
+
+State Machine - |UART_TOP|UART:uart_module|UART_TX:tx_module|state
+Name state.send state.hold state.accept state.idle 
+state.idle 0 0 0 0 
+state.accept 0 0 1 1 
+state.hold 0 1 0 1 
+state.send 1 0 0 1 
+
+State Machine - |UART_TOP|UART:uart_module|UART_RX:rx_module|state
+Name state.update state.sample state.start_bit state.idle 
+state.idle 0 0 0 0 
+state.start_bit 0 0 1 1 
+state.sample 0 1 0 1 
+state.update 1 0 0 1 

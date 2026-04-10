@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar  6 17:53:47 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : DLX_TOP
+Top-level Entity Name : DLX_TOP
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 4,583 / 49,760 ( 9 % )
+    Total combinational functions : 4,308 / 49,760 ( 9 % )
+    Dedicated logic registers : 1,901 / 49,760 ( 4 % )
+Total registers : 1901
+Total pins : 41 / 360 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 70,272 / 1,677,312 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

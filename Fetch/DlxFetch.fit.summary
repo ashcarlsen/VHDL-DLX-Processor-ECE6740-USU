@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Jan 28 11:44:10 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : DlxFetch
+Top-level Entity Name : DlxFetch
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 41 / 49,760 ( < 1 % )
+    Total combinational functions : 41 / 49,760 ( < 1 % )
+    Dedicated logic registers : 20 / 49,760 ( < 1 % )
+Total registers : 20
+Total pins : 55 / 360 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 32,768 / 1,677,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
