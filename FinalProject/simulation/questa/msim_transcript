@@ -864,3 +864,5 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
 # ** Note: MAX 10 PLL locked to incoming clock
 #    Time: 90 ns  Iteration: 3  Instance: /factorial_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# End time: 15:09:17 on Apr 10,2026, Elapsed time: 49:56:51
+# Errors: 0, Warnings: 54

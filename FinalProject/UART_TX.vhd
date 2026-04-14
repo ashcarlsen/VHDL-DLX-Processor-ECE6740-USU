@@ -8,7 +8,6 @@ entity UART_TX is
 		rst : in STD_LOGIC;
 		data : in STD_LOGIC_VECTOR(7 downto 0);
 		empty : in STD_LOGIC;
-		rdclk : out STD_LOGIC;
 		rdreq: out STD_LOGIC;
 		tx_line : out STD_LOGIC
 	);
@@ -20,8 +19,6 @@ architecture behavior of UART_TX is
 	signal tx_reg : STD_LOGIC_VECTOR(7 downto 0);
 	signal idx : INTEGER range 0 to 8 := 0;
 begin
-
-	rdclk <= txclk;
 
 	fsm : process(txclk, rst)
 	begin

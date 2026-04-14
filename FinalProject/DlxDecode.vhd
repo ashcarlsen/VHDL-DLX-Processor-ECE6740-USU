@@ -42,7 +42,6 @@ architecture behavior of DlxDecode is
     signal read2 : STD_LOGIC_VECTOR(REG_ADDR_WIDTH-1 downto 0);
 
     signal mux_out : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0);
-    signal nop : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0) := (others => '0');
 
     signal sel : STD_LOGIC;
 
@@ -65,7 +64,7 @@ begin
         )
         port map (
             DATA_ZERO => INS_IN,
-            DATA_ONE => nop,
+            DATA_ONE => NOP_INS,
             SEL => sel,
             Q => mux_out
         );

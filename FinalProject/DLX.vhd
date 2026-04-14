@@ -97,9 +97,6 @@ architecture behavior of DLX is
     signal rxf_empty : STD_LOGIC;
     signal rxf_full : STD_LOGIC;
 
-    signal rdclk : STD_LOGIC;
-    signal wrclk : STD_LOGIC;
-
     signal stopwatch_en : STD_LOGIC := '0';
     signal stopwatch_rst : STD_LOGIC := '1';
     signal timer_rst : STD_LOGIC := '0';
@@ -300,7 +297,6 @@ begin
             rst => dlx_rst,
             data => fifo_out,
             empty => fifo_empty,
-            rdclk => rdclk,
             rdreq => fifo_rd,
             tx_line => TX_LINE
         );
@@ -311,7 +307,6 @@ begin
             rst => dlx_rst,
             rx_line => RX_LINE,
             full => rxf_full,
-            wrclk => wrclk,
             data => rxf_data,
             wrreq => rxf_wr
         );

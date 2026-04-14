@@ -48,7 +48,6 @@ architecture behavior of DlxExecute is
     signal jump : STD_LOGIC;
 
     signal ins : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0);
-    signal nop : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0) := (others => '0');
 
     signal print_en : STD_LOGIC;
     signal scan_sel : STD_LOGIC;
@@ -60,7 +59,7 @@ begin
         )
         port map (
             DATA_ZERO => INS_IN,
-            DATA_ONE => nop,
+            DATA_ONE => NOP_INS,
             SEL => FLUSH,
             Q => ins
         );

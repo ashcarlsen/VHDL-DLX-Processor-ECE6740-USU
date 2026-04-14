@@ -8,6 +8,7 @@ package dlx_constants is
     constant DATA_WIDTH : INTEGER := 32;
     constant INS_WIDTH : INTEGER := 32;
     constant REG_ADDR_WIDTH : INTEGER := 5;
+    constant NOP_INS : STD_LOGIC_VECTOR(INS_WIDTH-1 downto 0) := (others => '0');
 
     -- Define all OP codes for DLX
     constant NOP : STD_LOGIC_VECTOR(5 downto 0) := "000000";

@@ -8,7 +8,6 @@ entity UART_RX is
 		rst: in STD_LOGIC;
 		rx_line: in STD_LOGIC;
 		full: in STD_LOGIC;
-		wrclk: out STD_LOGIC;
 		data: out STD_LOGIC_VECTOR(7 downto 0);
 		wrreq: out STD_LOGIC
 	);
@@ -22,7 +21,6 @@ architecture behavior of UART_RX is
 	signal zero_count : INTEGER := 0;
 	signal one_count : INTEGER := 0;
 begin
-	wrclk <= rxclk;
 	fsm : process(rxclk, rst)
 	begin
 		if rst = '1' then

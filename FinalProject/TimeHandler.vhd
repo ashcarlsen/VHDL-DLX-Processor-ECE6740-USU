@@ -20,7 +20,7 @@ architecture behavior of TimeHandler is
     signal next_en : STD_LOGIC := '0';
 begin
 
-    ins : process(EX_MEM_INS)
+    ins : process(EX_MEM_INS, reset, en)
     begin
         if EX_MEM_INS(INS_WIDTH-1 downto INS_WIDTH-6) = TR then
             next_rst <= '1';
