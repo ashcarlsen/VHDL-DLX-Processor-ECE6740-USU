@@ -13,10 +13,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 d/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/simulation/questa
 T_opt
-Z2 !s110 1775675546
-VNVOeo<IRV?=i1DYJbGZWJ2
+Z2 !s110 1776213977
+VlI?>MhCT]<_EAmfP`:?DZ3
 04 12 3 work factorial_tb sim 1
-=1-000ae431a4f1-69d6a89a-86700-499c1
+=1-000ae431a4f1-69dedfd9-5a103-6728a
 R0
 !s12f OEM100
 !s12b OEM100
@@ -28,7 +28,7 @@ n@_opt
 OL;O;2024.3;79
 Ealu
 Z4 w1775540890
-Z5 DPx4 work 13 dlx_constants 0 22 [^aS]ka9DZ4_6jYI8]0jl2
+Z5 DPx4 work 13 dlx_constants 0 22 [aD_JJ[?b4N>?F@LU[TR52
 Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -42,9 +42,9 @@ V?2LU;0[DN<Tgzk7IlZ_GD2
 !s100 ?H2_02QYQ0RIEodKbg=Wb0
 Z11 OL;C;2024.3;79
 31
-Z12 !s110 1775675545
+Z12 !s110 1776213976
 !i10b 1
-Z13 !s108 1775675545.000000
+Z13 !s108 1776213976.000000
 Z14 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd|
 Z15 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd|
 !i113 0
@@ -72,7 +72,7 @@ R15
 R16
 R17
 Edatamemory
-Z19 w1775543909
+Z19 w1776213445
 Z20 DPx9 altera_mf 20 altera_mf_components 0 22 K2nP0Jo_3Z^LgLEDTAdJT1
 R7
 R8
@@ -86,11 +86,11 @@ VTZeeacb@7JPQN:[HUBSKQ3
 !s100 D><b^<CZ7g[E:fji0:cb<0
 R11
 31
-Z24 !s110 1775675544
+R12
 !i10b 1
-Z25 !s108 1775675544.000000
-Z26 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd|
-Z27 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd|
+R13
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd|
+Z25 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd|
 !i113 0
 R16
 R17
@@ -98,48 +98,48 @@ Asyn
 R20
 R7
 R8
-Z28 DEx4 work 10 datamemory 0 22 TZeeacb@7JPQN:[HUBSKQ3
+Z26 DEx4 work 10 datamemory 0 22 TZeeacb@7JPQN:[HUBSKQ3
 !i122 19
 l59
 L55 36
-V6zh83:eM=m>Gg>9Z;jUla0
-!s100 _2zc7LWb1RU[Va2T]_LzT3
+V9i9iQMBOd9BX:SdMjOonX0
+!s100 U;jeOh8AnCB1n:ClTCRU11
 R11
 31
-R24
+R12
 !i10b 1
+R13
+R24
 R25
-R26
-R27
 !i113 0
 R16
 R17
 Edivider
-Z29 w1775454926
+Z27 w1775454926
 R7
 R8
 !i122 14
 R1
-Z30 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd
-Z31 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd
+Z28 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd
+Z29 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd
 l0
 R23
 V1AB4FAVm0zPUKBbY>>aPI1
 !s100 ?[2Ya?j1Pof2[:I>c`Ef12
 R11
 31
-Z32 !s110 1775675543
+Z30 !s110 1776213975
 !i10b 1
-Z33 !s108 1775675543.000000
-Z34 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd|
-Z35 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd|
+Z31 !s108 1776213975.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd|
+Z33 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd|
 !i113 0
 R16
 R17
 Asyn
 R7
 R8
-Z36 DEx4 work 7 divider 0 22 1AB4FAVm0zPUKBbY>>aPI1
+Z34 DEx4 work 7 divider 0 22 1AB4FAVm0zPUKBbY>>aPI1
 !i122 14
 l83
 L56 53
@@ -147,24 +147,24 @@ Vicz9<:PQ:KfCF9?A@fb:G2
 !s100 LC99^odIeW<f`]KdKBN]F0
 R11
 31
-R32
+R30
 !i10b 1
+R31
+R32
 R33
-R34
-R35
 !i113 0
 R16
 R17
 Edlx
-R4
+Z35 w1776141537
 R5
 R6
 R7
 R8
 !i122 34
 R1
-Z37 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd
-Z38 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd
+Z36 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd
+Z37 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd
 l0
 L6 1
 Vo^zNcB6[C_NcB0o5AaZ@P3
@@ -173,48 +173,48 @@ R11
 31
 R2
 !i10b 1
-Z39 !s108 1775675546.000000
-Z40 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd|
-Z41 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd|
+Z38 !s108 1776213977.000000
+Z39 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd|
+Z40 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd|
 !i113 0
 R16
 R17
 Abehavior
-Z42 DEx4 work 9 stopwatch 0 22 @<=nYejY:L>5THYJzaR3a2
-Z43 DEx4 work 11 timehandler 0 22 l@;8d<3L4>Z8mBAKCBCTY2
-Z44 DEx4 work 8 scanfifo 0 22 >Xi50M_C8ek_=GkVhHeB53
-Z45 DEx4 work 11 scanhandler 0 22 Z_fJBhB95=UCU1Iz<d^KI2
-Z46 DEx4 work 7 uart_rx 0 22 JHKcmDTK;T3cAYC6PW[OK2
-Z47 DEx4 work 7 uart_tx 0 22 inV14mmzXlk;S:FO:dF@73
-Z48 DEx4 work 8 uartfifo 0 22 EF1AWEfA3^Q<2jQ>Rdf863
-Z49 DEx4 work 7 uartpll 0 22 @k39Pff>d?V2df:VeB:jP3
-Z50 DEx4 work 12 printhandler 0 22 62RKMSgOf4ZX>M2?0n@nH2
-Z51 DEx4 work 9 printfifo 0 22 X6IT>n:gkFjI[DMgNQ;?i2
-Z52 DEx4 work 15 flushcontroller 0 22 GfOj_L6[g>5`ihGWk^cLH3
-Z53 DEx4 work 15 stallcontroller 0 22 bkFRWKg63iHRaDFcG]7EJ0
-Z54 DEx4 work 17 forwardcontroller 0 22 <Eg:W=`77]k_=1g878bOB0
-Z55 DEx4 work 12 dlxwriteback 0 22 IBGk2e`HGV[;i=:heGzD[0
-Z56 DEx4 work 9 dlxmemory 0 22 :VgelCX=TM8X8oLKYedJP3
-Z57 DEx4 work 10 dlxexecute 0 22 cdKCW_1;ISK?IznR`hT8W0
-Z58 DEx4 work 9 dlxdecode 0 22 DIziodQGmo2Cd>?[i96>F0
-Z59 DEx4 work 8 dlxfetch 0 22 f^GLLjzK7DRNngzaK_dla1
+Z41 DEx4 work 9 stopwatch 0 22 @<=nYejY:L>5THYJzaR3a2
+Z42 DEx4 work 11 timehandler 0 22 l@;8d<3L4>Z8mBAKCBCTY2
+Z43 DEx4 work 8 scanfifo 0 22 >Xi50M_C8ek_=GkVhHeB53
+Z44 DEx4 work 11 scanhandler 0 22 Z_fJBhB95=UCU1Iz<d^KI2
+Z45 DEx4 work 7 uart_rx 0 22 dKE`6WUk7eMOF:aZDVAS=3
+Z46 DEx4 work 7 uart_tx 0 22 :6P;Sz`TbfzgB@CIjEaEN3
+Z47 DEx4 work 8 uartfifo 0 22 EF1AWEfA3^Q<2jQ>Rdf863
+Z48 DEx4 work 7 uartpll 0 22 @k39Pff>d?V2df:VeB:jP3
+Z49 DEx4 work 12 printhandler 0 22 62RKMSgOf4ZX>M2?0n@nH2
+Z50 DEx4 work 9 printfifo 0 22 X6IT>n:gkFjI[DMgNQ;?i2
+Z51 DEx4 work 15 flushcontroller 0 22 GfOj_L6[g>5`ihGWk^cLH3
+Z52 DEx4 work 15 stallcontroller 0 22 bkFRWKg63iHRaDFcG]7EJ0
+Z53 DEx4 work 17 forwardcontroller 0 22 <Eg:W=`77]k_=1g878bOB0
+Z54 DEx4 work 12 dlxwriteback 0 22 IBGk2e`HGV[;i=:heGzD[0
+Z55 DEx4 work 9 dlxmemory 0 22 :VgelCX=TM8X8oLKYedJP3
+Z56 DEx4 work 10 dlxexecute 0 22 cdKCW_1;ISK?IznR`hT8W0
+Z57 DEx4 work 9 dlxdecode 0 22 DIziodQGmo2Cd>?[i96>F0
+Z58 DEx4 work 8 dlxfetch 0 22 f^GLLjzK7DRNngzaK_dla1
 R5
 R6
 R7
 R8
-Z60 DEx4 work 3 dlx 0 22 o^zNcB6[C_NcB0o5AaZ@P3
+Z59 DEx4 work 3 dlx 0 22 o^zNcB6[C_NcB0o5AaZ@P3
 !i122 34
-l106
-L21 361
-VVPkXL?EZ18]Q@n3M`SL0;1
-!s100 M7n=GC[CAD2><T1bBA?aI1
+l103
+L21 356
+VGjk9gld?`k<mInYH1_Z^I1
+!s100 377IIFfDi0?eL1gOGFVHZ2
 R11
 31
 R2
 !i10b 1
+R38
 R39
 R40
-R41
 !i113 0
 R16
 R17
@@ -223,22 +223,22 @@ R6
 R7
 R8
 !i122 10
-Z61 w1775540106
+Z60 w1776141369
 R1
-Z62 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd
-Z63 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd
+Z61 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd
+Z62 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd
 l0
-L5 118
-V[^aS]ka9DZ4_6jYI8]0jl2
-!s100 N2M_>fXchPl0jAXb7bZLA1
+L5 119
+V[aD_JJ[?b4N>?F@LU[TR52
+!s100 gF=?8o4a^K9ND[IBje][b3
 R11
 31
 b1
-R32
+R30
 !i10b 1
-R33
-Z64 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd|
-Z65 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd|
+R31
+Z63 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd|
+Z64 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd|
 !i113 0
 R16
 R17
@@ -249,28 +249,28 @@ R7
 R8
 !i122 10
 l0
-L125 242
-V`_39N2BEWWzTWKOY7FO]?2
-!s100 f>b0hdl7dTaSFZ9c1I=XD0
+L126 242
+VdAITQ6gmOJbQz@QYD<8I92
+!s100 ZB?4Wb6^@h7l`LE]Sn:@50
 R11
 31
-R32
+R30
 !i10b 1
-R33
+R31
+R63
 R64
-R65
 !i113 0
 R16
 R17
 Edlx_top
-Z66 w1775534737
+Z65 w1775848757
 R6
 R7
 R8
 !i122 35
 R1
-Z67 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd
-Z68 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd
+Z66 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd
+Z67 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd
 l0
 L5 1
 VM_eaO[>C88VWgkc>ZYX6A0
@@ -279,15 +279,15 @@ R11
 31
 R2
 !i10b 1
-R39
-Z69 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd|
-Z70 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd|
+R38
+Z68 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd|
+Z69 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd|
 !i113 0
 R16
 R17
 Abehavior
 R5
-R60
+R59
 R6
 R7
 R8
@@ -301,22 +301,22 @@ R11
 31
 R2
 !i10b 1
-R39
+R38
+R68
 R69
-R70
 !i113 0
 R16
 R17
 Edlxdecode
-Z71 w1775454381
+Z70 w1776141375
 R5
 R6
 R7
 R8
 !i122 33
 R1
-Z72 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd
-Z73 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd
+Z71 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd
+Z72 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd
 l0
 L6 1
 VDIziodQGmo2Cd>?[i96>F0
@@ -325,38 +325,38 @@ R11
 31
 R2
 !i10b 1
-R13
-Z74 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd|
-Z75 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd|
+R38
+Z73 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd|
+Z74 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd|
 !i113 0
 R16
 R17
 Abehavior
-Z76 DEx4 work 12 signextender 0 22 ^@LGe<ejQn;]N8BV9Q]ek1
-Z77 DEx4 work 12 registerfile 0 22 [DeibBzA5E07aLje3Y4A13
-Z78 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
+Z75 DEx4 work 12 signextender 0 22 ^@LGe<ejQn;]N8BV9Q]ek1
+Z76 DEx4 work 12 registerfile 0 22 [DeibBzA5E07aLje3Y4A13
+Z77 DEx4 work 6 twomux 0 22 7SOaNY74aY>=YL3c=5dUa3
 R5
 R6
 R7
 R8
-R58
+R57
 !i122 33
-l49
-L39 83
-VcEF<nAF]FOTDL9mehN4R`3
-!s100 [i9ZPSa?MkP_l>Rg00K0g0
+l48
+L39 82
+V7SIkB80ia8kg]DQ:A`3bl2
+!s100 e@XFbRT0oPEg:FD4W^3Ko3
 R11
 31
 R2
 !i10b 1
-R13
+R38
+R73
 R74
-R75
 !i113 0
 R16
 R17
 Edlxexecute
-R4
+Z78 w1776141383
 R5
 R6
 R7
@@ -371,7 +371,7 @@ VcdKCW_1;ISK?IznR`hT8W0
 !s100 Z;T[N>A78A?Z5LRVAJ4i92
 R11
 31
-R12
+R2
 !i10b 1
 R13
 Z81 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxExecute.vhd|
@@ -383,20 +383,20 @@ Abehavior
 R18
 Z83 DEx4 work 12 shouldbranch 0 22 l5UPTl<FREbh9i3bI6FcL1
 Z84 DEx4 work 7 fourmux 0 22 L>n>J4HWjh7C?GWa94AFa3
-R78
+R77
 R5
 R6
 R7
 R8
-R57
+R56
 !i122 32
-l55
-L40 139
-V5cDkaeIY`Pi5MmJ:>@>aM3
-!s100 5518:nc]ko?W]?7TC2IkN3
+l54
+L40 138
+VCIcdiF2BFe:@7Bi5[04Ji3
+!s100 K<=A4[]P;HN2ohG03aCT12
 R11
 31
-R12
+R2
 !i10b 1
 R13
 R81
@@ -405,7 +405,7 @@ R82
 R16
 R17
 Edlxfetch
-Z85 w1775616181
+Z85 w1776210986
 R6
 R7
 R8
@@ -429,19 +429,19 @@ R16
 R17
 Abehavior
 R20
-Z90 DEx4 work 17 instructionmemory 0 22 JoOAI<EzVh6:Pf^GLI5TT1
-R78
+Z90 DEx4 work 17 instructionmemory 0 22 zFB6_UFJLG6hd;6gTj=_X2
+R77
 Z91 DEx4 work 11 incrementer 0 22 RkeG^>l]jD0bXb_`2Ylh_1
-Z92 DEx4 work 14 programcounter 0 22 1MaS<]LoHo@YKe;SO29YJ1
+Z92 DEx4 work 14 programcounter 0 22 WZ]^>k@4kD>T5K3AYZLL@2
 R6
 R7
 R8
-R59
+R58
 !i122 30
 l28
-L22 56
-VK@hSL11cQL[Cm@E<gLL5k3
-!s100 LVaDgk[zO]`1PEFCFdheT1
+L22 57
+VU[`GkD4::=PmRK9@UAS?K3
+!s100 3=I9[Dj@^UoRabC]9o]V[3
 R11
 31
 R12
@@ -453,15 +453,15 @@ R89
 R16
 R17
 Edlxmemory
-R71
+Z93 w1775454381
 R5
 R6
 R7
 R8
 !i122 29
 R1
-Z93 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd
-Z94 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd
+Z94 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd
+Z95 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd
 l0
 L6 1
 V:VgelCX=TM8X8oLKYedJP3
@@ -471,19 +471,19 @@ R11
 R12
 !i10b 1
 R13
-Z95 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd|
-Z96 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd|
+Z96 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd|
+Z97 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd|
 !i113 0
 R16
 R17
 Abehavior
 R20
-R28
+R26
 R5
 R6
 R7
 R8
-R56
+R55
 !i122 29
 l36
 L32 50
@@ -494,21 +494,21 @@ R11
 R12
 !i10b 1
 R13
-R95
 R96
+R97
 !i113 0
 R16
 R17
 Edlxwriteback
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 28
 R1
-Z97 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd
-Z98 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd
+Z98 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd
+Z99 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd
 l0
 L6 1
 VIBGk2e`HGV[;i=:heGzD[0
@@ -518,18 +518,18 @@ R11
 R12
 !i10b 1
 R13
-Z99 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd|
-Z100 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd|
+Z100 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd|
+Z101 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd|
 !i113 0
 R16
 R17
 Abehavior
-Z101 DEx4 work 8 threemux 0 22 D7zmX:jgDYM9CL[iQk?_Q1
+Z102 DEx4 work 8 threemux 0 22 D7zmX:jgDYM9CL[iQk?_Q1
 R5
 R6
 R7
 R8
-R55
+R54
 !i122 28
 l31
 L27 55
@@ -540,20 +540,20 @@ R11
 R12
 !i10b 1
 R13
-R99
 R100
+R101
 !i113 0
 R16
 R17
 Efactorial_tb
-R71
+Z103 w1776213259
 R6
 R7
 R8
 !i122 36
 R1
-Z102 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd
-Z103 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd
+Z104 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd
+Z105 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd
 l0
 L5 1
 VDPC5KO3<MgJ=fB2IoTaDc0
@@ -562,44 +562,44 @@ R11
 31
 R2
 !i10b 1
-R39
-Z104 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd|
-Z105 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd|
+R38
+Z106 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd|
+Z107 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd|
 !i113 0
 R16
 R17
 Asim
 R5
-R60
+R59
 R6
 R7
 R8
 DEx4 work 12 factorial_tb 0 22 DPC5KO3<MgJ=fB2IoTaDc0
 !i122 36
 l39
-L8 55
-VaY:?fdIQhJ37Ul5ao^ZDn1
-!s100 bL4MoC6kekl`^SfRfBJUY3
+L8 57
+VN0V6dfLMhZj26W0B;1_S?1
+!s100 D:FPnGT^Ah;ZWi^4FYVgS0
 R11
 31
 R2
 !i10b 1
-R39
-R104
-R105
+R38
+R106
+R107
 !i113 0
 R16
 R17
 Eflushcontroller
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 27
 R1
-Z106 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd
-Z107 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd
+Z108 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd
+Z109 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd
 l0
 L6 1
 VGfOj_L6[g>5`ihGWk^cLH3
@@ -609,8 +609,8 @@ R11
 R12
 !i10b 1
 R13
-Z108 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd|
-Z109 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd|
+Z110 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd|
+Z111 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd|
 !i113 0
 R16
 R17
@@ -619,7 +619,7 @@ R5
 R6
 R7
 R8
-R52
+R51
 !i122 27
 l14
 L13 4
@@ -630,21 +630,21 @@ R11
 R12
 !i10b 1
 R13
-R108
-R109
+R110
+R111
 !i113 0
 R16
 R17
 Eforwardcontroller
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 26
 R1
-Z110 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd
-Z111 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd
+Z112 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd
+Z113 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd
 l0
 L6 1
 V<Eg:W=`77]k_=1g878bOB0
@@ -654,8 +654,8 @@ R11
 R12
 !i10b 1
 R13
-Z112 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd|
-Z113 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd|
+Z114 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd|
+Z115 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd|
 !i113 0
 R16
 R17
@@ -664,7 +664,7 @@ R5
 R6
 R7
 R8
-R54
+R53
 !i122 26
 l26
 L16 51
@@ -675,31 +675,31 @@ R11
 R12
 !i10b 1
 R13
-R112
-R113
+R114
+R115
 !i113 0
 R16
 R17
 Efourmux
-R71
+R93
 R6
 R7
 R8
 !i122 9
 R1
-Z114 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd
-Z115 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd
+Z116 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd
+Z117 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd
 l0
 L5 1
 VL>n>J4HWjh7C?GWa94AFa3
 !s100 ES?QHj4NJjQBlc4?Lg^A`1
 R11
 31
-R32
+R30
 !i10b 1
-R33
-Z116 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd|
-Z117 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd|
+R31
+Z118 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd|
+Z119 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd|
 !i113 0
 R16
 R17
@@ -715,34 +715,34 @@ VbPko;zcKoO<]^4ge;KLhg0
 !s100 E:zj4aY9LR>JCHZ>Y?><93
 R11
 31
-R32
+R30
 !i10b 1
-R33
-R116
-R117
+R31
+R118
+R119
 !i113 0
 R16
 R17
 Eincrementer
-R71
+R93
 R6
 R7
 R8
 !i122 8
 R1
-Z118 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd
-Z119 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd
+Z120 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd
+Z121 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd
 l0
 L5 1
 VRkeG^>l]jD0bXb_`2Ylh_1
 !s100 9UecifA]X_Y7>SJ0JW1o_2
 R11
 31
-R32
+R30
 !i10b 1
-R33
-Z120 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd|
-Z121 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd|
+R31
+Z122 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd|
+Z123 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd|
 !i113 0
 R16
 R17
@@ -758,34 +758,34 @@ V?H5Hj:lF1A@Kb5YmkS0c61
 !s100 K^P4>ENeH;OjckWMk^03L3
 R11
 31
-R32
+R30
 !i10b 1
-R33
-R120
-R121
+R31
+R122
+R123
 !i113 0
 R16
 R17
 Einstructionmemory
-Z122 w1775543905
+Z124 w1776213435
 R20
 R7
 R8
 !i122 18
 R1
-Z123 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd
-Z124 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd
+Z125 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd
+Z126 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd
 l0
 R23
-VJoOAI<EzVh6:Pf^GLI5TT1
-!s100 ^doA6Z=7^NMVoPfkeLdkZ0
+VzFB6_UFJLG6hd;6gTj=_X2
+!s100 j<_EA4AB>@BZmNKLFRa>l0
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z125 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd|
-Z126 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd|
+R13
+Z127 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd|
+Z128 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd|
 !i113 0
 R16
 R17
@@ -795,46 +795,46 @@ R7
 R8
 R90
 !i122 18
-l58
-L54 33
-V0g22Q;LXmMeTM_LjgcXQM3
-!s100 ck=?hU0UT5=;J97zh4U`13
+l59
+L55 34
+V`0^D^2@K3GUVZ<B<G=Nn52
+!s100 DU78mW;K4MThZYb_X]ke[2
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R125
-R126
+R13
+R127
+R128
 !i113 0
 R16
 R17
 Emultiplier
-Z127 w1775455030
+Z129 w1775455030
 R7
 R8
 !i122 17
 R1
-Z128 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd
-Z129 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd
+Z130 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd
+Z131 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd
 l0
 R23
 VOGGmUUz8LZ`z2EcFz>9K62
 !s100 ;A6d=A>;nz3gY2k^06=iY2
 R11
 31
-R24
+R12
 !i10b 1
-R33
-Z130 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd|
-Z131 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd|
+R13
+Z132 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd|
+Z133 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd|
 !i113 0
 R16
 R17
 Asyn
 R7
 R8
-Z132 DEx4 work 10 multiplier 0 22 OGGmUUz8LZ`z2EcFz>9K62
+Z134 DEx4 work 10 multiplier 0 22 OGGmUUz8LZ`z2EcFz>9K62
 !i122 17
 l81
 L54 53
@@ -842,88 +842,88 @@ VA6AhAZ_NcF?<NG36h^Q@b3
 !s100 EHm7AioZ@G3:BLVgLf>a_1
 R11
 31
-R24
+R12
 !i10b 1
-R33
-R130
-R131
+R13
+R132
+R133
 !i113 0
 R16
 R17
 Eprintfifo
-Z133 w1775454809
+Z135 w1775454809
 R7
 R8
 !i122 11
 R1
-Z134 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd
-Z135 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd
+Z136 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd
+Z137 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd
 l0
 R23
 VX6IT>n:gkFjI[DMgNQ;?i2
 !s100 ogR244c:7N3_eeUgWR<BF0
 R11
 31
-R32
+R30
 !i10b 1
-R33
-Z136 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd|
-Z137 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd|
+R31
+Z138 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd|
+Z139 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd|
 !i113 0
 R16
 R17
 Asyn
 R7
 R8
-R51
+R50
 !i122 11
 l96
-Z138 L59 73
+Z140 L59 73
 VCzcA2fF^=I@j7<cF>bR@X0
 !s100 ]EVDjzTO;]ZKVASVL3B8i0
 R11
 31
-R32
+R30
 !i10b 1
-R33
-R136
-R137
+R31
+R138
+R139
 !i113 0
 R16
 R17
 Eprinthandler
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 25
 R1
-Z139 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd
-Z140 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd
+Z141 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd
+Z142 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd
 l0
 L6 1
 V62RKMSgOf4ZX>M2?0n@nH2
 !s100 @IXoVQSN<a?iKaFJ<m?SV1
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z141 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd|
-Z142 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd|
+R13
+Z143 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd|
+Z144 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd|
 !i113 0
 R16
 R17
 Abehavior
 R20
-Z143 DEx4 work 5 stack 0 22 ?io_mI4RJf]Q:JZVKz1BQ2
-R36
+Z145 DEx4 work 5 stack 0 22 ?io_mI4RJf]Q:JZVKz1BQ2
+R34
 R5
 R6
 R7
 R8
-R50
+R49
 !i122 25
 l39
 L21 237
@@ -931,34 +931,34 @@ VQH<?k=SkC0`n_Y`G3I?;R1
 !s100 o=nDaVm248>Ym6HNaQnJ53
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R141
-R142
+R13
+R143
+R144
 !i113 0
 R16
 R17
 Eprogramcounter
-R71
+Z146 w1776211023
 R6
 R7
 R8
 !i122 7
 R1
-Z144 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd
-Z145 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd
+Z147 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd
+Z148 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd
 l0
 L5 1
-V1MaS<]LoHo@YKe;SO29YJ1
-!s100 eIDZijl@Tbd:hDThfdWd<2
+VWZ]^>k@4kD>T5K3AYZLL@2
+!s100 9]S9AB8ToO]m6L;==ELa[2
 R11
 31
-R32
+R30
 !i10b 1
-Z146 !s108 1775675542.000000
-Z147 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd|
-Z148 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd|
+R31
+Z149 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd|
+Z150 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd|
 !i113 0
 R16
 R17
@@ -968,40 +968,40 @@ R7
 R8
 R92
 !i122 7
-l19
-L17 12
-V6Ed?>`oceLf?n<G1fNN:b0
-!s100 ikZM4KX3;XS?bkEHU8=RR3
+l20
+L18 12
+V1nRzma@TDYHA7Dm>PQCXB1
+!s100 DJ7nKXT83@SnES[BNS3[92
 R11
 31
-R32
+R30
 !i10b 1
-R146
-R147
-R148
+R31
+R149
+R150
 !i113 0
 R16
 R17
 Eregisterfile
-R71
+R93
 R6
 R7
 R8
 !i122 6
 R1
-Z149 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd
-Z150 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd
+Z151 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd
+Z152 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd
 l0
 L5 1
 V[DeibBzA5E07aLje3Y4A13
 !s100 o8@C3fi4]K>f=ZMUhkPl01
 R11
 31
-Z151 !s110 1775675542
+R30
 !i10b 1
-R146
-Z152 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd|
-Z153 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd|
+R31
+Z153 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd|
+Z154 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd|
 !i113 0
 R16
 R17
@@ -1009,7 +1009,7 @@ Artl
 R6
 R7
 R8
-R77
+R76
 !i122 6
 l26
 L23 29
@@ -1017,122 +1017,122 @@ VE9B4kEB]8gHo?k2@z^?`71
 !s100 h1S:Ybg9ZmR[2V<DbA9Wa2
 R11
 31
-R151
+R30
 !i10b 1
-R146
-R152
+R31
 R153
+R154
 !i113 0
 R16
 R17
 Escanfifo
-Z154 w1775454996
+Z155 w1775454996
 R7
 R8
 !i122 16
 R1
-Z155 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd
-Z156 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd
+Z156 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd
+Z157 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd
 l0
 R23
 V>Xi50M_C8ek_=GkVhHeB53
 !s100 i;BdOK5==160[470[Jj7Z2
 R11
 31
-R32
+R12
 !i10b 1
-R33
-Z157 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd|
-Z158 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd|
+R13
+Z158 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd|
+Z159 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd|
 !i113 0
 R16
 R17
 Asyn
 R7
 R8
-R44
+R43
 !i122 16
 l96
-R138
+R140
 VFGF9cLmM^@:O;GI6M9KDn0
 !s100 Dk[K5QWDbaEEAJ[lA:TR[2
 R11
 31
-R32
+R12
 !i10b 1
-R33
-R157
+R13
 R158
+R159
 !i113 0
 R16
 R17
 Escanhandler
-R71
+Z160 w1776213877
 R5
 R6
 R7
 R8
 !i122 24
 R1
-Z159 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd
-Z160 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd
+Z161 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd
+Z162 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd
 l0
 L6 1
 VZ_fJBhB95=UCU1Iz<d^KI2
 !s100 [z1RnED0@kU[@KTWoDHbC1
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z161 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd|
-Z162 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd|
+R13
+Z163 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd|
+Z164 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd|
 !i113 0
 R16
 R17
 Abehavior
-R132
+R134
 R5
 R6
 R7
 R8
-R45
+R44
 !i122 24
 l39
 L21 158
-V4;]8IK8]BQ@P;8kbjW@kE2
-!s100 TNZOS8;K@eAYQi;aD=dX?2
+VY9FOkjPIzL>FWS8U`2l4T3
+!s100 Y[j2G8QA1R?5bNfA2QGWz0
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R161
-R162
+R13
+R163
+R164
 !i113 0
 R16
 R17
 Eshouldbranch
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 23
 R1
-Z163 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd
-Z164 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd
+Z165 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd
+Z166 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd
 l0
 L6 1
 Vl5UPTl<FREbh9i3bI6FcL1
 !s100 ai`eK1Jgd=NzJCgGAcaB00
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z165 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd|
-Z166 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd|
+R13
+Z167 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd|
+Z168 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd|
 !i113 0
 R16
 R17
@@ -1149,35 +1149,35 @@ VPGkW0?3oD6=`NoJJ1bYH43
 !s100 zcf>kejM2PiZd0d<3A[Lh1
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R165
-R166
+R13
+R167
+R168
 !i113 0
 R16
 R17
 Esignextender
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 22
 R1
-Z167 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd
-Z168 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd
+Z169 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd
+Z170 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd
 l0
 L6 1
 V^@LGe<ejQn;]N8BV9Q]ek1
 !s100 ^nf_Ii0=0GARCL56;YX[H3
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z169 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd|
-Z170 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd|
+R13
+Z171 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd|
+Z172 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd|
 !i113 0
 R16
 R17
@@ -1186,7 +1186,7 @@ R5
 R6
 R7
 R8
-R76
+R75
 !i122 22
 l19
 L18 16
@@ -1194,34 +1194,34 @@ Vd3MDg@N2;^kZ>2zoaIO<03
 !s100 JfDeZB3oPS9gz5X35PkQ71
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R169
-R170
+R13
+R171
+R172
 !i113 0
 R16
 R17
 Estack
-Z171 w1775454966
+Z173 w1775454966
 R20
 R7
 R8
 !i122 15
 R1
-Z172 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd
-Z173 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd
+Z174 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd
+Z175 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd
 l0
 R23
 V?io_mI4RJf]Q:JZVKz1BQ2
 !s100 Z99MJWEM;KS<[FG]6k44i3
 R11
 31
-R32
+R12
 !i10b 1
-R33
-Z174 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd|
-Z175 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd|
+R31
+Z176 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd|
+Z177 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd|
 !i113 0
 R16
 R17
@@ -1229,7 +1229,7 @@ Asyn
 R20
 R7
 R8
-R143
+R145
 !i122 15
 l60
 L56 36
@@ -1237,35 +1237,35 @@ VzZG0nH=UI<KS[kc1V^klS2
 !s100 Y7a[_T<>3bACA<U5Vj>@62
 R11
 31
-R32
+R12
 !i10b 1
-R33
-R174
-R175
+R31
+R176
+R177
 !i113 0
 R16
 R17
 Estallcontroller
-R71
+R93
 R5
 R6
 R7
 R8
 !i122 21
 R1
-Z176 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd
-Z177 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd
+Z178 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd
+Z179 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd
 l0
 L6 1
 VbkFRWKg63iHRaDFcG]7EJ0
 !s100 BD]hA_>h<h_MVnVGB;Q452
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z178 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd|
-Z179 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd|
+R13
+Z180 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd|
+Z181 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd|
 !i113 0
 R16
 R17
@@ -1274,7 +1274,7 @@ R5
 R6
 R7
 R8
-R53
+R52
 !i122 21
 l26
 L16 41
@@ -1282,34 +1282,34 @@ VkCBlE;6I]K`HCXYbjM:7J0
 !s100 :;J`eo`LJ0fM6nM]6E4M=0
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R178
-R179
+R13
+R180
+R181
 !i113 0
 R16
 R17
 Estopwatch
-Z180 w1775454162
+Z182 w1775454162
 R6
 R7
 R8
 !i122 5
 R1
-Z181 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd
-Z182 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd
+Z183 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd
+Z184 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd
 l0
 L5 1
 V@<=nYejY:L>5THYJzaR3a2
 !s100 7]^ckVMJbRA=]zTJz9`1a1
 R11
 31
-R151
+R30
 !i10b 1
-R146
-Z183 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd|
-Z184 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd|
+R31
+Z185 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd|
+Z186 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd|
 !i113 0
 R16
 R17
@@ -1317,7 +1317,7 @@ Abehavior
 R6
 R7
 R8
-R42
+R41
 !i122 5
 l30
 L24 58
@@ -1325,34 +1325,34 @@ VF83jIP3aER@QLfN:NoZTA2
 !s100 fg:ieS[;VE6FCE;Lh<bnZ2
 R11
 31
-R151
+R30
 !i10b 1
-R146
-R183
-R184
+R31
+R185
+R186
 !i113 0
 R16
 R17
 Ethreemux
-R71
+R93
 R6
 R7
 R8
 !i122 4
 R1
-Z185 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd
-Z186 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd
+Z187 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd
+Z188 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd
 l0
 L5 1
 VD7zmX:jgDYM9CL[iQk?_Q1
 !s100 hQ;amKXG_VZcAe6N`hk1Q1
 R11
 31
-R151
+R30
 !i10b 1
-R146
-Z187 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd|
-Z188 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd|
+R31
+Z189 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd|
+Z190 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd|
 !i113 0
 R16
 R17
@@ -1360,7 +1360,7 @@ Abehavior
 R6
 R7
 R8
-R101
+R102
 !i122 4
 l19
 L18 18
@@ -1368,35 +1368,35 @@ VJhLDDnHKGJJfVb^[i<GbP0
 !s100 l7Ba[n:ch]JfeK9ZENQgQ1
 R11
 31
-R151
+R30
 !i10b 1
-R146
-R187
-R188
+R31
+R189
+R190
 !i113 0
 R16
 R17
 Etimehandler
-Z189 w1775542526
+Z191 w1776141410
 R5
 R6
 R7
 R8
 !i122 20
 R1
-Z190 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd
-Z191 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd
+Z192 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd
+Z193 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd
 l0
 L6 1
 Vl@;8d<3L4>Z8mBAKCBCTY2
 !s100 [g9nS;U10PjPd^k0bG4lE0
 R11
 31
-R24
+R12
 !i10b 1
-R25
-Z192 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd|
-Z193 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd|
+R13
+Z194 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd|
+Z195 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd|
 !i113 0
 R16
 R17
@@ -1405,42 +1405,42 @@ R5
 R6
 R7
 R8
-R43
+R42
 !i122 20
 l21
 L16 39
-V9`l5I:>Qcj=FhRYTiz[E[1
-!s100 6QT?@8TY@ZA9_mfMO_LEO1
+VO[VklkEe^R41fVgzS2BR@2
+!s100 ?U<0C45lE3`zTPZI57LdJ0
 R11
 31
-R24
+R12
 !i10b 1
-R25
-R192
-R193
+R13
+R194
+R195
 !i113 0
 R16
 R17
 Etwomux
-R71
+R93
 R6
 R7
 R8
 !i122 3
 R1
-Z194 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd
-Z195 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd
+Z196 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd
+Z197 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd
 l0
 L5 1
 V7SOaNY74aY>=YL3c=5dUa3
 !s100 Y]MiWnhDdSD8ZR@jccUfT2
 R11
 31
-R151
+R30
 !i10b 1
-R146
-Z196 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd|
-Z197 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd|
+R31
+Z198 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd|
+Z199 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd|
 !i113 0
 R16
 R17
@@ -1448,7 +1448,7 @@ Abehavior
 R6
 R7
 R8
-R78
+R77
 !i122 3
 l18
 L17 4
@@ -1456,34 +1456,77 @@ VEaXe<AZ2FGPNzV`l8J?C21
 !s100 kCkMMcDceCJA<jh^HmmUm0
 R11
 31
-R151
+R30
 !i10b 1
-R146
-R196
-R197
+R31
+R198
+R199
 !i113 0
 R16
 R17
 Euart_rx
-R71
+Z200 w1776141563
 R6
 R7
 R8
 !i122 2
 R1
-Z198 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd
-Z199 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd
+Z201 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd
+Z202 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd
 l0
 L5 1
-VJHKcmDTK;T3cAYC6PW[OK2
-!s100 g4C>YE[klLfzW9KLj??;K3
+VdKE`6WUk7eMOF:aZDVAS=3
+!s100 b5^i:PPM?8Q]>U>7WSQ5G3
 R11
 31
-R151
+R30
 !i10b 1
-R146
-Z200 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd|
-Z201 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd|
+R31
+Z203 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd|
+Z204 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R6
+R7
+R8
+R45
+!i122 2
+l23
+L16 73
+VXRohKT@;3@Hl[SN`6RCXM3
+!s100 [aWjIU5H_PK8<W6DY:BTU1
+R11
+31
+R30
+!i10b 1
+R31
+R203
+R204
+!i113 0
+R16
+R17
+Euart_tx
+Z205 w1776141559
+R6
+R7
+R8
+!i122 1
+R1
+Z206 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd
+Z207 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd
+l0
+L5 1
+V:6P;Sz`TbfzgB@CIjEaEN3
+!s100 lnILdJdWEYkd5l5<?Cl_^1
+R11
+31
+R30
+!i10b 1
+R31
+Z208 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd|
+Z209 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd|
 !i113 0
 R16
 R17
@@ -1492,83 +1535,81 @@ R6
 R7
 R8
 R46
-!i122 2
-l24
-L17 74
-VOmj;5fM_WP8i=LI37a?Tl2
-!s100 JWafl@K;lRAjU1alM[@k`0
-R11
-31
-R151
-!i10b 1
-R146
-R200
-R201
-!i113 0
-R16
-R17
-Euart_tx
-R71
-R6
-R7
-R8
 !i122 1
-R1
-Z202 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd
-Z203 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd
-l0
-L5 1
-VinV14mmzXlk;S:FO:dF@73
-!s100 IVoRczGL@]DR;6IO:i@MV3
+l21
+L16 59
+VHJ@mdIk=`QWI_eOZHYkHY0
+!s100 TnKf5i<Ei^KQC`9AQ0RJK2
 R11
 31
-R151
+R30
 !i10b 1
-R146
-Z204 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd|
-Z205 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd|
-!i113 0
-R16
-R17
-Abehavior
-R6
-R7
-R8
-R47
-!i122 1
-l22
-L17 61
-VmTA71L>>T:R`DnWFZTcY31
-!s100 iZihBN]U:F048B<ZYEi852
-R11
-31
-R151
-!i10b 1
-R146
-R204
-R205
+R31
+R208
+R209
 !i113 0
 R16
 R17
 Euartfifo
-Z206 w1775454832
+Z210 w1775454832
 R7
 R8
 !i122 12
 R1
-Z207 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd
-Z208 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd
+Z211 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd
+Z212 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd
 l0
 R23
 VEF1AWEfA3^Q<2jQ>Rdf863
 !s100 IaE=e@j:G?D7aN1A7G0`J2
 R11
 31
-R32
+R30
 !i10b 1
-R33
-Z209 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd|
-Z210 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd|
+R31
+Z213 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd|
+Z214 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd|
+!i113 0
+R16
+R17
+Asyn
+R7
+R8
+R47
+!i122 12
+l96
+R140
+VXLWZR1aQaJacWX:5oYY=70
+!s100 Kj[<S9HbYFUBgzdjZ?[JB1
+R11
+31
+R30
+!i10b 1
+R31
+R213
+R214
+!i113 0
+R16
+R17
+Euartpll
+R65
+R7
+R8
+!i122 13
+R1
+Z215 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd
+Z216 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd
+l0
+R23
+V@k39Pff>d?V2df:VeB:jP3
+!s100 kQnO6mGMoi?Qda6oU=F@k2
+R11
+31
+R30
+!i10b 1
+R31
+Z217 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd|
+Z218 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd|
 !i113 0
 R16
 R17
@@ -1576,47 +1617,6 @@ Asyn
 R7
 R8
 R48
-!i122 12
-l96
-R138
-VXLWZR1aQaJacWX:5oYY=70
-!s100 Kj[<S9HbYFUBgzdjZ?[JB1
-R11
-31
-R32
-!i10b 1
-R33
-R209
-R210
-!i113 0
-R16
-R17
-Euartpll
-Z211 w1775454887
-R7
-R8
-!i122 13
-R1
-Z212 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd
-Z213 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd
-l0
-R23
-V@k39Pff>d?V2df:VeB:jP3
-!s100 kQnO6mGMoi?Qda6oU=F@k2
-R11
-31
-R32
-!i10b 1
-R33
-Z214 !s90 -reportprogress|300|-93|-work|work|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd|
-Z215 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd|
-!i113 0
-R16
-R17
-Asyn
-R7
-R8
-R49
 !i122 13
 l138
 L55 166
@@ -1624,22 +1624,22 @@ V_WZ`VND[f>S6ed^OAK[`k2
 !s100 aY3d1mNj@11^bE_O<VQoh2
 R11
 31
-R32
+R30
 !i10b 1
-R33
-R214
-R215
+R31
+R217
+R218
 !i113 0
 R16
 R17
 vUartPll_altpll
 2/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v
-R151
+R30
 !i10b 1
 !s100 HUoLFhCVkz7QgSQ?0<kL33
 IM]BXLCISTIKWkJ=akza:R0
 R1
-w1775455140
+w1776141446
 8/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v
 F/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v
 !i122 0
@@ -1649,7 +1649,7 @@ OL;L;2024.3;79
 r1
 !s85 0
 31
-R146
+R31
 !s107 /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db|/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v|
 !i113 0

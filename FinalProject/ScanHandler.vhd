@@ -93,7 +93,7 @@ begin
                 elsif (unsigned(CHAR_IN) = 10 or unsigned(CHAR_IN) = 13) then
                     next_started <= '1';
                     next_neg <= neg;
-                    next_state <= WR;
+                    next_state <= CONVERT;
                 elsif (unsigned(CHAR_IN) = 45 and started <= '0') then
                     next_started <= '1';
                     next_neg <= '1';

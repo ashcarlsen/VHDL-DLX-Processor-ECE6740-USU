@@ -54,6 +54,8 @@ begin
         wait for 2*CLK_PERIOD;
         RST <= '0';
         wait for 2*CLK_PERIOD;
+        send_byte(X"2D", rx_sig);
+        wait for 2*CLK_PERIOD;
         send_byte(X"36", rx_sig);
         wait for 1*CLK_PERIOD;
         send_byte(X"0A", rx_sig);

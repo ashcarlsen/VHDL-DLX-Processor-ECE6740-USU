@@ -64,7 +64,7 @@ BEGIN
 		address_aclr_a => "CLEAR0",
 		clock_enable_input_a => "NORMAL",
 		clock_enable_output_a => "BYPASS",
-		init_file => "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/timer_ins.mif",
+		init_file => "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/collatz_ins.mif",
 		intended_device_family => "MAX 10",
 		lpm_type => "altsyncram",
 		numwords_a => 1024,
@@ -107,7 +107,7 @@ END SYN;
 -- Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
--- Retrieval info: PRIVATE: MIFfilename STRING "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/timer_ins.mif"
+-- Retrieval info: PRIVATE: MIFfilename STRING "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/collatz_ins.mif"
 -- Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "1024"
 -- Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 -- Retrieval info: PRIVATE: RegAddr NUMERIC "1"
@@ -122,7 +122,7 @@ END SYN;
 -- Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "CLEAR0"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "NORMAL"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
--- Retrieval info: CONSTANT: INIT_FILE STRING "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/timer_ins.mif"
+-- Retrieval info: CONSTANT: INIT_FILE STRING "/home/ash/USU/Spring2026/ECE6740/Projects/DLX_Assembler/_bld/collatz_ins.mif"
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "MAX 10"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
 -- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "1024"

@@ -25,17 +25,17 @@
 # 
 # vlog -vlog01compat -work work +incdir+/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db" /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/db/UartPll_altpll.v 
 # -- Compiling module UartPll_altpll
 # 
 # Top level modules:
 # 	UartPll_altpll
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_TX.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,11 +43,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity UART_TX
 # -- Compiling architecture behavior of UART_TX
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UART_RX.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -55,11 +55,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity UART_RX
 # -- Compiling architecture behavior of UART_RX
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TwoMux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -67,11 +67,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity TwoMux
 # -- Compiling architecture behavior of TwoMux
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ThreeMux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -79,11 +79,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ThreeMux
 # -- Compiling architecture behavior of ThreeMux
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stopwatch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -91,11 +91,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Stopwatch
 # -- Compiling architecture behavior of Stopwatch
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/RegisterFile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -103,11 +103,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity RegisterFile
 # -- Compiling architecture rtl of RegisterFile
-# End time: 13:12:22 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:22 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ProgramCounter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -115,11 +115,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ProgramCounter
 # -- Compiling architecture rtl of ProgramCounter
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:01
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Incrementer.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -127,11 +127,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Incrementer
 # -- Compiling architecture behavior of Incrementer
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FourMux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -139,11 +139,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity FourMux
 # -- Compiling architecture behavior of FourMux
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/dlx_constants.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -152,55 +152,55 @@
 # -- Compiling package dlx_constants
 # -- Compiling package body dlx_constants
 # -- Loading package dlx_constants
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintFIFO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PrintFIFO
 # -- Compiling architecture SYN of printfifo
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartFIFO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity UartFIFO
 # -- Compiling architecture SYN of uartfifo
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/UartPll.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity UartPll
 # -- Compiling architecture SYN of uartpll
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Divider.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Divider
 # -- Compiling architecture SYN of divider
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:15 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:15 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Stack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -208,33 +208,33 @@
 # -- Loading package altera_mf_components
 # -- Compiling entity Stack
 # -- Compiling architecture SYN of stack
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanFIFO.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ScanFIFO
 # -- Compiling architecture SYN of scanfifo
-# End time: 13:12:23 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:23 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Multiplier.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Multiplier
 # -- Compiling architecture SYN of multiplier
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:01
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/InstructionMemory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -242,11 +242,11 @@
 # -- Loading package altera_mf_components
 # -- Compiling entity InstructionMemory
 # -- Compiling architecture SYN of instructionmemory
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DataMemory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -254,11 +254,11 @@
 # -- Loading package altera_mf_components
 # -- Compiling entity DataMemory
 # -- Compiling architecture SYN of datamemory
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/TimeHandler.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -267,11 +267,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity TimeHandler
 # -- Compiling architecture behavior of TimeHandler
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/StallController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -280,11 +280,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity StallController
 # -- Compiling architecture behavior of StallController
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/SignExtender.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -293,11 +293,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity SignExtender
 # -- Compiling architecture behavior of SignExtender
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ShouldBranch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -306,11 +306,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity ShouldBranch
 # -- Compiling architecture behavior of ShouldBranch
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ScanHandler.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -320,11 +320,11 @@
 # -- Compiling entity ScanHandler
 # -- Compiling architecture behavior of ScanHandler
 # -- Loading entity Multiplier
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:24 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/PrintHandler.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -336,11 +336,11 @@
 # -- Loading entity Divider
 # -- Loading package altera_mf_components
 # -- Loading entity Stack
-# End time: 13:12:24 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ForwardController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -349,11 +349,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity ForwardController
 # -- Compiling architecture behavior of ForwardController
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/FlushController.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -362,11 +362,11 @@
 # -- Loading package dlx_constants
 # -- Compiling entity FlushController
 # -- Compiling architecture behavior of FlushController
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxWriteBack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -376,11 +376,11 @@
 # -- Compiling entity DlxWriteBack
 # -- Compiling architecture behavior of DlxWriteBack
 # -- Loading entity ThreeMux
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxMemory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -391,11 +391,11 @@
 # -- Compiling architecture behavior of DlxMemory
 # -- Loading package altera_mf_components
 # -- Loading entity DataMemory
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxFetch.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxFetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -408,11 +408,11 @@
 # -- Loading entity TwoMux
 # -- Loading package altera_mf_components
 # -- Loading entity InstructionMemory
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -441,11 +441,11 @@
 # ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd(167): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 # ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd(173): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 # ** Warning: /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/ALU.vhd(179): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:16 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 20
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxExecute.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:16 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxExecute.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -458,11 +458,11 @@
 # -- Loading entity FourMux
 # -- Loading entity ShouldBranch
 # -- Loading entity ALU
-# End time: 13:12:25 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:17 on Apr 14,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:25 on Apr 08,2026
+# Start time: 18:46:17 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DlxDecode.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -474,11 +474,11 @@
 # -- Loading entity TwoMux
 # -- Loading entity RegisterFile
 # -- Loading entity SignExtender
-# End time: 13:12:26 on Apr 08,2026, Elapsed time: 0:00:01
+# End time: 18:46:17 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:26 on Apr 08,2026
+# Start time: 18:46:17 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -505,11 +505,11 @@
 # -- Loading entity ScanFIFO
 # -- Loading entity TimeHandler
 # -- Loading entity Stopwatch
-# End time: 13:12:26 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:17 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:26 on Apr 08,2026
+# Start time: 18:46:17 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/DLX_TOP.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -519,12 +519,12 @@
 # -- Compiling architecture behavior of DLX_TOP
 # -- Loading package dlx_constants
 # -- Loading entity DLX
-# End time: 13:12:26 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:17 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd}
 # Questa Intel Starter FPGA Edition-64 vcom 2024.3 Compiler 2024.09 Sep 10 2024
-# Start time: 13:12:26 on Apr 08,2026
+# Start time: 18:46:17 on Apr 14,2026
 # vcom -reportprogress 300 -93 -work work /home/ash/USU/Spring2026/ECE6740/Projects/FinalProject/Factorial_TB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -534,12 +534,12 @@
 # -- Compiling architecture sim of Factorial_TB
 # -- Loading package dlx_constants
 # -- Loading entity DLX
-# End time: 13:12:26 on Apr 08,2026, Elapsed time: 0:00:00
+# End time: 18:46:17 on Apr 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  Factorial_TB
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" Factorial_TB 
-# Start time: 13:12:26 on Apr 08,2026
+# Start time: 18:46:17 on Apr 14,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-143) Recognized 1 FSM in architecture body "UART_TX(behavior)".
@@ -744,13 +744,8 @@
 #    Time: 0 ps  Iteration: 1  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
 # ** Note: MAX 10 PLL locked to incoming clock
 #    Time: 90 ns  Iteration: 3  Instance: /factorial_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
-add wave -position insertpoint sim:/factorial_tb/UUT/fetch/*
-add wave -position insertpoint sim:/factorial_tb/UUT/decode/*
-add wave -position insertpoint sim:/factorial_tb/UUT/execute/*
-add wave -position insertpoint sim:/factorial_tb/UUT/memory/*
-add wave -position insertpoint sim:/factorial_tb/UUT/wb/*
-add wave -position insertpoint sim:/factorial_tb/UUT/time_handler/*
-add wave -position insertpoint sim:/factorial_tb/UUT/stopwatch/*
+add wave -position insertpoint sim:/factorial_tb/UUT/scanner/*
+add wave -position insertpoint sim:/factorial_tb/UUT/scan_handler/*
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-8009) Loading existing optimized design _opt
@@ -864,5 +859,125 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
 # ** Note: MAX 10 PLL locked to incoming clock
 #    Time: 90 ns  Iteration: 3  Instance: /factorial_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
-# End time: 15:09:17 on Apr 10,2026, Elapsed time: 49:56:51
+add wave -position insertpoint sim:/factorial_tb/UUT/print_handler/*
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+add wave -position insertpoint sim:/factorial_tb/UUT/printer/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scanner/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo_rx/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/fifo/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /factorial_tb/UUT/printer/dcfifo_component/DCFIFO_MW/LOWLATENCY_FIFO/LOWLATENCY
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /factorial_tb/UUT/scan_handler/mult/lpm_mult_component
+# ** Note: MAX 10 PLL locked to incoming clock
+#    Time: 90 ns  Iteration: 3  Instance: /factorial_tb/UUT/pll/altpll_component/CYCLONEIII_ALTPLL/M5
+# End time: 18:53:57 on Apr 14,2026, Elapsed time: 0:07:40
 # Errors: 0, Warnings: 54

@@ -237,6 +237,8 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Factorial_TB
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "3 ms" -section_id Factorial_TB
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Factorial_TB -section_id Factorial_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE Factorial_TB.vhd -section_id Factorial_TB
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE BALANCED
 set_global_assignment -name VHDL_FILE TimeHandler.vhd
 set_global_assignment -name VHDL_FILE UART_TX.vhd
 set_global_assignment -name VHDL_FILE UART_RX.vhd
