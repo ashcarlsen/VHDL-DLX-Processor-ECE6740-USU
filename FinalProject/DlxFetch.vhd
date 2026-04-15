@@ -24,17 +24,17 @@ architecture behavior of DlxFetch is
 	signal pc_in : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
 	signal inc_out : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
 
-	signal stall_clk : STD_LOGIC;
+	signal clk_en : STD_LOGIC := '1';
 begin
-
-	stall_clk <= CLK or STALL;
+	clk_en <= not STALL;
 
 	pc : entity work.ProgramCounter
 		generic map (
 			WIDTH => ADDR_WIDTH
 		)
 		port map (
-			CLK => stall_clk,
+			CLK => CLK,
+			EN => clk_en,
 			RST => RST,
 			NEXT_ADDRESS => pc_in,
 			OUT_ADDRESS => pc_out
@@ -63,14 +63,15 @@ begin
 		port map (
 			aclr => FLUSH,
 			address => pc_out,
-			clock => stall_clk,
+			clock => CLK,
+			clken => clk_en,
 			q => INSTRUCTION
 		);
 	
 
-	update : process(stall_clk)
+	update : process(CLK, clk_en)
 	begin
-		if rising_edge(stall_clk) then
+		if rising_edge(CLK) and (clk_en = '1') then
 			NEXT_ADDR <= pc_in;
 		end if;
 	end process;
