@@ -1,4 +1,4 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DLX:dlx|ScanHandler:scan_handler|Multiplier:mult|lpm_mult:lpm_mult_component|mult_0kr:auto_generated|mac_out2,
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DLX:dlx|ScanHandler:scan_handler|Multiplier:mult|lpm_mult:lpm_mult_component|mult_0kr:auto_generated|mac_out4,
-PORT_SWAPPING,PORT_SWAPPING_FINISHED,DLX:dlx|ScanHandler:scan_handler|Multiplier:mult|lpm_mult:lpm_mult_component|mult_0kr:auto_generated|mac_mult1,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DLX:dlx|ScanHandler:scan_handler|Multiplier:mult|lpm_mult:lpm_mult_component|mult_0kr:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,DLX:dlx|ScanHandler:scan_handler|Multiplier:mult|lpm_mult:lpm_mult_component|mult_0kr:auto_generated|mac_mult3,

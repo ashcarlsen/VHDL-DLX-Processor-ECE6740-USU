@@ -33,7 +33,11 @@ entity DlxExecute is
         PRINT_DATA : out STD_LOGIC_VECTOR(DATA_WIDTH+1 downto 0);
         PRINT_WR : out STD_LOGIC;
         -- scan FIFO signals
-        SCAN_DATA : in STD_LOGIC_VECTOR(DATA_WIDTH-1 downto 0)
+        SCAN_DATA : in STD_LOGIC_VECTOR(DATA_WIDTH-1 downto 0);
+        -- timer signals
+        TIMER_RST : out STD_LOGIC := '0';
+        TIMER_GO : out STD_LOGIC := '0';
+        TIMER_STOP : out STD_LOGIC := '0'
     );
 end entity DlxExecute;
 
@@ -51,6 +55,7 @@ architecture behavior of DlxExecute is
 
     signal print_en : STD_LOGIC;
     signal scan_sel : STD_LOGIC;
+
 begin
 
     ins_mux : entity work.TwoMux
@@ -87,6 +92,10 @@ begin
     PRINT_DATA(DATA_WIDTH) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PD) else '0';
     -- Upper bit is for character flag
     PRINT_DATA(DATA_WIDTH+1) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PCH) else '0';
+
+    TIMER_RST <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TR) else '0';
+    TIMER_GO <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TGO) else '0';
+    TIMER_STOP <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TSP) else '0';
 
     upper_mux : entity work.FourMux
         generic map (

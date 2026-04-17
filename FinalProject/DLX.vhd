@@ -100,6 +100,9 @@ architecture behavior of DLX is
     signal stopwatch_en : STD_LOGIC := '0';
     signal stopwatch_rst : STD_LOGIC := '1';
     signal timer_rst : STD_LOGIC := '0';
+    signal go_flag : STD_LOGIC := '0';
+    signal stop_flag : STD_LOGIC := '0';
+    signal rst_flag : STD_LOGIC := '1';
 begin
 
     -- Reset processor if not locked
@@ -177,7 +180,10 @@ begin
             PRINT_FULL => print_full,
             PRINT_DATA => print_data,
             PRINT_WR => print_wr,
-            SCAN_DATA => scan_out
+            SCAN_DATA => scan_out,
+            TIMER_RST => rst_flag,
+            TIMER_GO => go_flag,
+            TIMER_STOP => stop_flag
         );
 
     memory : entity work.DlxMemory
@@ -353,7 +359,9 @@ begin
         port map (
             CLK => CLK,
             RST => RST,
-            EX_MEM_INS => e2m_ins,
+            GO_FLAG => go_flag,
+            STOP_FLAG => stop_flag,
+            RST_FLAG => rst_flag,
             TIMER_EN => stopwatch_en,
             TIMER_RST => timer_rst
         );
