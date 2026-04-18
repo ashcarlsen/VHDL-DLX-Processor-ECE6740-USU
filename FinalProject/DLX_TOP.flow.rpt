@@ -1,5 +1,5 @@
 Flow report for DLX_TOP
-Thu Apr 16 19:54:04 2026
+Fri Apr 17 20:35:28 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,20 +41,20 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 16 19:54:04 2026           ;
+; Flow Status                        ; Successful - Fri Apr 17 20:35:28 2026           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; DLX_TOP                                         ;
 ; Top-level Entity Name              ; DLX_TOP                                         ;
 ; Family                             ; MAX 10                                          ;
 ; Device                             ; 10M50DAF484C7G                                  ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 6,504 / 49,760 ( 13 % )                         ;
-;     Total combinational functions  ; 5,700 / 49,760 ( 11 % )                         ;
-;     Dedicated logic registers      ; 3,021 / 49,760 ( 6 % )                          ;
-; Total registers                    ; 3021                                            ;
+; Total logic elements               ; 6,892 / 49,760 ( 14 % )                         ;
+;     Total combinational functions  ; 6,077 / 49,760 ( 12 % )                         ;
+;     Dedicated logic registers      ; 3,099 / 49,760 ( 6 % )                          ;
+; Total registers                    ; 3099                                            ;
 ; Total pins                         ; 89 / 360 ( 25 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 92,374 / 1,677,312 ( 6 % )                      ;
+; Total memory bits                  ; 92,269 / 1,677,312 ( 6 % )                      ;
 ; Embedded Multiplier 9-bit elements ; 4 / 288 ( 1 % )                                 ;
 ; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                                   ;
@@ -67,7 +67,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/16/2026 19:53:06 ;
+; Start date & time ; 04/17/2026 20:34:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DLX_TOP             ;
 +-------------------+---------------------+
@@ -78,7 +78,8 @@ on the Quartus Prime software download page.
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
 ; Assignment Name                      ; Value                                                                                                                                                                        ; Default Value ; Entity Name ; Section Id       ;
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID                ; 260109155516555.177639078660109                                                                                                                                              ; --            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID                ; 260109155516555.177647964726324                                                                                                                                              ; --            ; --          ; --               ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE     ; Speed                                                                                                                                                                        ; Balanced      ; --          ; --               ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                                                           ; --            ; --          ; Factorial_TB     ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Factorial_TB                                                                                                                                                                 ; --            ; --          ; eda_simulation   ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                                                                                  ; --            ; --          ; eda_simulation   ;
@@ -90,6 +91,7 @@ on the Quartus Prime software download page.
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 3 ms                                                                                                                                                                         ; --            ; --          ; Factorial_TB     ;
 ; EDA_TIME_SCALE                       ; 1 ps                                                                                                                                                                         ; --            ; --          ; eda_simulation   ;
 ; ENABLE_SIGNALTAP                     ; On                                                                                                                                                                           ; --            ; --          ; --               ;
+; FITTER_EFFORT                        ; Standard Fit                                                                                                                                                                 ; Auto Fit      ; --          ; --               ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                                                                                           ; --            ; --          ; --               ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                                                                                            ; --            ; --          ; --               ;
 ; MISC_FILE                            ; PrintFIFO.cmp                                                                                                                                                                ; --            ; --          ; --               ;
@@ -102,6 +104,8 @@ on the Quartus Prime software download page.
 ; MISC_FILE                            ; Multiplier.cmp                                                                                                                                                               ; --            ; --          ; --               ;
 ; MISC_FILE                            ; InstructionMemory.cmp                                                                                                                                                        ; --            ; --          ; --               ;
 ; MISC_FILE                            ; DataMemory.cmp                                                                                                                                                               ; --            ; --          ; --               ;
+; MUX_RESTRUCTURE                      ; Off                                                                                                                                                                          ; Auto          ; --          ; --               ;
+; OPTIMIZATION_MODE                    ; Aggressive Performance                                                                                                                                                       ; Balanced      ; --          ; --               ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                                            ; --            ; --          ; --               ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                                            ; --            ; --          ; --               ;
 ; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                                                                   ; --            ; --          ; --               ;
@@ -109,8 +113,12 @@ on the Quartus Prime software download page.
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                                                                                       ; --            ; --          ; Top              ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                                                                                       ; --            ; --          ; Top              ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                                                                                                       ; --            ; --          ; Top              ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC       ; On                                                                                                                                                                           ; Off           ; --          ; --               ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING ; On                                                                                                                                                                           ; Off           ; --          ; --               ;
+; PLACEMENT_EFFORT_MULTIPLIER          ; 4.0                                                                                                                                                                          ; 1.0           ; --          ; --               ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                                                                                                          ; --            ; --          ; --               ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                                        ; --            ; --          ; --               ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                                                                                                                                                      ; Normal        ; --          ; --               ;
 ; SLD_FILE                             ; db/stp2_auto_stripped.stp                                                                                                                                                    ; --            ; --          ; --               ;
 ; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
 ; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
@@ -148,12 +156,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:25     ; 1.0                     ; 577 MB              ; 00:00:38                           ;
-; Fitter               ; 00:00:19     ; 2.3                     ; 1603 MB             ; 00:00:58                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 390 MB              ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:04     ; 4.5                     ; 689 MB              ; 00:00:16                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 639 MB              ; 00:00:02                           ;
-; Total                ; 00:00:53     ; --                      ; --                  ; 00:01:56                           ;
+; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 633 MB              ; 00:00:36                           ;
+; Fitter               ; 00:00:44     ; 1.8                     ; 1620 MB             ; 00:02:00                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 406 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 3.6                     ; 654 MB              ; 00:00:11                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 647 MB              ; 00:00:02                           ;
+; Total                ; 00:01:16     ; --                      ; --                  ; 00:02:52                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -254,13 +254,12 @@ begin
         port map (
             aclr => dlx_rst,
             data => print_data,
-            rdclk => CLK,
+            clock => CLK,
             rdreq => print_rd,
-            wrclk => CLK,
             wrreq => print_wr,
             q => print_out,
-            rdempty => print_empty,
-            wrfull => print_full
+            empty => print_empty,
+            full => print_full
         );
     
     print_handler : entity work.PrintHandler
