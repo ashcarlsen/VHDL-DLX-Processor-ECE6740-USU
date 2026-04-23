@@ -82,21 +82,6 @@ begin
     -- set the scan sel to '1' when we get a scan instruction
     scan_sel <= '1' when is_scan(ins(INS_WIDTH-1 downto INS_WIDTH-6)) else '0';
 
-    -- Write enable is for all print commands
-    print_en <= '1' when is_print(ins(INS_WIDTH-1 downto INS_WIDTH-6)) else '0';
-    -- Only write when FIFO not full
-    PRINT_WR <= print_en and (not PRINT_FULL);
-    -- 31 to 0 is data
-    PRINT_DATA(DATA_WIDTH-1 downto 0) <= alu_result; 
-    -- 2nd Upper bit is for signed flag
-    PRINT_DATA(DATA_WIDTH) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PD) else '0';
-    -- Upper bit is for character flag
-    PRINT_DATA(DATA_WIDTH+1) <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = PCH) else '0';
-
-    TIMER_RST <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TR) else '0';
-    TIMER_GO <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TGO) else '0';
-    TIMER_STOP <= '1' when (ins(INS_WIDTH-1 downto INS_WIDTH-6) = TSP) else '0';
-
     upper_mux : entity work.FourMux
         generic map (
             WIDTH => DATA_WIDTH
@@ -168,19 +153,69 @@ begin
         );
 
     update : process (CLK, RST)
-    begin
-        if RST = '1' then
-            JUMP_FLAG <= '0';
-            ALU_OUT <= (others => '0');
-            RS2_OUT <= (others => '0');
-            ADDR_OUT <= (others => '0');
-            INS_OUT <= (others => '0');
-        elsif rising_edge(CLK) then
-            JUMP_FLAG <= jump;
-            ALU_OUT <= alu_result;
-            RS2_OUT <= lower_data;
-            ADDR_OUT <= ADDR_IN;
-            INS_OUT <= ins;
+begin
+    if RST = '1' then
+        JUMP_FLAG <= '0';
+        ALU_OUT <= (others => '0');
+        RS2_OUT <= (others => '0');
+        ADDR_OUT <= (others => '0');
+        INS_OUT <= (others => '0');
+        
+        -- Reset new registered signals
+        PRINT_WR <= '0';
+        PRINT_DATA <= (others => '0');
+        TIMER_RST <= '0';
+        TIMER_GO <= '0';
+        TIMER_STOP <= '0';
+        
+    elsif rising_edge(CLK) then
+        JUMP_FLAG <= jump;
+        ALU_OUT <= alu_result;
+        RS2_OUT <= lower_data;
+        ADDR_OUT <= ADDR_IN;
+        INS_OUT <= ins;
+
+        -- Register the Print Logic
+        -- Note: We use 'ins' here, which is the output of the NOP mux
+        if is_print(ins(31 downto 26)) and (PRINT_FULL = '0') then
+            PRINT_WR <= '1';
+        else
+            PRINT_WR <= '0';
         end if;
-    end process;
+
+        -- Register the Data and Type flags
+        PRINT_DATA(DATA_WIDTH-1 downto 0) <= alu_result; 
+        
+        if (ins(31 downto 26) = PD) then
+            PRINT_DATA(DATA_WIDTH) <= '1';
+        else
+            PRINT_DATA(DATA_WIDTH) <= '0';
+        end if;
+
+        if (ins(31 downto 26) = PCH) then
+            PRINT_DATA(DATA_WIDTH+1) <= '1';
+        else
+            PRINT_DATA(DATA_WIDTH+1) <= '0';
+        end if;
+
+        -- Register Timer signals
+        if (ins(31 downto 26) = TR) then
+            TIMER_RST <= '1';
+            TIMER_GO <= '0';
+            TIMER_STOP <= '0';
+        elsif (ins(31 downto 26) = TGO) then
+            TIMER_RST <= '0';
+            TIMER_GO <= '1';
+            TIMER_STOP <= '0';
+        elsif (ins(31 downto 26) = TSP) then
+            TIMER_RST <= '0';
+            TIMER_GO <= '0';
+            TIMER_STOP <= '1';
+        else
+            TIMER_RST <= '0';
+            TIMER_GO <= '0';
+            TIMER_STOP <= '0';
+        end if;
+    end if;
+end process;
 end architecture behavior;

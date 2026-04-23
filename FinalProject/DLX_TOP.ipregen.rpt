@@ -1,5 +1,5 @@
 IP Upgrade report for DLX_TOP
-Fri Apr 17 20:23:40 2026
+Wed Apr 22 19:40:26 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -35,7 +35,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------+
 ; IP Upgrade Summary                                                             ;
 +------------------------------+-------------------------------------------------+
-; IP Components Upgrade Status ; Failed - Fri Apr 17 20:23:40 2026               ;
+; IP Components Upgrade Status ; Failed - Wed Apr 22 19:40:26 2026               ;
 ; Quartus Prime Version        ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                ; DLX_TOP                                         ;
 ; Top-level Entity Name        ; DLX_TOP                                         ;
@@ -48,9 +48,9 @@ on the Quartus Prime software download page.
 +---------------------+
 Info (23030): Evaluation of Tcl script /home/ash/intelFPGA_Lite/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 603 megabytes
-    Info: Processing ended: Fri Apr 17 20:23:40 2026
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 594 megabytes
+    Info: Processing ended: Wed Apr 22 19:40:26 2026
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:11
 
 

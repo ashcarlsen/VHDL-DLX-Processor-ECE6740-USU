@@ -1,0 +1,182 @@
+--dffpipe DELAY=23 WIDTH=9 clock d q ALTERA_INTERNAL_OPTIONS=AUTO_SHIFT_REGISTER_RECOGNITION=OFF
+--VERSION_BEGIN 24.1 cbx_mgl 2025:03:05:20:10:25:SC cbx_stratixii 2025:03:05:20:03:09:SC cbx_util_mgl 2025:03:05:20:03:09:SC  VERSION_END
+
+
+-- Copyright (C) 2025  Altera Corporation. All rights reserved.
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and any partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, the Altera Quartus Prime License Agreement,
+--  the Altera IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Altera and sold by Altera or its authorized distributors.  Please
+--  refer to the Altera Software License Subscription Agreements 
+--  on the Quartus Prime software download page.
+
+
+
+--synthesis_resources = reg 207 
+OPTIONS ALTERA_INTERNAL_OPTION = "AUTO_SHIFT_REGISTER_RECOGNITION=OFF";
+
+SUBDESIGN dffpipe_m09
+( 
+	clock	:	input;
+	d[8..0]	:	input;
+	q[8..0]	:	output;
+) 
+VARIABLE 
+	dffe30a[8..0] : dffe;
+	dffe31a[8..0] : dffe;
+	dffe32a[8..0] : dffe;
+	dffe33a[8..0] : dffe;
+	dffe34a[8..0] : dffe;
+	dffe35a[8..0] : dffe;
+	dffe36a[8..0] : dffe;
+	dffe37a[8..0] : dffe;
+	dffe38a[8..0] : dffe;
+	dffe39a[8..0] : dffe;
+	dffe40a[8..0] : dffe;
+	dffe41a[8..0] : dffe;
+	dffe42a[8..0] : dffe;
+	dffe43a[8..0] : dffe;
+	dffe44a[8..0] : dffe;
+	dffe45a[8..0] : dffe;
+	dffe46a[8..0] : dffe;
+	dffe47a[8..0] : dffe;
+	dffe48a[8..0] : dffe;
+	dffe49a[8..0] : dffe;
+	dffe50a[8..0] : dffe;
+	dffe51a[8..0] : dffe;
+	dffe52a[8..0] : dffe;
+	clrn	: NODE;
+	ena	: NODE;
+	prn	: NODE;
+	sclr	: NODE;
+
+BEGIN 
+	dffe30a[].clk = clock;
+	dffe30a[].clrn = clrn;
+	dffe30a[].d = (d[] & (! sclr));
+	dffe30a[].ena = ena;
+	dffe30a[].prn = prn;
+	dffe31a[].clk = clock;
+	dffe31a[].clrn = clrn;
+	dffe31a[].d = (dffe30a[].q & (! sclr));
+	dffe31a[].ena = ena;
+	dffe31a[].prn = prn;
+	dffe32a[].clk = clock;
+	dffe32a[].clrn = clrn;
+	dffe32a[].d = (dffe31a[].q & (! sclr));
+	dffe32a[].ena = ena;
+	dffe32a[].prn = prn;
+	dffe33a[].clk = clock;
+	dffe33a[].clrn = clrn;
+	dffe33a[].d = (dffe32a[].q & (! sclr));
+	dffe33a[].ena = ena;
+	dffe33a[].prn = prn;
+	dffe34a[].clk = clock;
+	dffe34a[].clrn = clrn;
+	dffe34a[].d = (dffe33a[].q & (! sclr));
+	dffe34a[].ena = ena;
+	dffe34a[].prn = prn;
+	dffe35a[].clk = clock;
+	dffe35a[].clrn = clrn;
+	dffe35a[].d = (dffe34a[].q & (! sclr));
+	dffe35a[].ena = ena;
+	dffe35a[].prn = prn;
+	dffe36a[].clk = clock;
+	dffe36a[].clrn = clrn;
+	dffe36a[].d = (dffe35a[].q & (! sclr));
+	dffe36a[].ena = ena;
+	dffe36a[].prn = prn;
+	dffe37a[].clk = clock;
+	dffe37a[].clrn = clrn;
+	dffe37a[].d = (dffe36a[].q & (! sclr));
+	dffe37a[].ena = ena;
+	dffe37a[].prn = prn;
+	dffe38a[].clk = clock;
+	dffe38a[].clrn = clrn;
+	dffe38a[].d = (dffe37a[].q & (! sclr));
+	dffe38a[].ena = ena;
+	dffe38a[].prn = prn;
+	dffe39a[].clk = clock;
+	dffe39a[].clrn = clrn;
+	dffe39a[].d = (dffe38a[].q & (! sclr));
+	dffe39a[].ena = ena;
+	dffe39a[].prn = prn;
+	dffe40a[].clk = clock;
+	dffe40a[].clrn = clrn;
+	dffe40a[].d = (dffe39a[].q & (! sclr));
+	dffe40a[].ena = ena;
+	dffe40a[].prn = prn;
+	dffe41a[].clk = clock;
+	dffe41a[].clrn = clrn;
+	dffe41a[].d = (dffe40a[].q & (! sclr));
+	dffe41a[].ena = ena;
+	dffe41a[].prn = prn;
+	dffe42a[].clk = clock;
+	dffe42a[].clrn = clrn;
+	dffe42a[].d = (dffe41a[].q & (! sclr));
+	dffe42a[].ena = ena;
+	dffe42a[].prn = prn;
+	dffe43a[].clk = clock;
+	dffe43a[].clrn = clrn;
+	dffe43a[].d = (dffe42a[].q & (! sclr));
+	dffe43a[].ena = ena;
+	dffe43a[].prn = prn;
+	dffe44a[].clk = clock;
+	dffe44a[].clrn = clrn;
+	dffe44a[].d = (dffe43a[].q & (! sclr));
+	dffe44a[].ena = ena;
+	dffe44a[].prn = prn;
+	dffe45a[].clk = clock;
+	dffe45a[].clrn = clrn;
+	dffe45a[].d = (dffe44a[].q & (! sclr));
+	dffe45a[].ena = ena;
+	dffe45a[].prn = prn;
+	dffe46a[].clk = clock;
+	dffe46a[].clrn = clrn;
+	dffe46a[].d = (dffe45a[].q & (! sclr));
+	dffe46a[].ena = ena;
+	dffe46a[].prn = prn;
+	dffe47a[].clk = clock;
+	dffe47a[].clrn = clrn;
+	dffe47a[].d = (dffe46a[].q & (! sclr));
+	dffe47a[].ena = ena;
+	dffe47a[].prn = prn;
+	dffe48a[].clk = clock;
+	dffe48a[].clrn = clrn;
+	dffe48a[].d = (dffe47a[].q & (! sclr));
+	dffe48a[].ena = ena;
+	dffe48a[].prn = prn;
+	dffe49a[].clk = clock;
+	dffe49a[].clrn = clrn;
+	dffe49a[].d = (dffe48a[].q & (! sclr));
+	dffe49a[].ena = ena;
+	dffe49a[].prn = prn;
+	dffe50a[].clk = clock;
+	dffe50a[].clrn = clrn;
+	dffe50a[].d = (dffe49a[].q & (! sclr));
+	dffe50a[].ena = ena;
+	dffe50a[].prn = prn;
+	dffe51a[].clk = clock;
+	dffe51a[].clrn = clrn;
+	dffe51a[].d = (dffe50a[].q & (! sclr));
+	dffe51a[].ena = ena;
+	dffe51a[].prn = prn;
+	dffe52a[].clk = clock;
+	dffe52a[].clrn = clrn;
+	dffe52a[].d = (dffe51a[].q & (! sclr));
+	dffe52a[].ena = ena;
+	dffe52a[].prn = prn;
+	clrn = VCC;
+	ena = VCC;
+	prn = VCC;
+	q[] = dffe52a[].q;
+	sclr = GND;
+END;
+--VALID FILE

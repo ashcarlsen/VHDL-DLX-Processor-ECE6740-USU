@@ -21,6 +21,7 @@ end entity DLX;
 architecture behavior of DLX is
 
     signal dlx_rst : STD_LOGIC := '1';
+    signal pipe_clk : STD_LOGIC;
     
     -- signals for fetch -> decode
     signal f2d_addr : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0);
@@ -117,7 +118,7 @@ begin
             ADDR_WIDTH => ADDR_WIDTH
         )
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => dlx_rst,
             STALL => stall,
             FLUSH => flush,
@@ -134,7 +135,7 @@ begin
             REG_ADDR_WIDTH => REG_ADDR_WIDTH
         )
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => dlx_rst,
             STALL => stall,
             FLUSH => flush,
@@ -159,7 +160,7 @@ begin
             ADDR_WIDTH => ADDR_WIDTH
         )
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => dlx_rst,
             FLUSH => flush,
             ADDR_IN => d2e_addr,
@@ -193,7 +194,7 @@ begin
             INS_WIDTH => INS_WIDTH
         )
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => dlx_rst,
             ADDR_IN => e2m_addr,
             INS_IN => e2m_ins,
@@ -252,14 +253,15 @@ begin
 
     printer : entity work.PrintFIFO
         port map (
-            aclr => dlx_rst,
+            --aclr => dlx_rst,
             data => print_data,
-            clock => CLK,
+            wrclk => pipe_clk,
+            rdclk => CLK,
             rdreq => print_rd,
             wrreq => print_wr,
             q => print_out,
-            empty => print_empty,
-            full => print_full
+            rdempty => print_empty,
+            wrfull => print_full
         );
     
     print_handler : entity work.PrintHandler
@@ -280,6 +282,7 @@ begin
             inclk0 => CLK,
             c0 => uart_tx_clk,
             c1 => uart_rx_clk,
+            c2 => pipe_clk,
             locked => locked
         );
 
@@ -345,7 +348,7 @@ begin
         port map (
             aclr => dlx_rst,
             data => scan_data,
-            rdclk => CLK,
+            rdclk => pipe_clk,
             rdreq => scan_rd,
             wrclk => CLK,
             wrreq => scan_wr,
@@ -356,7 +359,7 @@ begin
 
     time_handler : entity work.TimeHandler
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => RST,
             GO_FLAG => go_flag,
             STOP_FLAG => stop_flag,
@@ -367,10 +370,10 @@ begin
     
     stopwatch : entity work.Stopwatch
         generic map (
-            N => 500000
+            N => 800000
         )
         port map (
-            CLK => CLK,
+            CLK => pipe_clk,
             RST => stopwatch_rst,
             EN => stopwatch_en,
             HEX0 => HEX0,
